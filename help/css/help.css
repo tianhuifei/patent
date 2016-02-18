@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+.main-body .main-le{width:280px;background-color: #f9f9f9;padding-top:11px;float:left;}
+.main-body .main-le h2{height:25px;line-height:25px;padding-left:28px;background: url("../images/help-title.png") no-repeat left center;/*font-size: 16px*/font-size: 1.8em;font-weight:bold;color:#4181c2;
+    margin-left:15px;
+}
+.main-body .main-le .menu{background-color: #FFF;width:250px;margin:10px auto;}
+.main-body .main-le .menu ul{display:block;height:38px;background-color: #f9f9f9;}
+.main-body .main-le .menu li{display:block;height:17px;line-height:17px;float:left;padding:10px 17px;}
+.main-body .main-le .menu li.active{background-color: #FFF;border:1px solid #d5dbe7;border-bottom:1px solid #FFF;}
+.main-body .main-le .menu li a{color:#666;/*font-size: 12px*/;font-size: 1.4em;}
+.main-body .main-le .menu .menu-content{width:228px;min-height:696px;border:1px solid #d5dbe7;padding:10px;}
+.main-body .main-le .menu .menu-content>div{display:none;}
+.main-body .main-le .menu .menu-content>div.show{display:block;}
+.main-body .main-le .menu .menu-content>div p {/*font-size: 12px;*/font-size:1.4em;height:23px;line-height: 23px;}
+.main-body .main-le .menu .menu-content>div.index {}
+.main-body .main-le .menu .menu-content>div.index select{width:228px;margin-top:5px;outline: none;}
+.main-body .main-le .menu .menu-content>div.index select option{display:block;height:17px;padding-bottom:0;}
+.main-body .main-le .menu .menu-content>div.index .input{width:226px;margin-top:3px;}
+.main-body .main-le .menu .menu-content>div.index .input input{width:216px;}
+.main-body .main-le .menu .menu-content>div.index .btn{margin-top:5px;}
+
+
+.main-body .main-ri{width:890px;float:right;background-color: #FFF;height:812px;overflow-y:auto;}
+.main-body .main-ri h2{/*font-size: 16.0pt;*/font-size:2.3em;font-weight:bold;padding-top:34px;padding-left:55px;}
+.main-body .main-ri h2 span{margin-right:10px;}
+.main-body .main-ri .detail {padding:0 55px;margin-top:25px;}
+.main-body .main-ri .detail p{/*font-size: 14px;*/font-size:1.6em;line-height: 21px;text-indent: -28px;margin-left:55px;}
+.main-body .main-ri .detail p.img{text-align: center;}

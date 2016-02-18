@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="css/countryinfo.css"/>
+
+    <title></title>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active"><a href="javascript:void(0);">首页</a></li>
+                    <li class=""><a href="javascript:void(0);">专利检索</a></li>
+                    <li><a href="javascript:void(0);">专利分析</a></li>
+                    <li><a href="javascript:void(0);">药物检索</a></li>
+                    <li><a href="javascript:void(0);">地利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="breadcrumb">
+    <div class="breadcrumb-wrap">所在位置: <a href="javascript:void(0);">首页</a> >> 培训视频</div>
+</div>
+
+<div class="main-body">
+    <div class="country-nav">
+        <ul class="clear" id="countrynav">
+            <li class="active"><a href="javascript:void(0);">各国基本信息</a><i></i></li>
+            <li class="li-le30"><a href="javascript:void(0);">WIPO标准及对应行业标准</a><i></i></li>
+            <li class="li-le30"><a href="javascript:void(0);">号码格式信息</a><i></i></li>
+            <li class="li-le30"><a href="javascript:void(0);">分类号信息</a><i></i></li>
+        </ul>
+    </div>
+    <div class="country-content">
+        <div class="country-info clear">
+            <div class="country-le">
+                <ul id="countrymenu">
+                    <li class="active"><a class="US" href="javascript:void(0);">美国</a></li>
+                    <li><a class="JP" href="javascript:void(0);">日本</a></li>
+                    <li><a class="EP" href="javascript:void(0);">欧洲专利局</a></li>
+                    <li><a class="KR" href="javascript:void(0);">韩国</a></li>
+                    <li><a class="WO" href="javascript:void(0);">世界知识产权组织</a></li>
+                    <li><a class="OHIM" href="javascript:void(0);">欧洲内部市场协调局</a></li>
+                    <li><a class="AU" href="javascript:void(0);">澳大利亚</a></li>
+                    <li><a class="BR" href="javascript:void(0);">巴西</a></li>
+                    <li><a class="DE" href="javascript:void(0);">德国</a></li>
+                    <li><a class="RU" href="javascript:void(0);">俄罗斯</a></li>
+                    <li><a class="CA" href="javascript:void(0);">加拿大</a></li>
+                    <li><a class="MY" href="javascript:void(0);">马来西亚</a></li>
+                    <li><a class="HK" href="javascript:void(0);">香港</a></li>
+                    <li><a class="NZ" href="javascript:void(0);">新西兰</a></li>
+                    <li><a class="UK" href="javascript:void(0);">英国</a></li>
+                    <li><a class="VN" href="javascript:void(0);">越南</a></li>
+                </ul>
+            </div>
+            <div class="country-ri">
+                <div class="country-item active">
+                    <h2>1.局网站</h2>
+                    <p><a href="http://www.uspto.gov" target="_blank">http://www.uspto.gov</a></p>
+                    <h2>2.电子申请系统</h2>
+                    <p>未注册申请人请登录<a href="http://www.uspto.gov" target="_blank">http://www.uspto.gov</a></p>
+                </div>
+                <div class="country-item">
+                    什么也没有2
+                </div>
+                <div class="country-item">
+                    什么也没有3
+                </div>
+                <div class="country-item">什么也没有</div>
+                <div class="country-item">什么也没有4</div>
+                <div class="country-item">什么也没有5</div>
+                <div class="country-item">什么也没有6</div>
+                <div class="country-item">什么也没有7</div>
+                <div class="country-item">什么也没有8</div>
+                <div class="country-item">什么也没有9</div>
+                <div class="country-item">什么也没有10</div>
+                <div class="country-item">什么也没有11</div>
+                <div class="country-item">什么也没有12</div>
+                <div class="country-item">什么也没有13</div>
+                <div class="country-item">什么也没有14</div>
+                <div class="country-item">什么也没有16</div>
+            </div>
+        </div>
+        <div class="WIPO">
+            <div class="WIPO-item">
+                <div class="WIPO-title clear">
+                    <span>ST.1</span><p>RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQU</p>
+                </div>
+                <div class="WIPO-content">
+                    <ul>
+                        <li class="line-dotted">
+                            <span>英文原文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+                            <span>中文参考译文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="WIPO-item">
+                <div class="WIPO-title clear">
+                    <span>ST.2</span><p>RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQU</p>
+                </div>
+                <div class="WIPO-content">
+                    <ul>
+                        <li class="line-dotted">
+                            <span>英文原文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+                            <span>中文参考译文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="WIPO-item">
+                <div class="WIPO-title clear">
+                    <span>ST.3</span><p>RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQU</p>
+                </div>
+                <div class="WIPO-content">
+                    <ul>
+                        <li class="line-dotted">
+                            <span>英文原文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+                            <span>中文参考译文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="WIPO-item">
+                <div class="WIPO-title clear">
+                    <span>ST.4</span><p>RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQU</p>
+                </div>
+                <div class="WIPO-content">
+                    <ul>
+                        <li class="line-dotted">
+                            <span>英文原文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+                            <span>中文参考译文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="WIPO-item">
+                <div class="WIPO-title clear">
+                    <span>ST.5</span><p>RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQU</p>
+                </div>
+                <div class="WIPO-content">
+                    <ul>
+                        <li class="line-dotted">
+                            <span>英文原文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+                            <span>中文参考译文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="WIPO-item">
+                <div class="WIPO-title clear">
+                    <span>ST.6</span><p>RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQU</p>
+                </div>
+                <div class="WIPO-content">
+                    <ul>
+                        <li class="line-dotted">
+                            <span>英文原文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+                            <span>中文参考译文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="WIPO-item">
+                <div class="WIPO-title clear">
+                    <span>ST.7</span><p>RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQU</p>
+                </div>
+                <div class="WIPO-content">
+                    <ul>
+                        <li class="line-dotted">
+                            <span>英文原文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+                            <span>中文参考译文：</span>
+                            <a href="javascript:void(0);">《ST.1 RECOMMENDATION CONCERNING THE MINIMUM DATA ELEMENTS REQUI》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buttom-page">
+                <div class="page">
+                    <ul>
+                        <li class="prev"><a href="javascript:void(0);">&lt;</a></li>
+                   <span class="page-wrap clear">
+                       <li class="active"><a href="javascript:void(0);">1</a></li>
+                       <li><a href="javascript:void(0);">2</a></li>
+                       <li><a href="javascript:void(0);">3</a></li>
+                       <li><a href="javascript:void(0);">4</a></li>
+                       <li><a href="javascript:void(0);">5</a></li>
+                   </span>
+                        <li class="next"><a href="javascript:void(0);">&gt;</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="num-form">
+            <div class="form-item">
+                <div class="form-title clear">
+                    <h3>DOCDB号码信息</h3>
+                    <p><span>发布时间</span> <span class="time">2016-2-1</span><span>点击次数</span> <span class="number">75</span></p>
+                </div>
+                <div class="form-content">
+                    <ul>
+                        <li class="line-dotted">
+
+                            <a href="javascript:void(0);" class="doc">《DOCDB号码格式.doc》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+
+                            <a href="javascript:void(0);" class="pdf"> 《DOCDB user manual.pdf》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-item">
+                <div class="form-title clear">
+                    <h3>WIPO收集的各国号码信息</h3>
+                    <p><span>发布时间</span> <span class="time">2016-2-1</span><span>点击次数</span> <span class="number">75</span></p>
+                </div>
+                <div class="form-content">
+                    <ul>
+                        <li class="line-dotted">
+
+                            <a href="javascript:void(0);" class="doc">《DOCDB号码格式.doc》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        <li>
+
+                            <a href="javascript:void(0);" class="pdf"> 《DOCDB user manual.pdf》</a>
+                            <a href="javascript:void(0)" class="down"></a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="classify-info">
+            <div class="classify-item">
+                <div class="classify-content">
+                    <ul class="clear">
+                        <li class="">
+                            IPC
+                        </li>
+                        <li class="li-back">
+                            <span></span><a href="http://www.wipo.int/classifications/ipc/en/"target="_blank"> http://www.wipo.int/classifications/ipc/en/</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="classify-item">
+                <div class="classify-content">
+                    <ul class="clear">
+                        <li class="">
+                           日本发明专利分类IF、F-Term
+                        </li>
+                        <li class="li-back">
+                            <span>下载地址：</span><a href="javascript:void(0);" class=""> http://www.jpo.go.jp/shiryou_e/s_sonota_e/j-classification_for</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="classify-item">
+                <div class="classify-content">
+                    <ul class="clear">
+                        <li class="">
+                            日本发明专利分类IF、F-Term
+                        </li>
+                        <li class="li-back">
+                            <span>下载地址：</span><a href="javascript:void(0);" class=""> http://www.jpo.go.jp/shiryou_e/s_sonota_e/j-classification_for</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="classify-item">
+                <div class="classify-content">
+                    <ul class="clear">
+                        <li class="">
+                            日本发明专利分类IF、F-Term
+                        </li>
+                        <li class="li-back">
+                            <span>下载地址：</span><a href="javascript:void(0);" class=""> http://www.jpo.go.jp/shiryou_e/s_sonota_e/j-classification_for</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="js/js.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#allMenu").css("display","none");
+    });
+</script>
+<!--尾部-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

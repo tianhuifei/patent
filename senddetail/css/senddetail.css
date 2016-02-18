@@ -1,0 +1,196 @@
+.main-body-send-detail{
+    background-color: #ffffff;
+}
+.main-body-send-detail .detail-header{
+    background-color: rgb(248,248,248);
+    padding: 15px 60px 15px 25px;
+    border-top: 2px solid rgb(65,129,194);
+}
+.main-body-send-detail .detail-header h1{
+    float: left;
+    font-size: 2em;
+    color: rgb(65,129,194);
+    line-height: 34px;
+}
+.main-body-send-detail .detail-header form{
+    float: right;
+    font-size: 1.6em;
+}
+.main-body-send-detail .detail-header form>div{
+    float: left;
+}
+.main-body-send-detail .detail-header form .send-state-area{
+    margin-right: 45px;
+}
+.main-body-send-detail .detail-header form .send-time-area{
+    margin-right: 30px;
+
+}
+.main-body-send-detail .detail-header form .send-time-area span{
+    width: 10px;
+    height: 1px;
+    background-color: rgb(65,129,194);
+    margin: 0 8px;
+    font-size: 1.4em;
+}
+.main-body-send-detail .detail-header form input{
+    height: 30px;
+    border: 1px solid rgb(227,227,227);
+}
+.main-body-send-detail .detail-header form .send-state-area input{
+    width: 180px;
+}
+.main-body-send-detail .detail-header form .send-time-area input{
+    width: 110px;
+}
+.main-body-send-detail .detail-header form .button-group a{
+    padding: 9px 22px 9px 30px;
+    letter-spacing: 8px;
+    font-size: 100%;
+}
+.main-body-send-detail .detail-header form .button-group .btn-search{
+    margin-right: 20px;
+    background-color: rgb(66,129,194);
+}
+.main-body-send-detail .detail-header form .button-group .btn-reset{
+    background-color: rgb(232,116,65);
+}
+
+
+.main-body-send-detail .detail-content{
+}
+.main-body-send-detail .detail-content .content-header{
+    padding: 8px 60px;
+    border-bottom: 1px solid rgb(239,241,246);
+    font-size: 1.6em;
+}
+.main-body-send-detail .detail-content .content-header .select-area{
+    padding-left: 20px;
+    float: left;
+}
+.main-body-send-detail .detail-content .content-header .select-area select{
+    height: 28px;
+}
+.main-body-send-detail .detail-content .content-header .delete-all{
+    float: right;
+    line-height: 28px;
+}
+.main-body-send-detail .detail-content .content-header .delete-all a{
+    padding-right: 23px;
+    height: 18px;
+    position: relative;
+    color: #000000;
+    line-height: 18px;
+}
+.main-body-send-detail .detail-content .content-header .delete-all a i{
+    background-image: url("../images/delete-all.png");
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main-body-send-detail .content-list{
+    padding: 20px 60px;
+}
+.main-body-send-detail .content-list ul{
+    list-style: none;
+}
+.main-body-send-detail .content-list ul li{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.main-body-send-detail .content-list ul li>div{
+    float: left;
+}
+.main-body-send-detail .content-list ul li .send-state{
+    padding-right: 10px;
+}
+.main-body-send-detail .content-list ul li .send-state span{
+    text-align: right;
+    width: 80px;
+    line-height: 15px;
+    padding-right: 42px;
+    position: relative;
+    font-size: 1.4em;
+}
+.main-body-send-detail .content-list ul li .send-state span i{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+}
+.main-body-send-detail .content-list ul li .send-state span i.success{
+    background-image: url("../images/success.png");
+}
+.main-body-send-detail .content-list ul li .send-state span i.warning{
+    background-image: url("../images/warning.png");
+}
+.main-body-send-detail .content-list ul li .content-detail{
+    width: 876px;
+    background-color: rgb(239,241,246);
+    padding: 8px 8px;
+    position: relative;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header{
+    padding-bottom: 8px;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header>h1{
+    float: left;
+    font-size: 1.8em;
+    color: rgb(65,129,194);
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header .notice-type{
+    float: right;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header .notice-type span{
+    padding-left: 26px;
+    position: relative;
+    font-size: 1.4em;
+    color: rgb(68,131,195);
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header .notice-type span i{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header .notice-type span i.message{
+    background-image: url("../images/message.png");
+    width: 21px;
+    height: 20px;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header .notice-type span i.mail{
+    background-image: url("../images/mail.png");
+    width: 21px;
+    height: 15px;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-header .notice-type span i.information{
+    background-image: url("../images/information.png");
+    width: 21px;
+    height: 20px;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-body{
+    padding: 15px 30px;
+    background-color: #ffffff;
+    font-size: 1.6em;
+}
+.main-body-send-detail .content-list ul li .content-detail .content-detail-body p{margin-top:5px;line-height: 21px;}
+.main-body-send-detail .content-list ul li .content-detail .arrow{
+    position: absolute;
+    border-width: 8px 8px 8px 8px;
+    border-color: rgb(239,241,246) rgb(239,241,246) transparent transparent;
+    border-style: solid;
+    top: 0;
+    left: 0;
+    margin-left: -8px;
+}
+.main-body-send-detail .content-list ul li .delete{
+    background-image: url("../images/delete.png");
+    width: 18px;
+    height: 18px;
+    float: right;
+    margin-top: 8px;
+    cursor: pointer;
+}

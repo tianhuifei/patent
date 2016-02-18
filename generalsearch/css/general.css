@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.main-body{background-color:#FFF;min-height: 535px;padding-top:153px;}
+.main-body .logo{width:902px;margin:0 auto;}
+.main-body .logo .img{width:311px;height:65px;line-height:65px;margin:0 auto;background: url("../images/General.png") no-repeat left center;padding-left:100px;}
+.main-body .logo .img h1{font-size: 5em;color:#0151a4;/*font-size:48px;　*/}
+.main-body .search{display:block;min-height:85px;position: relative;width:884px;margin: 50px auto;}
+.main-body .search ul {overflow:hidden;}
+.main-body .search ul li{display:block;float:left;margin-right:2px;}
+.main-body .search ul li:hover a{background-color:#4181c2;color:#FFF;}
+.main-body .search ul li a{display:block;height:16px;font-size: 1.6em;color:#2f6699;padding:11px 14px;}
+.main-body .search ul li.active a{background-color:#4181c2;color:#FFF;}
+.main-body .search .input{border:1px solid #4181c2;width:751px;height:44px;}
+.main-body .search .input input{padding:11px 5px;width:741px;height:21px;}
+.main-body .search .input a.btn{background-color: #4181c2;position:absolute;padding:15px 50px;right:0;top:38px;}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+.main-body{background:url("../../images/title-bg.png") repeat-x top #FFF;padding-top:3px;}
+.main-body .headline{background: #FFF;}
+.main-body .navgation{height:660px;width:991px;margin:0 auto;background: url("../images/navgation.png") no-repeat center center;position: relative;}
+.main-body .navgation a{position: absolute;color:#FFF;padding:16px 32px;}
+.main-body .navgation .Level-1{font-size:2.6em;}
+.main-body .navgation .Level-2{font-size:2em;padding:19px;}
+.main-body .navgation .Level-3{font-size: 1.6em;color:#1470b4;padding:11px 20px;}
+.main-body .navgation .page-hone{top:27px;left:416px;}
+
+.main-body .navgation .patent-search{top: 163px;  left: 18px;}
+.main-body .navgation .patent-analysis{top: 163px;  left: 296px;}
+.main-body .navgation .patent-drug{top: 163px;  left: 574px;}
+.main-body .navgation .patent-service{top: 163px;  left: 852px;}
+
+.main-body .navgation .patent-general{top: 261px;  left: 73px;}
+.main-body .navgation .patent-table{top: 309px;  left: 73px;}
+.main-body .navgation .patent-topic{top: 357px;  left: 73px;padding:11px 4px;}
+.main-body .navgation .patent-history{top: 404px;  left: 73px;}
+.main-body .navgation .patent-collection{top: 452px;  left: 73px;padding:11px 12px;}
+.main-body .navgation .patent-mul{top: 500px;  left: 73px;padding:11px 4px;}
+.main-body .navgation .patent-bat{top: 547px;  left: 73px;padding:11px 12px;}
+.main-body .navgation .patent-download{top: 595px;  left: 73px;padding:11px 20px;}
+
+.main-body .navgation .patent-literature{top: 261px;  left: 349px;padding:11px 12px;}
+.main-body .navgation .patent-speed{top: 309px;  left: 349px;}
+.main-body .navgation .patent-customize{top: 357px;  left: 349px;}
+.main-body .navgation .patent-senior{top: 404px;  left: 349px;}
+.main-body .navgation .patent-log{top: 452px;  left: 349px;padding:11px 17px;}
+
+

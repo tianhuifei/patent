@@ -1,0 +1,9 @@
+@charset "utf-8";
+.main-body .content-body{min-height: 505px;}
+.main-body .content-body .small p{width:970px}
+.main-body .content-body .small{border-bottom:1px solid #d5dbe7;}
+
+.main-body .content-body .statement{}
+.main-body .content-body .statement ul{padding-left:32px;}
+.main-body .content-body .statement ul li{margin-top:23px;}
+.main-body .content-body .statement ul li p{text-align: left;text-indent:-2em;/*font-size: 14px;*/font-size:1.6em;color:#252525;}
