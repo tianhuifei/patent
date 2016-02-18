@@ -1,0 +1,21 @@
+.main-body .re-ri .re-content{padding: 2px 0;}
+.main-body .re-ri .re-content .content-item-wrapper{float: left;width: 309px;height: 350px;border-bottom: rgb(226,226,226) solid 1px;border-right: rgb(226,226,226) dotted 1px;}
+.main-body .re-ri .re-content .content-item-wrapper .content-item{padding: 17px 13px 0px 13px;}
+.main-body .re-ri .re-content .content-item-wrapper .content-item ul{list-style: none;}
+.main-body .re-ri .re-content .content-item-wrapper .content-item>ul>li{padding: 3px 0;font-size: 1.4em;}
+.main-body .re-ri .re-content .content-item-wrapper .content-item>ul>li>img{margin-top: 20px;}
+.main-body .re-ri .re-content .content-item-wrapper .content-item>ul>li .operation{width: 210px;margin: 0 auto;margin-top: 20px;}
+.main-body .re-ri .re-content .content-item-wrapper .content-item>ul>li .operation>li{float: left;margin: 0 3px;cursor: pointer;}
+
+.fixed-menu{
+    position: fixed;
+    bottom: 280px;
+    right: 20px;
+    background-color: #ffffff;
+    padding: 5px 20px 0px 20px;
+}
+.fixed-menu ul{list-style: none;text-align: center;}
+.fixed-menu ul li{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
