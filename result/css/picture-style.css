@@ -1,4 +1,5 @@
-.main-body .re-ri .re-content{padding: 2px 0;}
+.main-body{height:1116px;min-height:924px;}
+.main-body .re-ri .re-content{padding: 0;}
 .main-body .re-ri .re-content .content-item-wrapper{float: left;width: 309px;height: 350px;border-bottom: rgb(226,226,226) solid 1px;border-right: rgb(226,226,226) dotted 1px;}
 .main-body .re-ri .re-content .content-item-wrapper .content-item{padding: 17px 13px 0px 13px;}
 .main-body .re-ri .re-content .content-item-wrapper .content-item ul{list-style: none;}
@@ -7,19 +8,3 @@
 .main-body .re-ri .re-content .content-item-wrapper .content-item>ul>li .operation{width: 174px;margin: 0 auto;margin-top: 20px;}
 .main-body .re-ri .re-content .content-item-wrapper .content-item>ul>li .operation>li{float: left;margin: 0 4px;cursor: pointer;}
 
-.fixed-menu{
-    position: fixed;
-    bottom: 280px;
-    right: 20px;
-    background-color: #ffffff;
-    padding: 10px 20px 30px 20px;
-}
-.fixed-menu ul{list-style: none;text-align: center;}
-.fixed-menu ul li{
-    margin-bottom: 15px;
-}
-.fixed-menu ul li a{
-    color: #000000;
-    font-size: 1.4em;
-}
-.fixed-menu .arrow{position: absolute;left: 50%;bottom: 0;background-image: url("../images/arrow.png");width: 31px;height: 15px;margin-left: -15px;}

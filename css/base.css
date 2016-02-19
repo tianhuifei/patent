@@ -147,3 +147,21 @@ li.interval{height:13px;width:1px;background:url("../images/interval.png")no-rep
 .main-body .headline h2{font-size: 2.6em;/*font-size:24px; */color:#4181c2;float:left;}
 .main-body .headline a{float:right;background-color: #e87441;}
 
+/*检索结果列表分页 */
+.re-page{height: 86px;margin-top:30px;}
+.re-page .re-page-content{width:760px;margin:0 auto;text-align: center;}
+.re-page .re-page-content > div{float:left;height:34px;line-height: 34px;}
+.re-page .re-page-content > div .btn{height: 18px;line-height: 18px;margin-left:15px;background: #f2f2f2;color:#666666;}
+.re-page .re-page-content > div .page-count{margin:0 3px;}
+.re-page .re-page-content > div p{float:left;margin-left:15px;}
+.re-page .re-page-content > div .input{width:36px;margin:0 5px;}
+.re-page .re-page-content > div .input input{width:26px;padding-bottom:13px;}
+.re-page .re-page-content ul li{display:block;float:left;padding:10px 15px;border:1px solid #DDD;margin:0 5px;background: #f4f4f4;height: 12px;line-height: 12px;}
+.re-page .re-page-content ul li.active,
+.re-page .re-page-content ul li.omit{border:0;background: #FFF;}
+.re-page .re-page-content ul li.active a{color:#e7363c;}
+.re-page .re-page-content ul li.disabled{;background: #FFF;}
+.re-page .re-page-content ul li.disabled a{color:#DDD;}
+
+.re-page .re-page-content ul li a{color:#343539;}
+
