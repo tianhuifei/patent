@@ -1,0 +1,191 @@
+
+.command-main-body .command-main-body-wrapper{
+    padding: 20px 20px;
+    background-color: rgb(249,249,249);
+}
+.command-main-body .command-main-body-wrapper .command-content-header .pub{
+    padding-bottom: 10px;
+    font-size: 1.8em;
+    float: left;
+}
+.command-main-body .command-main-body-wrapper .command-content-header h1{
+    border-bottom: 2px solid rgb(65,129,194);
+    color: rgb(65,129,194);
+}
+.command-main-body .command-main-body-wrapper .command-content-header .hr{
+    border-bottom: 2px solid rgb(213,219,231);
+    width: 982px;
+    margin-left: 3px;
+    height: 1em;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left{
+    float: left;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left>.no-list-style>li{
+    padding-top: 10px;
+}
+.command-main-body .no-list-style{
+    list-style: none;
+}
+.command-main-body .no-list-style li dl dt,dd{
+    float: left;
+    padding-right: 15px;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left dd>.no-list-style>li{
+    float: left;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left dd>.no-list-style>li a{
+    font-size: 1.2em;
+    width: 40px;
+    text-align: center;
+    border: 1px solid rgb(213,219,231);
+    color: rgb(102,102,102);
+    height: 30px;
+    line-height: 30px;
+    background-color: rgb(255,255,255);
+    padding: 0;
+    margin-right: 5px;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left .no-list-style li dl dt{
+    font-size: 1.6em;
+    height: 30px;
+    line-height: 30px;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left .no-list-style li dl.operation dt{
+    letter-spacing: 2em;
+    padding-right: 0;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left .no-list-style li dl.operation dd{
+    margin-left: -1.4em;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area{
+    width: 830px;
+    background-color: #ffffff;
+    margin-top: 15px;
+    border: 1px solid rgb(65,129,194);
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-header{
+    padding: 12px 10px;
+    background-color: rgb(65,129,194);
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-header h1{
+    font-size: 1.8em;
+    color: #ffffff;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-content{
+    height: 506px;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right{
+    float: right;
+    width: 300px;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-header{
+    padding: 15px 0px 15px 0;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-header h1{
+    font-size: 1.6em;
+    color: rgb(102,102,102);
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-content{
+    padding: 9px 3px 0 3px;
+    background-color: #ffffff;
+    border: 1px solid rgb(213,219,231);
+    height: 591px;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-content .row{
+    padding: 9px 6px;
+    border-bottom: 1px dashed rgb(240,240,240);
+    color: rgb(102,102,102);
+    font-size: 1.2em;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-content .row span{
+    float: left;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-content .row span.field-name{
+    width: 100px;
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-content .row span.field-short-name{
+    width: 43px;
+    color: rgb(65,129,194);
+}
+.command-main-body .command-main-body-wrapper .command-content-body .right .right-content .row span.field-example{
+    width: 135px;
+}
+.command-main-body .batch-area{
+    margin-top: 20px;
+    background-color: rgb(249,249,249);
+    padding: 0 10px;
+}
+.command-main-body .batch-area .batch-area-header{
+    padding: 10px 5px 0 5px;
+}
+.command-main-body .batch-area .batch-area-header h1{
+    padding-bottom: 10px;
+    border-bottom: 2px rgb(65,129,194) solid;
+    float: left;
+    font-size: 1.8em;
+    color: rgb(65,129,194);
+    padding-right: 34px;
+    position: relative;
+    height: 24px;
+    line-height: 24px;
+}
+.command-main-body .batch-area .batch-area-header h1 i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/command_1.png");
+}
+.command-main-body .batch-area .batch-area-header .hr{
+    width: 1060px;
+    padding-bottom: 10px;
+    float: left;
+    border-bottom: 2px solid rgb(213,219,231);
+    height: 24px;
+    margin-left: 3px;
+}
+.command-main-body .batch-area .batch-area-header .hr .btn-group{
+    float: right;
+    padding-right: 10px;
+}
+.command-main-body .batch-area .batch-area-header .hr .btn-group .btn{
+    padding: 5px 15px 5px 30px;
+    font-size: 1.6em;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.command-main-body .batch-area .batch-area-header .hr .btn-group .btn-delete{
+    background-image: url("../images/command_2.png");
+    background-color: rgb(232,116,65);
+}
+.command-main-body .batch-area .batch-area-header .hr .btn-group .btn-update{
+    background-image: url("../images/command_3.png");
+    background-color: rgb(100,147,71);
+}
+.command-main-body .batch-area .batch-area-header .hr .btn-group .btn-execute{
+    background-image: url("../images/command_4.png");
+    background-color: rgb(65,129,194);
+}
+.command-main-body .batch-area .batch-list{
+    padding: 15px 5px;
+}
+.command-main-body .batch-area .batch-list ul{
+    list-style: none;
+}
+.command-main-body .batch-area .batch-list ul li{
+    float: left;
+    width: 213px;
+    height: 90px;
+    border: 1px solid rgb(214,220,234);
+    background-color: #ffffff;
+    margin-right: 15px;
+    background-image: url("../images/command_5.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.command-main-body .batch-area .batch-list ul li.select{
+    border-color: rgb(65,129,194);
+}
