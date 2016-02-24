@@ -13,6 +13,25 @@ $(document).ready(function(){
             me.removeClass("active");
         }
     });
+    var lelist = $("#itemsList");
+    var top = $("#itemsbox").offset().top;
+    $(window).scroll(function(){
+
+
+        var scrolltop =  $(this).scrollTop();
+        if(scrolltop>top){
+            lelist.css({
+                position:"fixed",
+                top:0
+            });
+        }else{
+            lelist.css("position","static");
+        }
+
+
+    });
+
+
 
 
 });

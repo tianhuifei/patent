@@ -153,10 +153,11 @@ li.interval{height:13px;width:1px;background:url("../images/interval.png")no-rep
 .re-page .re-page-content > div{float:left;height:34px;line-height: 34px;}
 .re-page .re-page-content > div .btn{height: 18px;line-height: 18px;margin-left:15px;background: #f2f2f2;color:#666666;}
 .re-page .re-page-content > div .page-count{margin:0 3px;}
-.re-page .re-page-content > div p{float:left;margin-left:15px;}
+.re-page .re-page-content > div p{float:left;margin-left:15px;font-size: 1.2em;}
 .re-page .re-page-content > div .input{width:36px;margin:0 5px;}
 .re-page .re-page-content > div .input input{width:26px;padding-bottom:13px;}
-.re-page .re-page-content ul li{display:block;float:left;padding:10px 15px;border:1px solid #DDD;margin:0 5px;background: #f4f4f4;height: 12px;line-height: 12px;}
+.re-page .re-page-content ul li{display:block;float:left;border:1px solid #DDD;margin:0 5px;background: #f4f4f4;}
+.re-page .re-page-content ul li a{padding:10px 15px;display:block;height: 12px;line-height: 12px;}
 .re-page .re-page-content ul li.active,
 .re-page .re-page-content ul li.omit{border:0;background: #FFF;}
 .re-page .re-page-content ul li.active a{color:#e7363c;}
