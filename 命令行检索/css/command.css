@@ -74,7 +74,13 @@
 }
 .command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-content{
     height: 506px;
+    padding:15px;
 }
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-content p{line-height: 24px;}
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-content p span{font-size: 1.4em;}
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-content p span.green_font{color: #339966;}
+.command-main-body .command-main-body-wrapper .command-content-body .left .command-area .command-area-content p span.red_font{color: #f97f6b;}
+
 .command-main-body .command-main-body-wrapper .command-content-body .right{
     float: right;
     width: 300px;
