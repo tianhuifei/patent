@@ -1,0 +1,171 @@
+.detail-main-body .left{
+    float: left;
+}
+.detail-main-body .right{
+    float: right;
+}
+
+
+.detail-main-body{
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+.detail-main-body .detail-content-header{
+    padding: 15px 20px 12px 20px;
+    border-bottom: rgb(47,102,153) solid 2px;
+}
+.detail-main-body .detail-content-header .header-info{
+    float: left;
+}
+.detail-main-body .detail-content-header .header-info .header-info-title{
+    color: rgb(51,51,51);
+}
+.detail-main-body .detail-content-header .header-info .header-info-title .header-info-title-text{
+    font-size: 1.8em;
+}
+.detail-main-body .detail-content-header .header-info .header-info-title .header-info-title-num{
+    font-size: 1.4em;
+    color: rgb(51,51,51);
+}
+.detail-main-body .detail-content-header .header-info .header-info-title .header-info-title-num .total-num{
+    color: rgb(65,129,194);
+}
+.detail-main-body .detail-content-header .header-info .select-all{
+    margin-top: 16px;
+}
+.detail-main-body .detail-content-header .header-info .select-all .select-all-text{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+}
+.detail-main-body .detail-content-header .operation-group{
+    float: right;
+}
+.detail-main-body .detail-content-header .operation-group ul{
+    list-style: none;
+}
+.detail-main-body .detail-content-header .operation-group ul li{
+    float: left;
+    padding: 0 20px;
+}
+.detail-main-body .detail-content-header .operation-group ul li a{
+    text-align: center;
+}
+.detail-main-body .detail-content-header .operation-group ul li a.in-bl>div{
+    margin-top: 6px;
+    font-size: 1.4em;
+    color: #000000;
+}
+.detail-main-body .detail-content-body{
+
+}
+.detail-main-body .detail-content-body .right .patent-info{
+    padding: 20px 30px 0 30px;
+    border-right: rgb(213,219,231) 1px solid;
+}
+.detail-main-body .detail-content-body .right .patent-info ul.tab-group{
+    list-style: none;
+    border-bottom: rgb(213,219,231) 1px solid;
+    border-left: rgb(213,219,231) 1px solid;
+    width: 630px;
+}
+.detail-main-body .detail-content-body .right .patent-info ul.tab-group li{
+    border-top: rgb(213,219,231) 1px solid;
+    border-right: rgb(213,219,231) 1px solid;
+    float: left;
+    position: relative;
+}
+.detail-main-body .detail-content-body .right .patent-info ul.tab-group li a{
+    color: rgb(141,153,179);
+    font-size: 1.8em;
+    padding: 12px 45px;
+    background-color: rgb(239,241,246);
+}
+.detail-main-body .detail-content-body .right .patent-info ul.tab-group li a.select{
+    background-color: #ffffff;
+    color: rgb(51,51,51);
+}
+.detail-main-body .detail-content-body .right .patent-info ul.tab-group li a+i{
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: none;
+}
+.detail-main-body .detail-content-body .right .patent-info ul.tab-group li a.select+i{
+    display: block;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content{
+    padding: 30px 0 0 0;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content ul{
+    list-style: none;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content ul li{
+    float: left;
+    margin-right: 40px;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content ul li a{
+    font-size: 1.4em;
+    color: rgb(175,175,175);
+    font-weight: bold;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content ul li a.select{
+    color: rgb(65,129,194);
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container{
+    text-align: left;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container{
+    padding: 20px 0 30px 0;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table{
+    border-bottom: 1px solid rgb(213,219,231);
+    border-left: 1px solid rgb(213,219,231);
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td{
+    border-top: 1px solid rgb(213,219,231);
+    border-right: 1px solid rgb(213,219,231);
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td:first-child{
+    width: 240px;
+    background-color: rgb(245,247,250);
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td:last-child{
+    width: 385px;
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td.patent-title{
+    color: rgb(65,129,194);
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td>div{
+    padding: 10px 0 10px 12px;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .abstract-area .left .abstract-header h1{
+    padding-bottom: 10px;
+    border-bottom: rgb(65,129,194) solid 2px;
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    height: 16px;
+}
+.detail-main-body .detail-content-body .right .patent-info .tab-content .abstract-area .left .abstract-header .hr{
+    width: 385px;
+    border-bottom: rgb(213,219,231) solid 2px;
+    margin-left: 2px;
+    padding-bottom: 10px;
+    height: 16px;
+}
+
+
+
+
+
+
+.detail-main-body .detail-content-body .right .law-info{
+    width: 200px;
+    height: 200px;
+}
