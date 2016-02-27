@@ -75,6 +75,7 @@
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t{border-bottom:1px solid #d5dbe7;padding:20px;}
 .main-body .main-ri .ri-bottom .ri-b-r  h3{font-size: 14px;color:#333;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div {height:40px;line-height: 40px;}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div span{font-size: 12px;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.option select {width:160px;margin:0 5px;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.option a {font-size: 12px;color:#333;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div select{width:70px;}
@@ -82,8 +83,8 @@
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.explain{line-height: normal;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.explain p{line-height: 17px;color:#666;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul li{overflow: hidden;padding:9px 0;}
-.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul label{float:left;max-width: 154px;text-overflow: ellipsis;overflow:hidden;white-space: nowrap; }
-.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul span{float:right;width:73px;text-align: center;}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul label{float:left;max-width: 154px;text-overflow: ellipsis;overflow:hidden;white-space: nowrap;font-size: 12px; }
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul span{float:right;width:73px;text-align: center;font-size: 12px;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul span a{color:#4181c2;font-size: 12px;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul i{width:1px;height:10px;border-left:1px solid #d3d3d3;margin:0 5px;}
 
