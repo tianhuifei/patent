@@ -101,16 +101,32 @@
     margin-bottom: 19px;
 }
 .detail-main-body .detail-content-body .left .patent-list-container ul li .patent-title{
-    font-size: 1.6em;
-    color: rgb(51,51,51);
     margin-bottom: 10px;
+    position: relative;
 }
-.detail-main-body .detail-content-body .left .patent-list-container ul li .patent-title span.select{
+.detail-main-body .detail-content-body .left .patent-list-container ul li .patent-title span{
+    font-size: 1.4em;
+    color: rgb(51,51,51);
+}
+.detail-main-body .detail-content-body .left .patent-list-container ul li .patent-title.select span{
     color: rgb(255,151,36);
+}
+.detail-main-body .detail-content-body .left .patent-list-container ul li .patent-title a.read-state{
+    color: #ffffff;
+    background-color: rgb(197,204,220);
+    padding: 2px 3px;
+    font-size: 1em;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 2px;
+}
+.detail-main-body .detail-content-body .left .patent-list-container ul li .patent-title.select a.read-state{
+    background-color: rgb(255,151,36);
 }
 .detail-main-body .detail-content-body .left .patent-list-container ul li .patent-abs{
     padding-left: 18px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: rgb(102,102,102);
     margin-bottom: 18px;
     line-height: 19px;
@@ -122,7 +138,7 @@
 .detail-main-body .detail-content-body .left .patent-list-container ul li .btn-group .patent-list-btn{
     margin-left: 3px;
     background-color: rgb(65,129,194);
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 4px 8px;
     float: left;
 }
@@ -138,6 +154,7 @@
 .detail-main-body .detail-content-body .right .patent-info{
     padding: 20px 30px 0 30px;
     border-right: rgb(213,219,231) 1px solid;
+    width: 629px;
 }
 .detail-main-body .detail-content-body .right .patent-info ul.tab-group{
     list-style: none;
@@ -205,15 +222,15 @@
     border-top: 1px solid rgb(213,219,231);
     border-right: 1px solid rgb(213,219,231);
 }
-.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td:first-child{
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td.first-td{
     width: 240px;
     background-color: rgb(245,247,250);
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: rgb(51,51,51);
 }
-.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td:last-child{
+.detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td.second-td{
     width: 385px;
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: rgb(51,51,51);
 }
 .detail-main-body .detail-content-body .right .patent-info .tab-content .table-container table tr td.patent-title{
@@ -248,10 +265,10 @@
     background-repeat: no-repeat;
 }
 .detail-main-body .detail-content-body .right .patent-info .tab-content .abstract-area .left p{
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: rgb(51,51,51);
     width: 420px;
-    line-height: 30px;
+    line-height: 25px;
 }
 .detail-main-body .detail-content-body .right .patent-info .tab-content .abstract-area .right h1{
     padding-bottom: 10px;
@@ -272,6 +289,7 @@
 
 .detail-main-body .detail-content-body .right .more-info{
     padding: 20px 0 0 30px;
+    width: 200px;
 }
 .detail-main-body .detail-content-body .right .more-info .container{
     margin-bottom: 70px;
@@ -292,12 +310,12 @@
 }
 .detail-main-body .detail-content-body .right .more-info .container ul li .time{
     color: rgb(182,182,182);
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-right: 15px;
 }
 .detail-main-body .detail-content-body .right .more-info .container ul li .text{
     color: rgb(51,51,51);
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 .detail-main-body .detail-content-body .right .more-info .container ul li .circle{
     background-image: url("../images/circle.png");
