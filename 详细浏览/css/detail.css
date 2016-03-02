@@ -296,9 +296,17 @@
     margin-bottom: 70px;
 }
 .detail-main-body .detail-content-body .right .more-info .container h1{
+    padding-bottom: 15px;
+}
+.detail-main-body .detail-content-body .right .more-info .container h1 .more-info-title{
     font-size: 1.6em;
     color: rgb(51,51,51);
-    padding-bottom: 15px;
+}
+.detail-main-body .detail-content-body .right .more-info .container h1 .more-link a{
+    font-size: 1.4em;
+    margin-right: 20px;
+    color: rgb(153,153,153);
+    font-weight: lighter;
 }
 .detail-main-body .detail-content-body .right .more-info .container ul{
     list-style: none;
