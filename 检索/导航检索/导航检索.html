@@ -85,10 +85,10 @@
             <div class="hr"></div>
         </div>
         <div class="content">
-            <i class="arrow arrow-left"></i>
-            <i class="arrow arrow-right"></i>
+            <i id="leftArrow" class="arrow arrow-left"></i>
+            <i id="rightArrow" class="arrow arrow-right"></i>
             <div class="patent-list">
-                <ul class="no-list-style clear">
+                <ul id="historyList" class="no-list-style clear">
                     <li>
                         <h3>发明名称：微波吹灰机免充电可随</h3>
                         <p>
@@ -183,8 +183,114 @@
         </div>
     </div>
 
-    <div class="ipc-container">
+    <div class="ipc-container clear">
+        <div class="nav">
+            <ul class="no-list-style">
+                <li>
+                    <a href="javascript:void(0)" class="in-bl">
+                        <strong class="in-bl"><span>A</span></strong>
+                        <span class="in-bl">A部：</span>
+                        <span class="in-bl ipc-cn-name">人类生活必需品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl select">
+                        <strong class="in-bl"><span>B</span></strong>
+                        <span class="in-bl">B部：</span>
+                        <span class="in-bl ipc-cn-name">作业;运输;</span>
+                        <i></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl">
+                        <strong class="in-bl"><span>C</span></strong>
+                        <span class="in-bl">C部：</span>
+                        <span class="in-bl ipc-cn-name">人类生活必需品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl">
+                        <strong class="in-bl"><span>D</span></strong>
+                        <span class="in-bl">D部：</span>
+                        <span class="in-bl ipc-cn-name">人类生活必需品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl">
+                        <strong class="in-bl"><span>E</span></strong>
+                        <span class="in-bl">E部：</span>
+                        <span class="in-bl ipc-cn-name">人类生活必需品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl">
+                        <strong class="in-bl"><span>F</span></strong>
+                        <span class="in-bl">F部：</span>
+                        <span class="in-bl ipc-cn-name">人类生活必需品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl">
+                        <strong class="in-bl"><span>G</span></strong>
+                        <span class="in-bl">G部：</span>
+                        <span class="in-bl ipc-cn-name">人类生活必需品</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl">
+                        <strong class="in-bl"><span>H</span></strong>
+                        <span class="in-bl">H部：</span>
+                        <span class="in-bl ipc-cn-name">人类生活必需品</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <form class="search-form">
+                <div class="tab-group clear">
+                    <a href="javascript:void(0)" class="btn tab-btn select">分类号</a>
+                    <a href="javascript:void(0)" class="btn tab-btn">中文含义</a>
+                    <a href="javascript:void(0)" class="btn tab-btn">英文含义</a>
+                </div>
+                <div class="input-area">
+                    <input />
+                    <a href="javascript:void(0)" class="btn search-btn">查 询</a>
+                </div>
+            </form>
 
+            <div class="content-body clear">
+                <div class="tree-area">
+                    <h2>分类号：</h2>
+                    <div class="tree">
+                        <img src="images/tree.png">
+                    </div>
+                </div>
+                <div class="desc-group">
+                    <div class="desc">
+                        <h2><strong><span>CN</span></strong>中文含义</h2>
+                        <div class="desc-content">
+                            <div class="desc-content-wrapper">
+                                <p class="name">B 部—作业;运输;</p>
+                                <p>一般的物理或化学的方法或装置L(一般的炉、窑、烘箱、蒸馏器入F27);</p>
+                                <p>沸腾;沸腾装置;</p>
+                                <p class="mark">沸腾;供物理或化学用途的沸腾装置(淀粉的制备入C08B30/00;制糖工业入 C13;蒸气发生入F22;民用锅炉入F24)[2];</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h2><strong><span>EN</span></strong>英文含义</h2>
+                        <div class="desc-content">
+                            <div class="desc-content-wrapper">
+                                <p class="name">SECTION B — PERFORMING OPERATIONS;TRANSPORTING;</p>
+                                <p>PHYSICAL OR CHEMICAL PROCESSES OR APPARATUS IN GENERAL(furnaces, kilns, ovens, retorts, in general F27);</p>
+                                <p>BOILING;BOILING APPARATUS;</p>
+                                <p class="mark">Boiling;Boiling apparatus for physical or chemical purposes(preparation of starch C08B30/00;sugar industry C13;steam generation F22;domestic boilers F24)[2];</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -223,6 +329,7 @@
 </div>
 
 <script src="../../js/jquery-1.8.3.js"></script>
+<script src="js/slide.js"></script>
 <script>
     $(document).ready(function(){
         $("#allMenu").css("display","none");

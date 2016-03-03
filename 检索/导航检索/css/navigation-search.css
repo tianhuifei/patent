@@ -34,26 +34,34 @@ ul.no-list-style{
     top: 50%;
     margin-top: -14px;
     position: absolute;
-    cursor: pointer;
+    cursor: text;
 }
 .search-history-container .content .arrow-left{
     left: 0;
     border-width: 14px 18px 14px 0;
     border-style: solid;
+    border-color: transparent rgb(204,206,208) transparent transparent;
+}
+.search-history-container .content .arrow-left.active{
     border-color: transparent rgb(47,102,153) transparent transparent;
+    cursor: pointer;
 }
 .search-history-container .content .arrow-right{
     right: 0;
     border-width: 14px 0 14px 18px;
     border-style: solid;
+    border-color: transparent  transparent transparent rgb(204,206,208);
+}
+.search-history-container .content .arrow-right.active{
     border-color: transparent  transparent transparent rgb(47,102,153);
+    cursor: pointer;
 }
 .search-history-container .content .patent-list{
     width: 1140px;
     overflow: hidden;
 }
 .search-history-container .content .patent-list ul{
-    width: 3000px;
+    position: relative;
 }
 .search-history-container .content .patent-list ul li{
     float: left;
@@ -81,4 +89,159 @@ ul.no-list-style{
 }
 .search-history-container .content .patent-list ul li .operation a.normal{
     color: rgb(16,150,236);
+}
+.ipc-container{
+    height: 680px;
+}
+.ipc-container .nav{
+    background-color: rgb(232,239,244);
+    height: 100%;
+    width: 245px;
+    float: left;
+}
+.ipc-container .nav ul{
+    padding-top: 20px;
+}
+.ipc-container .nav ul li a{
+    margin-bottom: 25px;
+    position: relative;
+    width: 100%;
+}
+.ipc-container .nav ul li a strong{
+    width: 36px;
+    height: 36px;
+    background-image: url("../images/blue-circle.png");
+    margin-right: 10px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 2.7em;
+    margin-left: 20px;
+}
+.ipc-container .nav ul li a.select strong{
+    background-image: url("../images/orange-circle.png");
+}
+.ipc-container .nav ul li a.select i{
+    border-color: transparent #fff transparent transparent;
+    border-width: 10px 24px 10px 0;
+    border-style: solid;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+
+}
+.ipc-container .nav ul li a>span{
+    font-size: 1.4em;
+    color: rgb(102,102,102);
+}
+.ipc-container .nav ul li a.select>span{
+    font-weight: bold;
+}
+.ipc-container .nav ul li a .ipc-cn-name{
+    padding-right: 30px;
+}
+.ipc-container .content{
+    width: 945px;
+    background-color: #fff;
+    height: 100%;
+    float: right;
+}
+.ipc-container .content .search-form{
+    padding: 30px 20px 35px 20px;
+}
+.ipc-container .content .search-form .tab-group .tab-btn{
+    float: left;
+    padding: 8px 20px;
+    color: rgb(47,102,153);
+    margin-right: 25px;
+    background-color: #fff;
+}
+.ipc-container .content .search-form .tab-group .tab-btn.select{
+    color: #fff;
+    background-color: rgb(65,129,194);
+}
+.ipc-container .content .search-form .input-area{
+    width: 900px;
+    height: 35px;
+    position: relative;
+    border: 1px solid rgb(65,129,194);
+}
+.ipc-container .content .search-form .input-area input{
+    border: none;
+    height: 35px;
+    width: 785px;
+    padding: 0;
+}
+.ipc-container .content .search-form .input-area .search-btn{
+    background-color: rgb(65,129,194);
+    height: 35px;
+    line-height: 35px;
+    padding: 0 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1.8em;
+}
+.ipc-container .content .content-body{
+    background-color: rgb(249,249,249);
+    margin: 0 20px 0 20px;
+    padding: 20px 10px 0 10px;
+}
+.ipc-container .content .content-body .tree-area{
+    width: 400px;
+    float: left;
+}
+.ipc-container .content .content-body h2{
+    color: rgb(47,102,153);
+    font-size: 1.6em;
+    padding-bottom: 14px;
+}
+.ipc-container .content .content-body .tree-area .tree{
+    width: 400px;
+    height: 466px;
+}
+.ipc-container .content .content-body .desc-group{
+    float: right;
+    width: 450px;
+}
+.ipc-container .content .content-body .desc-group .desc{
+    margin-bottom: 20px;
+}
+.ipc-container .content .content-body .desc-group .desc .desc-content{
+    width: 450px;
+    height: 208px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+.ipc-container .content .content-body .desc-group .desc h2{
+    position: relative;
+    padding-left: 30px;
+}
+.ipc-container .content .content-body .desc-group .desc h2 strong{
+    background-image: url("../images/blue-circle-sm.png");
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
+.ipc-container .content .content-body .desc-group .desc h2 strong span{
+    font-size: 13px;
+    color: #fff;
+}
+.ipc-container .content .content-body .desc-group .desc .desc-content .desc-content-wrapper{
+    padding: 13px 15px;
+}
+.ipc-container .content .content-body .desc-group .desc .desc-content .desc-content-wrapper p{
+    font-size: 1.6em;
+    line-height: 25px;
+}
+.ipc-container .content .content-body .desc-group .desc .desc-content .desc-content-wrapper p.name{
+    font-weight: bold;
+}
+.ipc-container .content .content-body .desc-group .desc .desc-content .desc-content-wrapper p.mark{
+    color: rgb(75,156,213);
 }
