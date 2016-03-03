@@ -1,0 +1,84 @@
+ul.no-list-style{
+    list-style: none;
+}
+
+.search-history-container{
+    background-color: #fff;
+    margin: 10px 0;
+}
+.search-history-container .header{
+    padding-top: 17px;
+}
+.search-history-container .header h1{
+    padding: 0 0 12px 15px;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    font-size: 1.8em;
+    width: 90px;
+    float: left;
+    height: 18px;
+
+}
+.search-history-container .header .hr{
+    border-bottom: 2px solid rgb(213,219,231);
+    float: right;
+    width: 1080px;
+    height: 18px;
+    padding-bottom: 12px;
+}
+.search-history-container .content{
+    padding: 30px 20px;
+    position: relative;
+}
+.search-history-container .content .arrow{
+    top: 50%;
+    margin-top: -14px;
+    position: absolute;
+    cursor: pointer;
+}
+.search-history-container .content .arrow-left{
+    left: 0;
+    border-width: 14px 18px 14px 0;
+    border-style: solid;
+    border-color: transparent rgb(47,102,153) transparent transparent;
+}
+.search-history-container .content .arrow-right{
+    right: 0;
+    border-width: 14px 0 14px 18px;
+    border-style: solid;
+    border-color: transparent  transparent transparent rgb(47,102,153);
+}
+.search-history-container .content .patent-list{
+    width: 1140px;
+    overflow: hidden;
+}
+.search-history-container .content .patent-list ul{
+    width: 3000px;
+}
+.search-history-container .content .patent-list ul li{
+    float: left;
+    padding-left: 25px;
+    width: 255px;
+}
+.search-history-container .content .patent-list ul li h3{
+    font-size: 1.6em;
+    color: rgb(104,121,149);
+    margin-bottom: 17px;
+}
+.search-history-container .content .patent-list ul li p{
+    margin-bottom: 23px;
+    color: rgb(70,70,70);
+    font-size: 1.4em;
+    line-height: 20px;
+    height: 80px;
+}
+.search-history-container .content .patent-list ul li .operation a{
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+.search-history-container .content .patent-list ul li .operation a.total-count{
+    color: rgb(254,75,66);
+}
+.search-history-container .content .patent-list ul li .operation a.normal{
+    color: rgb(16,150,236);
+}
