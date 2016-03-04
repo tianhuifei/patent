@@ -38,30 +38,34 @@ ul.no-list-style{
 }
 .search-history-container .content .arrow-left{
     left: 0;
-    border-width: 14px 18px 14px 0;
-    border-style: solid;
-    border-color: transparent rgb(204,206,208) transparent transparent;
+    width: 18px;
+    height: 28px;
+    background-image: url("../images/arrow-left.png");
 }
 .search-history-container .content .arrow-left.active{
-    border-color: transparent rgb(47,102,153) transparent transparent;
+    background-image: url("../images/arrow-left-active.png");
     cursor: pointer;
 }
 .search-history-container .content .arrow-right{
     right: 0;
-    border-width: 14px 0 14px 18px;
-    border-style: solid;
-    border-color: transparent  transparent transparent rgb(204,206,208);
+    width: 18px;
+    height: 28px;
+    background-image: url("../images/arrow-right.png");
 }
 .search-history-container .content .arrow-right.active{
-    border-color: transparent  transparent transparent rgb(47,102,153);
+    background-image: url("../images/arrow-right-active.png");
     cursor: pointer;
 }
 .search-history-container .content .patent-list{
     width: 1140px;
+    height: 150px;
     overflow: hidden;
+    position: relative;
 }
 .search-history-container .content .patent-list ul{
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .search-history-container .content .patent-list ul li{
     float: left;
@@ -122,13 +126,13 @@ ul.no-list-style{
     background-image: url("../images/orange-circle.png");
 }
 .ipc-container .nav ul li a.select i{
-    border-color: transparent #fff transparent transparent;
-    border-width: 10px 24px 10px 0;
-    border-style: solid;
+    width: 26px;
+    height: 24px;
     position: absolute;
     right: 0;
     top: 50%;
-    margin-top: -10px;
+    margin-top: -12px;
+    background-image: url("../images/nav-arrow.png");
 
 }
 .ipc-container .nav ul li a>span{
@@ -163,19 +167,21 @@ ul.no-list-style{
 }
 .ipc-container .content .search-form .input-area{
     width: 900px;
-    height: 35px;
     position: relative;
     border: 1px solid rgb(65,129,194);
+    padding: 1px 0;
 }
 .ipc-container .content .search-form .input-area input{
     border: none;
-    height: 35px;
+    height: 33px;
     width: 785px;
+    line-height: 33px;
     padding: 0;
+    border-width: 0;
 }
 .ipc-container .content .search-form .input-area .search-btn{
     background-color: rgb(65,129,194);
-    height: 35px;
+    height: 100%;
     line-height: 35px;
     padding: 0 35px;
     position: absolute;
