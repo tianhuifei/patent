@@ -1,0 +1,37 @@
+.main-body-publish{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.main-body-publish .container{
+    padding: 20px 20px 35px 20px;
+}
+.main-body-publish .container .form-container{
+    float: left;
+}
+.main-body-publish .container .form-container .form-header{
+    margin-bottom: 35px;
+}
+.main-body-publish .container .form-container .form-header h1{
+    color: rgb(65,129,194);
+    font-size: 2.4em;
+}
+.main-body-publish .container .form-container .form-publish{
+    padding-left: 65px;
+}
+.main-body-publish .container .form-container .form-publish>div{
+    margin-bottom: 15px;
+}
+.main-body-publish .container .form-container .form-publish>div label{
+    width: 70px;
+    margin-right: 16px;
+    font-size: 1.6em;
+    text-align: right;
+}
+.main-body-publish .container .form-container .form-publish>div input{
+    width: 410px;
+    height: 35px;
+}
+.main-body-publish .container .form-container .form-publish>div em{
+    color: rgb(255,0,0);
+    font-size: 1.6em;
+}
