@@ -90,32 +90,116 @@
             <form class="form-publish">
                 <div>
                     <label class="in-bl" for="an">申请号</label>
-                    <input id="an" class="width" />
+                    <input id="an" type="text" />
                     <em>*</em>
                 </div>
                 <div>
-                    <label class="in-bl" for="an">公开号</label>
-                    <input id="an" class="width" />
+                    <label class="in-bl" for="pn">公开号</label>
+                    <input id="pn" type="text" />
                     <em>*</em>
                 </div>
                 <div>
-                    <label class="in-bl" for="an">技术领域</label>
-                    <input id="an" class="width" />
+                    <label class="in-bl" for="tech">技术领域</label>
+                    <input id="tech" type="text" />
                     <em>*</em>
                 </div>
                 <div>
-                    <label class="in-bl" for="an">专利名称</label>
-                    <input id="an" class="width" />
+                    <label class="in-bl" for="patent_name">专利名称</label>
+                    <input id="patent_name" type="text" />
                     <em>*</em>
                 </div>
                 <div>
-                    <label class="in-bl" for="an">企业名称</label>
-                    <input id="an" class="width" />
+                    <label class="in-bl" for="company_name">企业名称</label>
+                    <input id="company_name" type="text" />
                     <em>*</em>
+                </div>
+                <div>
+                    <label class="in-bl label-textarea" for="desc">描述</label>
+                    <textarea id="desc"></textarea>
+                    <em>*</em>
+                </div>
+                <div>
+                    <label class="in-bl" for="address">地址</label>
+                    <input id="address" type="text" />
+                </div>
+                <div>
+                    <table class="table-state">
+                        <tr>
+                            <td rowspan="2"><label class="in-bl">状态</label></td>
+                            <td><input type="radio" name="stage" />研发阶段</td>
+                            <td><input type="radio" name="stage" />初试阶段</td>
+                            <td><input type="radio" name="stage" />中试阶段</td>
+                            <td><input type="radio" name="stage" />批量生产</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="trade-state" />待转让</td>
+                            <td><input type="radio" name="trade-state" />已转让</td>
+                            <td><input type="radio" name="trade-state" />自己已实施</td>
+                            <td><input type="radio" name="trade-state" />有样品或模型</td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div>
+                    <label class="in-bl" for="inventor">发明人</label>
+                    <input id="inventor" type="text" />
+                    <em>*</em>
+                </div>
+                <div>
+                    <label class="in-bl" for="connector">联系人</label>
+                    <input id="connector" type="text" />
+                    <em>*</em>
+                </div>
+                <div>
+                    <label class="in-bl" for="phone">电话</label>
+                    <input id="phone" type="text" />
+                    <em>*</em>
+                </div>
+                <div>
+                    <label class="in-bl" for="mail">邮箱</label>
+                    <input id="mail" type="text" />
+
+                </div>
+                <div>
+                    <label class="in-bl" for="fax">传真</label>
+                    <input id="fax" type="text" />
+                </div>
+                <div>
+                    <label class="in-bl" for="site">网址</label>
+                    <input id="site" type="text" />
+                </div>
+                <div class="btn-group clear">
+                    <a href="javascript:void(0)" class="btn btn-publish-form btn-read">阅读专利</a>
+                    <a href="javascript:void(0)" class="btn btn-publish-form btn-next">下一步</a>
+                    <a href="javascript:void(0)" class="btn btn-publish-form btn-back">返回</a>
                 </div>
             </form>
         </div>
-
+        <div class="intro-container">
+            <div class="intro-header">
+                <h1>填表说明</h1>
+            </div>
+            <div class="list-container">
+                <ul>
+                    <li>
+                        <span class="num">一。</span>
+                        <span class="example in-bl">通过填写“申请号”(或者“公开号”)可以关联出公开号(或者“申请号”)、专利名称、发明人的信息。</span>
+                    </li>
+                    <li>
+                        <span class="num">二。</span>
+                        <span class="example in-bl">凡是后面注有“*”号的选项都是必填项。</span>
+                    </li>
+                    <li>
+                        <span class="num">三。</span>
+                        <span class="example in-bl">姓名必须以中文/英文开头，只能包括“,”“.”，包含“·”的时候后面必须跟上对应的名字，多个名字之间用英文“,”隔开。</span>
+                    </li>
+                    <li>
+                        <span class="num">四。</span>
+                        <span class="example in-bl example4">电话为固定电话或者手机，如：101-12345678/15904027290。</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 

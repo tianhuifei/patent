@@ -3,10 +3,11 @@
     margin-top: 20px;
 }
 .main-body-publish .container{
-    padding: 20px 20px 35px 20px;
+    padding: 0 20px 35px 20px;
 }
 .main-body-publish .container .form-container{
     float: left;
+    padding-top: 20px;
 }
 .main-body-publish .container .form-container .form-header{
     margin-bottom: 35px;
@@ -20,6 +21,7 @@
 }
 .main-body-publish .container .form-container .form-publish>div{
     margin-bottom: 15px;
+    position: relative;
 }
 .main-body-publish .container .form-container .form-publish>div label{
     width: 70px;
@@ -27,11 +29,100 @@
     font-size: 1.6em;
     text-align: right;
 }
-.main-body-publish .container .form-container .form-publish>div input{
+.main-body-publish .container .form-container .form-publish>div label.label-textarea{
+    vertical-align: top;
+}
+.main-body-publish .container .form-container .form-publish>div input[type='text']{
     width: 410px;
     height: 35px;
+    border: 1px solid rgb(200,200,200);
+    padding: 0;
+}
+.main-body-publish .container .form-container .form-publish>div textarea{
+    width: 410px;
+    height: 120px;
+    border: 1px solid rgb(200,200,200);
+    padding: 0;
 }
 .main-body-publish .container .form-container .form-publish>div em{
     color: rgb(255,0,0);
     font-size: 1.6em;
+    position: absolute;
+    right: -15px;
+    margin-top: -8px;
+    top: 50%;
+}
+.main-body-publish .container .form-container .form-publish .table-state{
+
+}
+.main-body-publish .container .form-container .form-publish .table-state tr{
+
+}
+.main-body-publish .container .form-container .form-publish .btn-group{
+    padding-top: 15px;
+    padding-left: 65px;
+    margin-bottom: 0;
+
+}
+.main-body-publish .container .form-container .form-publish .btn-group .btn{
+    float: left;
+    margin-left: 25px;
+}
+.main-body-publish .container .form-container .form-publish .btn-group .btn-publish-form{
+    font-size: 1.8em;
+    border-radius: 4px;
+}
+.main-body-publish .container .form-container .form-publish .btn-group .btn.btn-read{
+    background-color: rgb(100,147,71);
+    padding: 10px 18px;
+}
+.main-body-publish .container .form-container .form-publish .btn-group .btn.btn-next{
+    background-color: rgb(65,129,194);
+    padding: 10px 46px;
+}
+.main-body-publish .container .form-container .form-publish .btn-group .btn.btn-back{
+    background-color: rgb(255,151,36);
+    padding: 10px 28px;
+}
+.main-body-publish .container .intro-container{
+    padding-top: 20px;
+    float: right;
+    width: 495px;
+    border-left: rgb(242,246,253) 1px solid;
+    height: 945px;
+}
+.main-body-publish .container .intro-container .intro-header{
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+.main-body-publish .container .intro-container .intro-header h1{
+    color: rgb(65,129,194);
+    font-size: 2.4em;
+}
+.main-body-publish .container .intro-container .list-container{
+    margin-left: 35px;
+}
+.main-body-publish .container .intro-container .list-container ul{
+    list-style: none;
+}
+.main-body-publish .container .intro-container .list-container ul li{
+    margin-bottom: 45px;
+    position: relative;
+    padding-left: 23px;
+}
+.main-body-publish .container .intro-container .list-container ul li span{
+    color: rgb(169,169,169);
+    font-size: 1.4em;
+    line-height: 26px;
+}
+.main-body-publish .container .intro-container .list-container ul li span.example{
+    width: 320px;
+}
+.main-body-publish .container .intro-container .list-container ul li span.num{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main-body-publish .container .intro-container .list-container ul li span.example4{
+    width: 420px;
 }
