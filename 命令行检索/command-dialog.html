@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="css/command-dialog.css"/>
+</head>
+<body>
+    <div class="command-dialog">
+        <div class="command-dialog-header clear">
+            <h1>编辑批处理文件</h1>
+            <div class="command-dialog-hr"></div>
+        </div>
+        <div class="command-dialog-content">
+            <form class="command-dialog-form">
+                <div>
+                    <label for="process_name">批处理名称：</label>
+                    <input id="process_name" type="text" />
+                </div>
+                <div class="process-command-container">
+                    <label for="process_command" class="label-textarea">批处理命令：</label>
+                    <textarea id="process_command"></textarea>
+                    <div class="operation-container">
+                        <div class="operation-list">
+                            <ul class="clear">
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">检索</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">二次检索</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">同族检索</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">检索历史</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">删除检索历史</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">限定</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">取消限定</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">显示字段</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">切换文献库</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">检索历史显示配置</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)" class="btn btn-command-dialog">显示命令帮助信息</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <i class="arrow"></i>
+                    </div>
+                </div>
+                <div class="btn-group clear">
+                    <a href="javascript:void(0)" class="btn command-dialog-form-btn save-btn">保 存</a>
+                    <a href="javascript:void(0)" class="btn command-dialog-form-btn execute-btn">执 行</a>
+                    <a href="javascript:void(0)" class="btn command-dialog-form-btn close-btn">关 闭</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

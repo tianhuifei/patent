@@ -1,0 +1,108 @@
+.command-dialog{
+    background-color: #fff;
+    padding: 25px 25px 35px 25px;
+    width: 725px;
+}
+.command-dialog .command-dialog-header h1{
+    font-size: 1.8em;
+    font-weight: bold;
+    float: left;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(65,129,194);
+}
+.command-dialog .command-dialog-header .command-dialog-hr{
+    height: 38px;
+    width: 590px;
+    border-bottom: 2px solid rgb(213,219,231);
+    float: left;
+    margin-left: 3px;
+}
+.command-dialog .command-dialog-content{
+    padding-left: 10px;
+}
+.command-dialog .command-dialog-content label{
+    margin-right: 6px;
+    font-size: 1.6em;
+}
+.command-dialog .command-dialog-content label.label-textarea{
+    vertical-align: top;
+}
+.command-dialog .command-dialog-content .command-dialog-form>div{
+    margin-top: 25px;
+}
+.command-dialog .command-dialog-content input[type='text']{
+    height: 35px;
+    width: 310px;
+    padding: 0;
+    border: 1px solid rgb(66,129,194);
+}
+.command-dialog .command-dialog-content textarea{
+    height: 225px;
+    width: 310px;
+    padding: 0;
+    border: 1px solid rgb(66,129,194);
+}
+.command-dialog .command-dialog-content .process-command-container{
+    padding-right: 290px;
+    position: relative;
+}
+.command-dialog .command-dialog-content .process-command-container .operation-container{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 225px;
+    padding-left: 40px;
+}
+.command-dialog .command-dialog-content .process-command-container .operation-container .operation-list{
+    width: 240px;
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid rgb(225,225,225);
+    padding: 0px 5px;
+}
+.command-dialog .command-dialog-content .process-command-container .operation-container .operation-list ul{
+    list-style: none;
+    padding: 10px 0;
+}
+.command-dialog .command-dialog-content .process-command-container .operation-container .operation-list ul li{
+    float: left;
+}
+.command-dialog .command-dialog-content .process-command-container .operation-container .operation-list ul li .btn-command-dialog{
+    padding: 3px 7px;
+    background-color: rgb(242,248,255);
+    color: rgb(66,129,194);
+    margin-right: 10px;
+    margin-bottom: 18px;
+    font-size: 1.5em;
+}
+.command-dialog .command-dialog-content .process-command-container .operation-container .arrow{
+    background-image: url("../images/arrow.png");
+    width: 16px;
+    height: 20px;
+    left: 10px;
+    top: 50%;
+    margin-top: -10px;
+    position: absolute;
+}
+.command-dialog .command-dialog-content .btn-group{
+    margin-top: 40px;
+    margin-left: 105px;
+}
+.command-dialog .command-dialog-content .btn-group .command-dialog-form-btn{
+    float: left;
+    margin-right: 25px;
+    font-size: 1.6em;
+    border-radius: 4px;
+}
+.command-dialog .command-dialog-content .btn-group .save-btn{
+    background-color: rgb(100,147,71);
+    padding: 11px 30px;
+}
+.command-dialog .command-dialog-content .btn-group .execute-btn{
+    background-color: rgb(66,129,194);
+    padding: 11px 35px;
+}
+.command-dialog .command-dialog-content .btn-group .close-btn{
+    background-color: rgb(255,151,36);
+    padding: 11px 28px;
+}
