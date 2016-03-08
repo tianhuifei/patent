@@ -1,0 +1,76 @@
+.main-body-advisory-mailbox{
+    margin-top: 20px;
+    border-top: 2px solid rgb(65,129,194);
+    position: relative;
+}
+.main-body-advisory-mailbox .container{
+    background-color: #fff;
+    padding: 20px;
+
+}
+.main-body-advisory-mailbox .container h1{
+    margin-bottom: 35px;
+    font-size: 2.4em;
+    color: rgb(65,129,194);
+}
+.main-body-advisory-mailbox .container form{
+    padding-left: 90px;
+    padding-bottom: 125px;
+}
+.main-body-advisory-mailbox .container form>div{
+    margin-bottom: 25px;
+}
+.main-body-advisory-mailbox .container form label{
+    width: 105px;
+    font-size: 1.6em;
+    color: rgb(102,102,102);
+    text-align: right;
+    margin-right: 15px;
+}
+.main-body-advisory-mailbox .container form label.label-textarea{
+    vertical-align: top;
+}
+.main-body-advisory-mailbox .container form input[type='text']{
+    width: 385px;
+    height: 31px;
+    padding: 0;
+    font-size: 1.6em;
+}
+.main-body-advisory-mailbox .container form input[type='text'].captcha{
+    height: 20px;
+    width: 75px;
+}
+.main-body-advisory-mailbox .container form textarea{
+    width: 385px;
+    height: 160px;
+    padding: 0;
+    font-size: 1.6em;
+}
+.main-body-advisory-mailbox .container form>div>img{
+    vertical-align: middle;
+}
+.main-body-advisory-mailbox .container form .btn-group{
+    padding-top: 25px;
+    margin-left: 240px;
+}
+.main-body-advisory-mailbox .container form .btn-group .btn-form{
+    font-size: 1.8em;
+    padding: 11px 40px;
+    float: left;
+    margin-right: 25px;
+    border-radius: 4px;
+}
+.main-body-advisory-mailbox .container form .btn-group .btn-send{
+    background-color: rgb(66,129,194);
+}
+.main-body-advisory-mailbox .container form .btn-group .btn-back{
+    background-color: rgb(255,151,36);
+}
+.main-body-advisory-mailbox .banner-advisory-mailbox{
+    width: 336px;
+    height: 370px;
+    background-image: url("../images/banner.png");
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
