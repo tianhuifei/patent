@@ -37,12 +37,14 @@
     height: 35px;
     border: 1px solid rgb(200,200,200);
     padding: 0;
+    font-size: 1.4em;
 }
 .main-body-publish .container .form-container .form-publish>div textarea{
     width: 410px;
     height: 120px;
     border: 1px solid rgb(200,200,200);
     padding: 0;
+    font-size: 1.4em;
 }
 .main-body-publish .container .form-container .form-publish>div em{
     color: rgb(255,0,0);
@@ -55,8 +57,13 @@
 .main-body-publish .container .form-container .form-publish .table-state{
 
 }
-.main-body-publish .container .form-container .form-publish .table-state tr{
-
+.main-body-publish .container .form-container .form-publish .table-state .td-stage,.td-trade-state{
+    width: 105px;
+    padding: 20px 0;
+    font-size: 1.4em;
+}
+.main-body-publish .container .form-container .form-publish .table-state .td-stage{
+    border-bottom: 1px solid rgb(200,200,200);
 }
 .main-body-publish .container .form-container .form-publish .btn-group{
     padding-top: 15px;
