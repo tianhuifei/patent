@@ -1,0 +1,209 @@
+.main-body-question-list{
+    margin-top: 20px;
+}
+.main-body-question-list .left{
+    float: left;
+}
+.main-body-question-list .right{
+    float: right;
+}
+.main-body-question-list ul{
+    list-style: none;
+}
+.main-body-question-list ul li{
+    background-color: #fff;
+    margin-bottom: 20px;
+
+}
+.main-body-question-list ul li .box{
+    padding: 15px 20px;
+}
+.main-body-question-list ul li .box .box-header{
+    padding-bottom: 15px;
+}
+
+.main-body-question-list ul li .box .box-header h1 .field{
+    padding-left: 25px;
+    background-image: url("../images/answer-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 20px;
+    color: rgb(65,129,194);
+    font-size: 1.8em;
+}
+.main-body-question-list ul li .box .box-header h1 .title{
+    color: rgb(134,134,134);
+    height: 20px;
+    font-size: 1.8em;
+}
+
+.main-body-question-list ul li .box .box-header .user-info span{
+    padding-left: 23px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 16px;
+    line-height: 16px;
+    color: rgb(143,148,152);
+}
+.main-body-question-list ul li .box .box-header .floor a{
+    color: rgb(31,110,216);
+    font-size: 1.4em;
+    margin-right: 30px;
+}
+.main-body-question-list ul li .box .box-header .floor span{
+    border: 1px solid rgb(208,218,226);
+    color: rgb(111,111,111);
+    font-size: 1.2em;
+    width: 53px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+}
+.main-body-question-list ul li .box .box-header .user-info .user-name{
+     background-image: url("../images/user-icon.png");
+     font-size: 1.4em;
+    margin-right: 50px;
+ }
+.main-body-question-list ul li .box .box-header .user-info .publish-time{
+    background-image: url("../images/clock-icon.png");
+    font-size: 1.4em;
+}
+.main-body-question-list ul li .box .box-content{
+    padding: 15px 10px 0 10px;
+    min-height: 75px;
+    color: rgb(111,111,111);
+}
+.main-body-question-list ul li .box .box-content p{
+    font-size: 1.5em;
+    line-height: 23px;
+}
+.main-body-question-list ul li .box .box-content .container-reply-box{
+    width: 800px;
+    border: 1px solid rgb(208,218,226);
+    background-color: rgb(248,249,251);
+}
+.main-body-question-list ul li .box .box-content .container-reply-box .reply-box{
+    padding: 10px;
+}
+.main-body-question-list ul li .box .box-header .user-info .user-name.user-admin{
+    color: rgb(246,125,78);
+    font-weight: bold;
+}
+.main-body-question-list ul li .box .box-header .user-info .user-name.user-normal{
+    color: rgb(31,110,216);
+    font-weight: bold;
+    background-image: url("../images/user-icon-blue.png");
+}
+
+.main-body-question-list .container-reply{
+    padding: 20px;
+    background-color: rgb(246,246,246);
+}
+.main-body-question-list .container-reply .content{
+    background-color: #fff;
+    padding: 20px;
+}
+.main-body-question-list .container-reply .content .form-left{
+    float: left;
+}
+.main-body-question-list .container-reply .content h1{
+    font-size: 1.8em;
+    color: rgb(65,129,194);
+}
+.main-body-question-list .container-reply .content form>div{
+    margin-top: 20px;
+}
+.main-body-question-list .container-reply .content form>div label{
+    width: 50px;
+    text-align: right;
+    font-size: 1.6em;
+    color: rgb(125,125,125);
+    margin-right: 20px;
+}
+.main-body-question-list .container-reply .content form>div label.label-textarea{
+    vertical-align: top;
+}
+.main-body-question-list .container-reply .content .form-left form>div input[type='text']{
+    width: 660px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    border: 1px solid rgb(147,181,215);
+}
+.main-body-question-list .container-reply .content .form-left form>div textarea{
+    width: 660px;
+    height: 200px;
+    padding: 0;
+    border: 1px solid rgb(147,181,215);
+}
+.main-body-question-list .container-reply .content .form-right{
+    float: right;
+}
+.main-body-question-list .container-reply .content .form-right form>div input[type='text']{
+    width: 270px;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    border: 1px solid rgb(213,219,231);
+}
+.main-body-question-list .container-reply .content .form-right .btn-group{
+    margin-left: 120px;
+}
+.main-body-question-list .container-reply .content .form-right .btn-group .btn{
+    padding: 10px 30px;
+    color: rgb(125,125,125);
+    font-size: 1.6em;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(193,204,223);
+}
+.main-body-question-list .container-reply .content .form-right .btn-group .btn-upload{
+    background-color: rgb(241,246,255);
+}
+.main-body-question-list .container-reply .content .form-right .btn-group .btn-cancel{
+    background-color: rgb(255,247,241);
+}
+.main-body-question-list .container-reply .content .form-right p{
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: rgb(125,125,125);
+    width: 265px;
+    margin-left: 80px;
+    line-height: 15px;
+}
+.main-body-question-list .container-reply .container-footer{
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+}
+.main-body-question-list .container-reply .container-footer .container-footer-content{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.main-body-question-list .container-reply .container-footer .container-footer-content .captcha-area{
+    line-height: 40px;
+}
+.main-body-question-list .container-reply .container-footer .container-footer-content .captcha-area label{
+    color: rgb(91,91,91);
+    font-size: 1.4em;
+}
+.main-body-question-list .container-reply .container-footer .container-footer-content .captcha-area input{
+    width: 75px;
+    height: 20px;
+    border: 1px solid rgb(204,204,204);
+    margin: 0 10px;
+    padding: 0;
+}
+.main-body-question-list .container-reply .container-footer .container-footer-content .captcha-area img{
+    vertical-align: middle;
+}
+.main-body-question-list .container-reply .container-footer .btn-reply{
+    padding: 0 40px;
+    background-color: rgb(36,129,208);
+    font-size: 1.8em;
+    margin-left: 22px;
+    line-height: 40px;
+    border-radius: 4px;
+}
