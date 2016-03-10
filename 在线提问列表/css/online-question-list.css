@@ -120,9 +120,6 @@
     color: rgb(125,125,125);
     margin-right: 20px;
 }
-.main-body-question-list .container-reply .content form>div label.label-textarea{
-    vertical-align: top;
-}
 .main-body-question-list .container-reply .content .form-left form>div input[type='text']{
     width: 660px;
     height: 30px;
@@ -131,8 +128,8 @@
     border: 1px solid rgb(147,181,215);
 }
 .main-body-question-list .container-reply .content .form-left form>div textarea{
-    width: 660px;
-    height: 200px;
+    width: 690px;
+    height: 250px;
     padding: 0;
     border: 1px solid rgb(147,181,215);
 }
