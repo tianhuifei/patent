@@ -8,6 +8,7 @@ var scroll=(function($){
 
     function init(){
         if($("#patent_list").innerHeight()<=$(".patent-list-container").innerHeight()){
+            $(".scroll").hide();
             return;
         }
         _initScrollHeight();
