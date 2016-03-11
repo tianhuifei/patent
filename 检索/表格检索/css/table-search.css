@@ -1,0 +1,247 @@
+/*****************检索历史列表开始********************************/
+.search-history-container{
+    background-color: #fff;
+    margin: 20px 0;
+}
+.search-history-container .header{
+    padding-top: 17px;
+}
+.search-history-container .header h1{
+    padding: 0 0 12px 15px;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    font-size: 1.8em;
+    width: 90px;
+    float: left;
+    height: 18px;
+
+}
+.search-history-container .header .hr{
+    border-bottom: 2px solid rgb(213,219,231);
+    float: right;
+    width: 1080px;
+    height: 18px;
+    padding-bottom: 12px;
+}
+.search-history-container .content{
+    padding: 30px 20px;
+    position: relative;
+}
+.search-history-container .content .arrow{
+    top: 50%;
+    margin-top: -14px;
+    position: absolute;
+    cursor: text;
+}
+.search-history-container .content .arrow-left{
+    left: 0;
+    width: 18px;
+    height: 28px;
+    background-image: url("../images/arrow-left.png");
+}
+.search-history-container .content .arrow-left.active{
+    background-image: url("../images/arrow-left-active.png");
+    cursor: pointer;
+}
+.search-history-container .content .arrow-right{
+    right: 0;
+    width: 18px;
+    height: 28px;
+    background-image: url("../images/arrow-right.png");
+}
+.search-history-container .content .arrow-right.active{
+    background-image: url("../images/arrow-right-active.png");
+    cursor: pointer;
+}
+.search-history-container .content .patent-list{
+    width: 1140px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+.search-history-container .content .patent-list ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.search-history-container .content .patent-list ul li{
+    float: left;
+    padding-left: 25px;
+    width: 255px;
+}
+.search-history-container .content .patent-list ul li h3{
+    font-size: 1.6em;
+    color: rgb(104,121,149);
+    margin-bottom: 17px;
+}
+.search-history-container .content .patent-list ul li p{
+    margin-bottom: 23px;
+    color: rgb(70,70,70);
+    font-size: 1.4em;
+    line-height: 20px;
+    height: 80px;
+}
+.search-history-container .content .patent-list ul li .operation a{
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+.search-history-container .content .patent-list ul li .operation a.total-count{
+    color: rgb(254,75,66);
+}
+.search-history-container .content .patent-list ul li .operation a.normal{
+    color: rgb(16,150,236);
+}
+/*****************检索历史列表结束********************************/
+
+
+.container-table{
+    height: 780px;
+}
+.container-table .container-filter{
+    width: 240px;
+    background-color: #fff;
+    height: 100%;
+    float: left;
+}
+.container-table .container-filter .wrapper{
+    padding: 15px 30px 0 30px;
+}
+.container-table .container-filter .wrapper .container-filter-header{
+    padding-bottom: 20px;
+    height: 23px;
+}
+.container-table .container-filter .wrapper .container-filter-header h1{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    width: 68px;
+    height: 100%;
+    float: left;
+}
+.container-table .container-filter .wrapper .container-filter-header .hr{
+    height: 100%;
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    width: 110px;
+}
+.container-checkbox{
+    margin-bottom: 10px;
+}
+.container-checkbox .row{
+    padding-bottom: 20px;
+}
+.container-checkbox .row .checkbox{
+    width: 13px;
+    height: 13px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+.container-checkbox .row .checkbox.checkbox-all{
+    background-image: url("../images/checkbox-all.png");
+}
+.container-checkbox .row label{
+    text-align: left;
+    font-size: 1.4em;
+    color: rgb(81,98,116);
+    position: relative;
+    padding-left: 17px;
+}
+.container-checkbox .row label.width150{
+    width: 150px;
+}
+.container-checkbox .row label.width67{
+    width: 67px;
+}
+.container-checkbox .row label.all{
+    color: rgb(141,131,237);
+}
+.container-checkbox .row .checkbox.checkbox-normal{
+    background-image: url("../images/checkbox-normal.png");
+}
+.container-table .form-table{
+    width: 930px;
+    float: right;
+    height: 100%;
+    background-color: #fff;
+}
+.container-table .form-table .wrapper{
+    padding: 20px 20px 0 20px;
+}
+.container-table .form-table .wrapper .form-table-header{
+    margin-bottom: 25px;
+    height: 28px;
+}
+.container-table .form-table .wrapper .form-table-header h1{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    width: 68px;
+    height: 100%;
+    float: left;
+}
+.container-table .form-table .wrapper .form-table-header .hr{
+    height: 100%;
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    width: 820px;
+    position: relative;
+}
+.container-table .form-table .wrapper .form-table-header .hr .btn-group{
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.container-table .form-table .wrapper .form-table-header .hr .btn-group .btn-remove{
+    background-color: rgb(117,178,114);
+    padding: 5px 5px 5px 20px;
+    background-image: url("../images/remove-icon.png");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    border-radius: 3px;
+    font-size: 1.4em;
+}
+.container-table .form-table .wrapper .form-table-header .hr .btn-group .btn-setting{
+    background-color: rgb(107,154,164);
+    padding: 5px 5px 5px 20px;
+    background-image: url("../images/setting-icon.png");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    border-radius: 3px;
+    font-size: 1.4em;
+}
+.container-table .form-table .wrapper form{
+    padding-bottom: 20px;
+}
+.container-table .form-table .wrapper form>div{
+    margin-bottom: 27px;
+    padding-right: 22px;
+    position: relative;
+}
+.container-table .form-table .wrapper form>div label{
+    width: 85px;
+    text-align: right;
+    color: rgb(125,125,125);
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+.container-table .form-table .wrapper form>div input[type='text']{
+    width: 165px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid rgb(192,190,190);
+    padding: 0;
+}
+.container-table .form-table .wrapper form>div i{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -9px;
+    background-image: url("../images/question-icon.png");
+}
