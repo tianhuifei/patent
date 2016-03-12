@@ -338,7 +338,14 @@
                     </div>
                     <div class="in-bl">
                         <label class="in-bl">申请日：</label>
-                        <input type="text" />
+                        <div class="in-bl collapse">
+                            <select>
+                                <option>=</option>
+                                <option><</option>
+                                <option>></option>
+                            </select>
+                            <input type="text" />
+                        </div>
                     </div>
                     <div class="in-bl">
                         <label class="in-bl">公开/公告号：</label>
@@ -351,7 +358,14 @@
                     </div>
                     <div class="in-bl">
                         <label class="in-bl">优先权日：</label>
-                        <input type="text" />
+                        <div class="in-bl collapse">
+                            <select>
+                                <option>=</option>
+                                <option><</option>
+                                <option>></option>
+                            </select>
+                            <input type="text" />
+                        </div>
                     </div>
                     <div class="in-bl">
                         <label class="in-bl">发明名称：</label>
@@ -363,7 +377,14 @@
                     </div>
                     <div class="in-bl">
                         <label class="in-bl">公开/公告日：</label>
-                        <input type="text" />
+                        <div class="in-bl collapse">
+                            <select>
+                                <option>=</option>
+                                <option><</option>
+                                <option>></option>
+                            </select>
+                            <input type="text" />
+                        </div>
                     </div>
                     <div class="in-bl">
                         <label class="in-bl">说明内容：</label>
@@ -410,6 +431,55 @@
                         <input type="text" />
                     </div>
                 </form>
+                <div class="area-exp">
+                    <div class="area-exp-header clear">
+                        <h1>检索式编辑区</h1>
+                        <div class="hr"></div>
+                    </div>
+                    <div class="area-exp-content">
+                        <div class="btn-group">
+                            <a href="javascript:;" class="btn btn-exp-operation">AND</a>
+                            <a href="javascript:;" class="btn btn-exp-operation">OR</a>
+                            <a href="javascript:;" class="btn btn-exp-operation">NOT</a>
+                            <a href="javascript:;" class="btn btn-exp-operation">（）</a>
+                            <a href="javascript:;" class="btn btn-exp-operation">XOR</a>
+                            <a href="javascript:;" class="btn btn-exp-operation">ADJ</a>
+                            <a href="javascript:;" class="btn btn-exp-operation btn-other">其他运算符</a>
+                        </div>
+                        <div class="area-textarea">
+                            <textarea></textarea>
+                        </div>
+                        <div class="area-operation">
+                            <ul>
+                                <li>
+                                    <div class="container-checkbox">
+                                        <div class="row">
+                                            <label class="in-bl width55">
+                                                <span class="checkbox checkbox-normal"></span>跨语言
+                                            </label>
+                                            <label class="in-bl width55">
+                                                <span class="checkbox checkbox-normal"></span>扩展
+                                            </label>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="btn btn-generate">生成检索式</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="btn btn-empty">清空检索式</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="btn btn-search">检 索</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -454,6 +524,7 @@
 
 <script src="../../js/jquery-1.8.3.js"></script>
 <script src="js/slide.js"></script>
+<script src="js/checkbox.js"></script>
 <script>
     $(document).ready(function(){
         $("#allMenu").css("display","none");

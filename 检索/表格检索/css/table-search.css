@@ -144,6 +144,9 @@
 .container-checkbox .row .checkbox.checkbox-all{
     background-image: url("../images/checkbox-all.png");
 }
+.container-checkbox .row .checkbox.checkbox-all.checked{
+    background-image: url("../images/checkbox-all-checked.png");
+}
 .container-checkbox .row label{
     text-align: left;
     font-size: 1.4em;
@@ -157,11 +160,17 @@
 .container-checkbox .row label.width67{
     width: 67px;
 }
+.container-checkbox .row label.width55{
+    width: 55px;
+}
 .container-checkbox .row label.all{
     color: rgb(141,131,237);
 }
 .container-checkbox .row .checkbox.checkbox-normal{
     background-image: url("../images/checkbox-normal.png");
+}
+.container-checkbox .row .checkbox.checkbox-normal.checked{
+    background-image: url("../images/checkbox-normal-checked.png");
 }
 .container-table .form-table{
     width: 930px;
@@ -215,7 +224,7 @@
     font-size: 1.4em;
 }
 .container-table .form-table .wrapper form{
-    padding-bottom: 20px;
+
 }
 .container-table .form-table .wrapper form>div{
     margin-bottom: 27px;
@@ -236,6 +245,33 @@
     border: 1px solid rgb(192,190,190);
     padding: 0;
 }
+.container-table .form-table .wrapper form>div .collapse{
+    padding-left: 45px;
+    position: relative;
+    border: 1px solid rgb(192,190,190);
+}
+.container-table .form-table .wrapper form>div .collapse select{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 25px;
+    border-right: 1px solid rgb(192,190,190);
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.container-table .form-table .wrapper form>div .collapse ul li{
+    padding: 5px 10px;
+    font-size: 1.4em;
+    text-align: center;
+    cursor: pointer;
+}
+.container-table .form-table .wrapper form>div .collapse input[type='text']{
+    width: 117px;
+    border: none;
+    padding-left: 3px;
+}
 .container-table .form-table .wrapper form>div i{
     width: 18px;
     height: 18px;
@@ -244,4 +280,91 @@
     top: 50%;
     margin-top: -9px;
     background-image: url("../images/question-icon.png");
+}
+.container-table .form-table .wrapper .area-exp .area-exp-header{
+    height: 23px;
+    margin-bottom: 20px;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-header h1{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-header .hr{
+    height: 100%;
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    width: 787px;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content{
+    padding: 15px 20px;
+    background-color: rgb(252,252,252);
+    border: 1px solid rgb(213,220,236);
+    position: relative;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .btn-group .btn-exp-operation{
+    width: 45px;
+    padding: 0;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.4em;
+    background-color: rgb(231,236,240);
+    margin-right: 15px;
+    color: rgb(50,100,153);
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .btn-group .btn-other{
+    width: 105px;
+    color: #fff;
+    background-color: rgb(155,184,212);
+    text-decoration: underline;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-textarea{
+    margin-top: 15px;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-textarea textarea{
+    width: 670px;
+    height: 170px;
+    border: 1px solid rgb(159,186,215);
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-operation{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-operation ul{
+    list-style: none;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-operation ul li{
+    margin-bottom: 10px;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-operation ul li .btn-generate{
+    background-color: rgb(252,180,78);
+    background-image: url("../images/generate.png");
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    padding: 10px 10px 10px 33px;
+    border-radius: 3px;
+    font-size: 1.6em;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-operation ul li .btn-empty{
+    background-color: rgb(244,98,101);
+    background-image: url("../images/empty.png");
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    padding: 10px 10px 10px 33px;
+    border-radius: 3px;
+    font-size: 1.6em;
+}
+.container-table .form-table .wrapper .area-exp .area-exp-content .area-operation ul li .btn-search{
+    background-color: rgb(77,168,226);
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    padding: 10px 37px 10px 49px;
+    border-radius: 3px;
+    font-size: 1.6em;
 }
