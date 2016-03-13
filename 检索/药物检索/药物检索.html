@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../../css/public.css"/>
+    <link rel="stylesheet" href="../../css/base.css"/>
+    <link rel="stylesheet" href="css/medicine-search.css"/>
+    <title>药物检索</title>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active"><a href="javascript:void(0);">首页</a></li>
+                    <li class=""><a href="javascript:void(0);">专利检索</a></li>
+                    <li><a href="javascript:void(0);">专利分析</a></li>
+                    <li><a href="javascript:void(0);">药物检索</a></li>
+                    <li><a href="javascript:void(0);">地利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-body">
+    <div class="tab-group-medicine clear">
+        <a href="javascript:;" class="in-bl active">高级检索</a>
+        <a href="javascript:;" class="in-bl">方剂检索</a>
+        <a href="javascript:;" class="in-bl">结构式检索</a>
+    </div>
+    <div class="tab-content">
+        <div class="wrapper">
+            <div class="form-header">
+                <div class="operation-group">
+                    <a href="javascript:;" class="in-bl">设置检索字段&gt;&gt;</a>
+                    <a href="javascript:;" class="in-bl">字段介绍&gt;&gt;</a>
+                    <a href="javascript:;" class="in-bl">检索规则介绍&gt;&gt;</a>
+                </div>
+            </div>
+            <form>
+                <div class="in-bl">
+                    <label class="in-bl">申请号：</label>
+                    <input type="text" />
+                    <i></i>
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">申请日：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">申请人：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">发明人：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">公开（公告）号：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">公开（公告）日：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">优先权项：</label>
+                    <input type="text" />
+                </div>
+                <br>
+                <div class="in-bl">
+                    <label class="in-bl">IPC分类号：</label>
+                    <input type="text" />
+                    <i></i>
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">IPC主分类号：</label>
+                    <input type="text" />
+                    <i></i>
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">IPC副分类号：</label>
+                    <input type="text" />
+                    <i></i>
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">药物范畴分类号：</label>
+                    <input type="text" />
+                </div>
+                <br>
+                <div class="in-bl">
+                    <label class="in-bl">联合索引：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">发明名称：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">摘要：</label>
+                    <input type="text" />
+                </div>
+                <div class="wrapper-hr">
+                    <div class="hr"></div>
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">发明主题：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">分析方法：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">生物方法：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">制剂方法：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">化学方法：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">联合方法：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">新用途：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">物理方法：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">提取方法：</label>
+                    <input type="text" />
+                </div>
+                <div class="wrapper-hr">
+                    <div class="hr"></div>
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">治疗应用：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">相似疗效：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">治疗作用：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">相互作用：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">毒副作用：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">诊断作用：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">方剂味数：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">方剂组成：</label>
+                    <input type="text" />
+                </div>
+                <br>
+                <div class="in-bl">
+                    <label class="in-bl">CN登记号：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">CAS登记号：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">职能符：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">化合物中文名：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">化合物英文名：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">申请人地址：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">国别省市名称：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">国别省市代码：</label>
+                    <input type="text" />
+                </div>
+                <div class="in-bl">
+                    <label class="in-bl">公司代码：</label>
+                    <input type="text" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="area-exp">
+        <div class="wrapper">
+            <div class="area-exp-header clear">
+                <h1>命令编辑区</h1>
+                <div class="hr"></div>
+            </div>
+            <div class="area-exp-content">
+                <div class="btn-group">
+                    <a href="javascript:;" class="btn btn-exp-operation">AND</a>
+                    <a href="javascript:;" class="btn btn-exp-operation">OR</a>
+                    <a href="javascript:;" class="btn btn-exp-operation">NOT</a>
+                    <a href="javascript:;" class="btn btn-exp-operation">（）</a>
+                    <a href="javascript:;" class="btn btn-exp-operation">XOR</a>
+                    <a href="javascript:;" class="btn btn-exp-operation">ADJ</a>
+                    <a href="javascript:;" class="btn btn-exp-operation btn-other">其他运算符</a>
+                </div>
+                <div class="area-textarea">
+                    <textarea></textarea>
+                </div>
+                <div class="area-operation">
+                    <ul>
+                        <li>
+                            <a href="javascript:;" class="btn btn-generate">生成检索式</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn btn-empty">清空检索式</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn btn-search">检 索</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+<script src="../../js/jquery-1.8.3.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $("#allMenu").css("display","none");
+    });
+</script>
+<!--尾部-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

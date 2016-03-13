@@ -1,0 +1,179 @@
+.main-body{
+    margin-top: 20px;
+}
+
+.tab-group-medicine{
+    background-color: rgb(242,244,249);
+}
+.tab-group-medicine a{
+    float: left;
+    padding: 15px 80px;
+    font-size: 1.6em;
+    color: rgb(125,125,125);
+    border-left: 1px solid rgb(242,244,249);
+    border-right: 1px solid rgb(242,244,249);
+    font-weight: bold;
+}
+.tab-group-medicine a.active{
+    background-color: #fff;
+    color: rgb(23,113,183);
+    border-left: 1px solid rgb(218,218,218);
+    border-right: 1px solid rgb(218,218,218);
+}
+.tab-content{
+    background-color: #fff;
+}
+.tab-content .wrapper{
+    padding: 20px 20px 10px 20px;
+}
+
+.tab-content .wrapper .form-header{
+    padding-bottom: 43px;
+    position: relative;
+}
+.tab-content .wrapper .form-header .operation-group{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tab-content .wrapper .form-header .operation-group a{
+    margin-right: 35px;
+    color: rgb(47,102,153);
+    font-size: 1.2em;
+}
+.tab-content .wrapper form>div{
+    margin-bottom: 17px;
+    padding-right: 22px;
+    position: relative;
+    margin-right: 70px;
+}
+.tab-content .wrapper form>div.wrapper-hr{
+    padding: 15px 35px 35px 35px;
+    margin: 0;
+    height: 1px;
+}
+.tab-content .wrapper form .hr{
+    border-top: 1px rgb(229,229,229) dashed;
+}
+.tab-content .wrapper form>div label{
+    width: 110px;
+    text-align: right;
+    color: rgb(125,125,125);
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+.tab-content .wrapper form>div input[type='text']{
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgb(192,190,190);
+    padding: 0;
+}
+
+.tab-content .wrapper form>div i{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -9px;
+    background-image: url("../images/question-icon.png");
+}
+
+
+
+.area-exp{
+    margin-top: 20px;
+    background-color: #fff;
+}
+.area-exp .wrapper{
+    padding: 25px 20px 40px 20px;
+}
+.area-exp .area-exp-header{
+    height: 23px;
+    margin-bottom: 20px;
+}
+.area-exp .area-exp-header h1{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    width: 85px;
+    height: 100%;
+    float: left;
+}
+.area-exp .area-exp-header .hr{
+    height: 100%;
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    width: 1060px;
+}
+.area-exp .area-exp-content{
+    padding: 15px 20px;
+    background-color: rgb(252,252,252);
+    border: 1px solid rgb(213,220,236);
+    position: relative;
+}
+.area-exp .area-exp-content .btn-group .btn-exp-operation{
+    width: 45px;
+    padding: 0;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.4em;
+    background-color: rgb(231,236,240);
+    margin-right: 15px;
+    color: rgb(50,100,153);
+    border: 1px solid rgb(174,198,223);
+}
+.area-exp .area-exp-content .btn-group .btn-other{
+    width: 105px;
+    color: #fff;
+    background-color: rgb(155,184,212);
+    text-decoration: underline;
+}
+.area-exp .area-exp-content .area-textarea{
+    margin-top: 15px;
+}
+.area-exp .area-exp-content .area-textarea textarea{
+    width: 945px;
+    height: 160px;
+    border: 1px solid rgb(159,186,215);
+}
+.area-exp .area-exp-content .area-operation{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+.area-exp .area-exp-content .area-operation ul{
+    list-style: none;
+}
+.area-exp .area-exp-content .area-operation ul li{
+    margin-bottom: 10px;
+}
+.area-exp .area-exp-content .area-operation ul li .btn-generate{
+    background-color: rgb(252,180,78);
+    background-image: url("../images/generate.png");
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    padding: 10px 10px 10px 33px;
+    border-radius: 3px;
+    font-size: 1.6em;
+}
+.area-exp .area-exp-content .area-operation ul li .btn-empty{
+    background-color: rgb(244,98,101);
+    background-image: url("../images/empty.png");
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    padding: 10px 10px 10px 33px;
+    border-radius: 3px;
+    font-size: 1.6em;
+}
+.area-exp .area-exp-content .area-operation ul li .btn-search {
+    background-color: rgb(77, 168, 226);
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    padding: 10px 37px 10px 49px;
+    border-radius: 3px;
+    font-size: 1.6em;
+}
