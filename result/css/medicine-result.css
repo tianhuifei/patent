@@ -1,0 +1,74 @@
+
+.main-body .re-ri .ri-top{background: #FFF;padding: 10px 0;}
+.main-body .re-ri .ri-top .select-group{margin-left: 30px;float: left;}
+.main-body .re-ri .ri-top .select-group select{height: 32px;margin: 0 6px;font-size: 1.6em;border: 1px solid rgb(213,219,231);}
+.main-body .re-ri .ri-top .page-group{float: right;margin-right: 30px;padding: 8px 0;}
+.main-body .re-ri .ri-top .page-group ul{list-style: none;float: left;}
+.main-body .re-ri .ri-top .page-group ul li{float: left;margin-right: 10px;}
+.main-body .re-ri .ri-top .page-group ul li a{display:inline-block;*display:inline;*zoom:1;font-size: 1.3em;color: rgb(47,102,153);}
+.main-body .re-ri .ri-top .page-group ul li a.select{color: rgb(124,124,124);cursor: text;}
+.main-body .re-ri .ri-top .page-group .page-information{float: right;}
+.main-body .re-ri .ri-top .page-group .page-information span{font-size: 1.2em}
+.main-body .re-ri .ri-top .page-group .page-information .data-total{margin-left: 16px;}
+.main-body .re-ri .ri-top .page-group .page-information .page-total{margin-left: 6px;}
+
+.main-body .re-ri .re-content{background: #FFF;margin-top:11px;}
+
+
+
+.search-mode-content .left{
+    float: left;
+}
+.search-mode-content .right{
+    float: right;
+}
+
+.main-body .re-ri .search-mode-content .list-container{
+
+}
+.main-body .re-ri .search-mode-content .list-container ul{
+    list-style: none;
+}
+.main-body .re-ri .search-mode-content .list-container ul li{
+    padding: 30px 25px 25px 25px;
+    border-bottom: rgb(213,219,231) 2px solid;
+}
+.main-body .re-ri .search-mode-content .list-container ul li h1{
+    color: rgb(75,75,75);
+    font-size: 1.6em;
+    margin-right: 28px;
+    line-height: 26px;
+}
+.main-body .re-ri .search-mode-content .list-container ul li h1 input{
+    margin-right: 9px;
+}
+
+.search-mode-content .item .item-content .item-content-body{
+    width: 495px;
+    margin-left: 25px;
+}
+.search-mode-content .item .item-content{
+    border-bottom: 1px dotted rgb(213,219,231);
+}
+.search-mode-content .item .item-content .item-content-body p{
+    font-size: 1.4em;
+    color: rgb(75,75,75);
+    line-height: 30px;
+}
+.search-mode-content .item .item-content .item-content-img{
+    margin-right: 25px;
+}
+.search-mode-content .item .item-footer{
+    margin-top: 15px;
+}
+.search-mode-content .btn-group .btn-operation{
+    background-color: rgb(72,166,238);
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    font-size: 1.4em;
+}
+.search-mode-content .btn-group .btn-operation.btn-translate{
+    background-color: rgb(249,152,35);
+}
+
