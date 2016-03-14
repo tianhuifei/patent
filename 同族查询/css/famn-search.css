@@ -102,9 +102,32 @@
 }
 .tab-content .wrapper{
     padding: 20px;
+    position: relative;
+}
+.tab-content .wrapper .famn-search-header{
+    height: 28px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.tab-content .wrapper .famn-search-header h1{
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    padding-left: 15px;
+    font-size: 1.8em;
+    width: 80px;
+    float: left;
+    line-height: 20px;
+    height: 100%;
+}
+.tab-content .wrapper .famn-search-header .hr{
+    float: right;
+    height: 100%;
+    border-bottom: 2px solid rgb(213,219,231);
+    width: 1090px;
 }
 .tab-content .wrapper .search-form{
-    padding: 25px 0 20px 15px;
+    padding: 60px 0 20px 15px;
 }
 .tab-content .wrapper .search-form>div{
     height: 46px;
@@ -161,18 +184,24 @@
 }
 .tab-content .wrapper .container-table .table-content .patent-info{
     float: left;
-    width: 570px;
-    border-right: 1px solid rgb(214,220,234);
+    width: 830px;
     padding-top: 15px;
+    position: relative;
+}
+.tab-content .wrapper .container-table .table-content .patent-info>input[type='checkbox']{
+    position: absolute;
+    left: 0;
+    top: 15px;
+    margin: 0;
 }
 .tab-content .wrapper .container-table .table-content .patent-info>div{
 
-    margin: 0 30px 15px 0;
+    margin: 0 8px 15px 0;
 }
 .tab-content .wrapper .container-table .table-content .patent-info>div .field{
     color: rgb(51,51,51);
     font-size: 1.3em;
-    width: 140px;
+    width: 125px;
     text-align: right;
     font-weight: bold;
 }
@@ -183,6 +212,7 @@
 .tab-content .wrapper .container-table .table-content .patent-operation{
     float: left;
     padding: 18px 0 0 35px;
+    border-left: 1px solid rgb(214,220,234);
 }
 .tab-content .wrapper .container-table .table-content .patent-operation a{
     margin-bottom: 18px;
