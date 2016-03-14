@@ -1,22 +1,102 @@
-.tab-group-famn{
-    padding: 0 20px;
-    background-color: rgb(242,244,249);
-}
-.tab-group-famn a{
-    float: left;
-    padding: 20px 16px;
-    font-size: 1.4em;
-    color: rgb(125,125,125);
-    border-left: 1px solid rgb(242,244,249);
-    border-right: 1px solid rgb(242,244,249);
-    font-weight: bold;
-}
-.tab-group-famn a.active{
+/*****************检索历史列表开始********************************/
+.search-history-container{
     background-color: #fff;
-    color: rgb(23,113,183);
-    border-left: 1px solid rgb(218,218,218);
-    border-right: 1px solid rgb(218,218,218);
+    margin: 20px 0;
 }
+.search-history-container .header{
+    padding-top: 17px;
+}
+.search-history-container .header h1{
+    padding: 0 0 12px 15px;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    font-size: 1.8em;
+    width: 90px;
+    float: left;
+    height: 18px;
+
+}
+.search-history-container .header .hr{
+    border-bottom: 2px solid rgb(213,219,231);
+    float: right;
+    width: 1080px;
+    height: 18px;
+    padding-bottom: 12px;
+}
+.search-history-container .content{
+    padding: 30px 20px;
+    position: relative;
+}
+.search-history-container .content .arrow{
+    top: 50%;
+    margin-top: -14px;
+    position: absolute;
+    cursor: text;
+}
+.search-history-container .content .arrow-left{
+    left: 0;
+    width: 18px;
+    height: 28px;
+    background-image: url("../images/arrow-left.png");
+}
+.search-history-container .content .arrow-left.active{
+    background-image: url("../images/arrow-left-active.png");
+    cursor: pointer;
+}
+.search-history-container .content .arrow-right{
+    right: 0;
+    width: 18px;
+    height: 28px;
+    background-image: url("../images/arrow-right.png");
+}
+.search-history-container .content .arrow-right.active{
+    background-image: url("../images/arrow-right-active.png");
+    cursor: pointer;
+}
+.search-history-container .content .patent-list{
+    width: 1140px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+.search-history-container .content .patent-list ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.search-history-container .content .patent-list ul li{
+    float: left;
+    padding-left: 25px;
+    width: 255px;
+}
+.search-history-container .content .patent-list ul li h3{
+    font-size: 1.6em;
+    color: rgb(104,121,149);
+    margin-bottom: 17px;
+}
+.search-history-container .content .patent-list ul li p{
+    margin-bottom: 23px;
+    color: rgb(70,70,70);
+    font-size: 1.4em;
+    line-height: 20px;
+    height: 80px;
+}
+.search-history-container .content .patent-list ul li .operation a{
+    margin-right: 15px;
+    font-size: 1.5em;
+}
+.search-history-container .content .patent-list ul li .operation a.total-count{
+    color: rgb(254,75,66);
+}
+.search-history-container .content .patent-list ul li .operation a.normal{
+    color: rgb(16,150,236);
+}
+/*****************检索历史列表结束********************************/
+
+
+
+
+
 .tab-content{
     background-color: #fff;
 }
@@ -57,61 +137,59 @@
 }
 .tab-content .wrapper .container-table{
     background-color: rgb(242,244,249);
-    padding: 10px 8px 0 8px;
+    padding: 10px 10px 0 10px;
 }
 .tab-content .wrapper .container-table .table-header{
     height: 32px;
-    position: relative;
     padding-bottom: 8px;
-}
-.tab-content .wrapper .container-table .table-header .btn-group{
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-}
-.tab-content .wrapper .container-table .table-header .btn-group a{
-    margin-left: 20px;
-    background-color: rgb(66,129,194);
-    font-size: 1.4em;
-    height: 32px;
     line-height: 32px;
-    border-radius: 3px;
 }
-.tab-content .wrapper .container-table .table-header .btn-group .btn-view{
-    padding: 0 38px 0 45px;
-    background-image: url("../images/view.png");
-    background-repeat: no-repeat;
-    background-position: 18px center;
+.tab-content .wrapper .container-table .table-header label{
+    height: 100%;
+    font-size: 1.6em;
+    color: rgb(125,125,125);
 }
-.tab-content .wrapper .container-table .table-header .btn-group .btn-collection{
-    padding: 0 14px 0 27px;
-    background-image: url("../images/collection.png");
-    background-repeat: no-repeat;
-    background-position: 6px center;
+.tab-content .wrapper .container-table .table-wrapper{
+    border-bottom: 1px solid rgb(214,220,234);;
 }
 .tab-content .wrapper .container-table .table-content{
     background-color: #fff;
-    border: 1px solid rgb(214,220,234);
-    padding: 5px 5px 10px 5px;
+    border-left: 1px solid rgb(214,220,234);
+    border-top: 1px solid rgb(214,220,234);
+    border-right: 1px solid rgb(214,220,234);
+    padding: 0 10px;
 }
-.tab-content .wrapper .container-table .table-content table{
-    text-align: center;
-    width: 100%;
+.tab-content .wrapper .container-table .table-content .patent-info{
+    float: left;
+    width: 570px;
+    border-right: 1px solid rgb(214,220,234);
+    padding-top: 15px;
 }
-.tab-content .wrapper .container-table .table-content table tr{
-    height: 50px;
-    line-height: 50px;
+.tab-content .wrapper .container-table .table-content .patent-info>div{
+
+    margin: 0 30px 15px 0;
 }
-.tab-content .wrapper .container-table .table-content table tr th{
-    font-size: 1.4em;
-    color: rgb(65,129,194);
-    border-bottom: 1px solid rgb(214,220,234);
+.tab-content .wrapper .container-table .table-content .patent-info>div .field{
+    color: rgb(51,51,51);
+    font-size: 1.3em;
+    width: 140px;
+    text-align: right;
+    font-weight: bold;
 }
-.tab-content .wrapper .container-table .table-content table tr td{
-    font-size: 1.4em;
-    color: rgb(125,125,125);
-    border-bottom: 1px solid rgb(214,220,234);
+.tab-content .wrapper .container-table .table-content .patent-info>div .value{
+    color: rgb(98,62,72);
+    font-size: 1.3em;
+}
+.tab-content .wrapper .container-table .table-content .patent-operation{
+    float: left;
+    padding: 18px 0 0 35px;
+}
+.tab-content .wrapper .container-table .table-content .patent-operation a{
+    margin-bottom: 18px;
+    font-size: 1.3em;
+    color: rgb(59,137,186);
+    width: 75px;
+    text-align: left;
 }
 .tab-content .wrapper .container-table .pagination{
     height: 70px;
