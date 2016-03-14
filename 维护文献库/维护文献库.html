@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../support/switchButton/css/jquery.switchButton.css"/>
+    <link rel="stylesheet" href="css/patent-db.css"/>
+    <title>维护文献库</title>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active in-bl"><a href="javascript:void(0);">首页</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利检索</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利分析</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">药物检索</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-body">
+<div class="main-le">
+    <div class="listbox" id="items">
+        <div class="item clear active">
+            <div class="img analyse"></div>
+            <div class="title-info"><a href="javascript:void(0);">维护文献库</a></div>
+
+        </div>
+        <ul>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">维护文献库</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main-ri">
+    <div class="ri-top">
+        <table>
+            <thead>
+                <tr>
+                    <th class="w-94"></th>
+                    <th class="w-193">名称</th>
+                    <th class="w-213">描述</th>
+                    <th class="w-94">文献量</th>
+                    <th class="w-115">创建时间</th>
+                    <th class="w-50">修改</th>
+                    <th class="w-50">删除</th>
+                    <th class="w-50">查看</th>
+                    <th class="w-50">清理</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <a href="javascript:void(0);" class="control in-bl">
+                        <span class="co-text">停用</span>
+                        <span class="in-bl circular"></span>
+                    </a>
+                </td>
+                <td class="t-le">燃料电池的技术发展趋势分析</td>
+                <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
+                <td>1808</td>
+                <td>2015-12-24</td>
+                <td><a class="in-bl operation edit" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation delete" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation see" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation clear-img" href="javascript:void(0);"></a></td>
+            </tr>
+            <tr class="active">
+                <td>
+                    <a href="javascript:void(0);" class="control in-bl">
+                        <span class="co-text">启用</span>
+                        <span id="tian" class="in-bl circular"></span>
+                    </a>
+                </td>
+                <td class="t-le">燃料电池的技术发展趋势分析</td>
+                <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
+                <td>1808</td>
+                <td>2015-12-24</td>
+                <td><a class="in-bl operation edit" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation delete" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation see" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation clear-img" href="javascript:void(0);"></a></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="javascript:void(0);" class="control in-bl">
+                        <span class="co-text">停用</span>
+                        <span class="in-bl circular"></span>
+                    </a>
+                </td>
+                <td class="t-le">燃料电池的技术发展趋势分析</td>
+                <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
+                <td>1808</td>
+                <td>2015-12-24</td>
+                <td><a class="in-bl operation edit" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation delete" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation see" href="javascript:void(0);"></a></td>
+                <td><a class="in-bl operation clear-img" href="javascript:void(0);"></a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="ri-bottom clear">
+        <div class="ri-b-t">
+            <h2>申请人区域分布分析<span class="in-bl">修正未知数</span></h2>
+
+        </div>
+        <div class="search-form clear">
+            <div class="delete-all in-bl"></div>
+            <form class="clear">
+                <div class="input-area">
+                    <select>
+                        <option>发明名称</option>
+                        <option>发明名称</option>
+                        <option>发明名称</option>
+                    </select>
+                    <input type="text" />
+                    <a hfef="javascript:;" class="btn btn-search">查 询</a>
+                </div>
+                <div class="btn-group clear" id="btn_group">
+                    <a href="javascript:;" class="btn btn-left active">公开去重</a>
+                    <a href="javascript:;" class="btn btn-right">公告去重</a>
+                </div>
+            </form>
+        </div>
+        <div class="container-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="40px"><input type="checkbox" /></th>
+                        <th width="100px">申请号</th>
+                        <th width="120px">公开（公告）号</th>
+                        <th width="135px">申请人</th>
+                        <th width="115px">发明名称</th>
+                        <th width="165px">发明人</th>
+                        <th width="70px">分类号</th>
+                        <th>申请人所在国</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td>CN23123</td>
+                        <td>CN123123A</td>
+                        <td>张三;李四;王五</td>
+                        <td>自行车</td>
+                        <td>张三;李四;王五</td>
+                        <td>B26K3/01</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="even"><input type="checkbox" /></td>
+                        <td class="even">CN23123</td>
+                        <td class="even">CN123123A</td>
+                        <td class="even">张三;李四;王五</td>
+                        <td class="even">自行车</td>
+                        <td class="even">张三;李四;王五</td>
+                        <td class="even">B26K3/01</td>
+                        <td class="even">中国</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td>CN23123</td>
+                        <td>CN123123A</td>
+                        <td>张三;李四;王五</td>
+                        <td>自行车</td>
+                        <td>张三;李四;王五</td>
+                        <td>B26K3/01</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="even"><input type="checkbox" /></td>
+                        <td class="even">CN23123</td>
+                        <td class="even">CN123123A</td>
+                        <td class="even">张三;李四;王五</td>
+                        <td class="even">自行车</td>
+                        <td class="even">张三;李四;王五</td>
+                        <td class="even">B26K3/01</td>
+                        <td class="even">中国</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td>CN23123</td>
+                        <td>CN123123A</td>
+                        <td>张三;李四;王五</td>
+                        <td>自行车</td>
+                        <td>张三;李四;王五</td>
+                        <td>B26K3/01</td>
+                        <td>中国</td>
+                    </tr>
+                    <tr>
+                        <td class="even"><input type="checkbox" /></td>
+                        <td class="even">CN23123</td>
+                        <td class="even">CN123123A</td>
+                        <td class="even">张三;李四;王五</td>
+                        <td class="even">自行车</td>
+                        <td class="even">张三;李四;王五</td>
+                        <td class="even">B26K3/01</td>
+                        <td class="even">中国</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="pagination">
+            分页
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="../support/switchButton/js/jquery.switchButton.js"></script>
+<script src="js/button.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#allMenu").css("display","none");
+    });
+</script>
+<!--尾部-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
