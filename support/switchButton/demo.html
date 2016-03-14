@@ -6,7 +6,9 @@
     <link href="css/jquery.switchButton.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    <a id="test" data-onName="启用" data-offName="停用" data-defaultState="on" data-whenOn="whenOn('obj')"></a>
+    <a data-type="switch-button" data-onName="启用" data-offName="停用" data-defaultState="on" data-whenOn="whenOn"></a>
+    <a data-type="switch-button" data-onName="启用" data-offName="停用" data-defaultState="on" data-whenOn="whenOn"></a>
+    <a data-type="switch-button" data-onName="启用" data-offName="停用" data-defaultState="off" data-whenOn="whenOn"></a>
 
 
 
@@ -16,7 +18,7 @@
 
 <script>
     $(function(){
-        $("#test").switchButton();
+        $("[data-type='switch-button']").switchButton();
     })
 </script>
 </body>

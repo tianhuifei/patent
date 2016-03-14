@@ -30,6 +30,7 @@
     top: 50%;
     margin-top: -6px;
     z-index: 2;
+    overflow: hidden;
 
 }
 .switch-button-bar span.span-on-name{
