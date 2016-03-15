@@ -26,11 +26,12 @@
     position: absolute;
     font-size: 12px;
     width: 24px;
-    height: 12px;
+    height: 14px;
     top: 50%;
-    margin-top: -6px;
+    margin-top: -7px;
     z-index: 2;
     overflow: hidden;
+    line-height: 14px;
 
 }
 .switch-button-bar span.span-on-name{

@@ -18,7 +18,9 @@
 
 <script>
     $(function(){
-        $("[data-type='switch-button']").switchButton();
+        $("[data-type='switch-button']").switchButton({
+            whenOff:whenOff
+        });
     })
 </script>
 </body>

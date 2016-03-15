@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../css/public.css"/>
     <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../support/switchButton/css/jquery.switchButton.css"/>
     <link rel="stylesheet" href="css/css.css"/>
     <title></title>
 </head>
@@ -173,10 +174,7 @@
                 <tbody>
                     <tr>
                         <td>
-                            <a href="javascript:void(0);" class="control in-bl">
-                                <span class="co-text">停用</span>
-                                <span class="in-bl circular"></span>
-                            </a>
+                            <a data-type="switch-button" data-onName="启用" data-offName="停用" data-whenOn="whenOn" data-whenOff="whenOff" data-beforeOn="beforeOn" data-canOff=false data-beforeOff="beforeOff"></a>
                         </td>
                         <td class="t-le">燃料电池的技术发展趋势分析</td>
                         <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
@@ -189,10 +187,7 @@
                     </tr>
                     <tr class="active">
                         <td>
-                            <a href="javascript:void(0);" class="control in-bl">
-                                <span class="co-text">启用</span>
-                                <span id="tian" class="in-bl circular"></span>
-                            </a>
+                            <a data-type="switch-button" data-onName="启用" data-offName="停用" data-defaultState="on" data-whenOn="whenOn" data-whenOff="whenOff" data-beforeOn="beforeOn" data-canOff=false data-beforeOff="beforeOff"></a>
                         </td>
                         <td class="t-le">燃料电池的技术发展趋势分析</td>
                         <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
@@ -205,10 +200,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <a href="javascript:void(0);" class="control in-bl">
-                                <span class="co-text">停用</span>
-                                <span class="in-bl circular"></span>
-                            </a>
+                            <a data-type="switch-button" data-onName="启用" data-offName="停用" data-whenOn="whenOn" data-whenOff="whenOff" data-beforeOn="beforeOn" data-canOff=false data-beforeOff="beforeOff"></a>
                         </td>
                         <td class="t-le">燃料电池的技术发展趋势分析</td>
                         <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
@@ -227,7 +219,20 @@
                 <h2>申请人区域分布分析</h2>
             </div>
             <div class="ri-b-l">
-                <img src="images/1.png" alt=""/>
+                <div class="graph-form">
+                    <form>
+                        <label>您可以输入显示前</label>
+                        <input type="text" />
+                        <label>个结果</label>
+                        <div class="graph-type-group">
+                            <i class="graph-type type1"></i>
+                            <i class="graph-type type2"></i>
+                            <i class="graph-type type3"></i>
+                            <i class="graph-type type4"></i>
+                        </div>
+                    </form>
+                </div>
+                <img src="images/graph.png" height="500" width="100%" alt=""/>
             </div>
             <div class="ri-b-r">
                 <div class="ri-b-r-t">
@@ -255,8 +260,19 @@
                             <option>3</option>
                         </select>
                     </div>
-                    <div class="explain">
-                        <p>申请人：本次分析只是针对最近5年的 专利申请数据进行分析</p>
+                    <div class="container-tab">
+                        <div class="tab-group clear">
+                            <a href="javascript:;" class="btn active">申请人<i></i></a>
+                            <a href="javascript:;" class="btn">国家/区域/组织<i></i></a>
+                            <div class="add-btn"></div>
+                        </div>
+                        <div class="tab-content">
+                            <p>123sadf</p>
+                            <p>123sdafasdf</p>
+                            <p>123sdf</p>
+                            <p>123sadf</p>
+                            <p>123asdf</p>
+                        </div>
                     </div>
                 </div>
                 <div class="ri-b-r-m">
@@ -265,14 +281,6 @@
                         <li>
                             <label><input type="checkbox"/>名称</label>
                             <span class="in-bl">操作</span>
-                        </li>
-                        <li>
-                            <label><input type="checkbox"/>LG</label>
-                            <span class="in-bl">
-                                <a href="javascript:void(0);">编辑</a>
-                                <i class="in-bl"></i>
-                                <a href="javascript:void(0);">删除</a>
-                            </span>
                         </li>
                         <li>
                             <label><input type="checkbox"/>LG</label>
@@ -311,10 +319,13 @@
 </div>
 
 <script src="../js/jquery-1.8.3.js"></script>
+<script src="../support/switchButton/js/jquery.switchButton.js"></script>
 <script src="js/js.js"></script>
 <script>
     $(document).ready(function(){
         $("#allMenu").css("display","none");
+        buttonGroup=$("[data-type='switch-button']").switchButton();
+
     });
 </script>
 <!--尾部-->

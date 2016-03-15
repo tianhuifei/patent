@@ -70,6 +70,51 @@
 .main-body .main-ri .ri-bottom .ri-b-t{padding:12px 0 12px 21px;background: #eff1f6;border-bottom:1px solid #d5dbe7;}
 .main-body .main-ri .ri-bottom .ri-b-t h2{font-size: 16px;color:#333;}
 .main-body .main-ri .ri-bottom .ri-b-l {width:620px;float:left;border-right:1px solid #d5dbe7;}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form{
+    background-color: #fff;
+    width: 100%;
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form{
+    padding: 10px 0 10px 255px;
+    position: relative;
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form label{
+    font-size: 1.3em;
+    color: rgb(51,51,51);
+
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form input{
+    width: 40px;
+    height: 20px;
+    border: 1px solid rgb(213,219,231);
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form .graph-type-group{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -9px;
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form .graph-type-group .graph-type{
+    width: 18px;
+    height: 18px;
+    margin-left: 12px;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    cursor: pointer;
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form .graph-type-group .type1{
+    background-image: url("../images/analysis-icon-01.png");
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form .graph-type-group .type2{
+    background-image: url("../images/analysis-icon-02.png");
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form .graph-type-group .type3{
+    background-image: url("../images/analysis-icon-03.png");
+}
+.main-body .main-ri .ri-bottom .ri-b-l .graph-form form .graph-type-group .type4{
+    background-image: url("../images/analysis-icon-04.png");
+}
 .main-body .main-ri .ri-bottom .ri-b-r {width:287px;float:left;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m,
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t{border-bottom:1px solid #d5dbe7;padding:20px;}
@@ -79,9 +124,57 @@
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.option select {width:160px;margin:0 5px;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.option a {font-size: 12px;color:#333;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div select{width:70px;}
-
-.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.explain{line-height: normal;}
-.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.explain p{line-height: 17px;color:#666;}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab .tab-group{
+    position: relative;
+}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab .tab-group .add-btn{
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5.5px;
+    background-image: url("../images/add.png");
+    cursor: pointer;
+}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab .tab-group a{
+    padding: 4px 15px;
+    font-size: 1.2em;
+    line-height: normal;
+    background-color: #fff;
+    color: #000;
+    float: left;
+    position: relative;
+}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab .tab-group a i{
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    background-color: #fff;
+}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab .tab-group .active{
+    border-left: 1px solid rgb(213, 219, 231);
+    border-right: 1px solid rgb(213, 219, 231);
+    border-top: 1px solid rgb(213, 219, 231);
+}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab .tab-content{
+    border: 1px solid rgb(213, 219, 231);
+    min-height: 110px;
+    max-height: 110px;
+    overflow-y: auto;
+    line-height: normal;
+}
+.main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-t >div.container-tab .tab-content p{
+    padding: 10px 15px 0 15px;
+    font-size: 1.2em;
+}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul li{overflow: hidden;padding:9px 0;}
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul label{float:left;max-width: 154px;text-overflow: ellipsis;overflow:hidden;white-space: nowrap;font-size: 12px; }
 .main-body .main-ri .ri-bottom .ri-b-r .ri-b-r-m >ul span{float:right;width:73px;text-align: center;font-size: 12px;}

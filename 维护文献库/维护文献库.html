@@ -112,10 +112,7 @@
             <tbody>
             <tr>
                 <td>
-                    <a href="javascript:void(0);" class="control in-bl">
-                        <span class="co-text">停用</span>
-                        <span class="in-bl circular"></span>
-                    </a>
+                    <a data-type="switch-button" data-onName="启用" data-offName="停用" data-whenOn="whenOn" data-whenOff="whenOff" data-beforeOn="beforeOn" data-canOff=false data-beforeOff="beforeOff"></a>
                 </td>
                 <td class="t-le">燃料电池的技术发展趋势分析</td>
                 <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
@@ -128,10 +125,7 @@
             </tr>
             <tr class="active">
                 <td>
-                    <a href="javascript:void(0);" class="control in-bl">
-                        <span class="co-text">启用</span>
-                        <span id="tian" class="in-bl circular"></span>
-                    </a>
+                    <a data-type="switch-button" data-onName="启用" data-offName="停用" data-defaultState="on" data-whenOn="whenOn" data-whenOff="whenOff" data-beforeOn="beforeOn" data-canOff=false data-beforeOff="beforeOff"></a>
                 </td>
                 <td class="t-le">燃料电池的技术发展趋势分析</td>
                 <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
@@ -144,10 +138,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="javascript:void(0);" class="control in-bl">
-                        <span class="co-text">停用</span>
-                        <span class="in-bl circular"></span>
-                    </a>
+                    <a data-type="switch-button" data-onName="启用" data-offName="停用" data-whenOn="whenOn" data-whenOff="whenOff" data-beforeOn="beforeOn" data-canOff=false data-beforeOff="beforeOff"></a>
                 </td>
                 <td class="t-le">燃料电池的技术发展趋势分析</td>
                 <td class="t-le">本次分析只是针对最近5年的 专利申请数据进行分析</td>
@@ -275,6 +266,7 @@
 <script>
     $(document).ready(function(){
         $("#allMenu").css("display","none");
+        buttonGroup=$("[data-type='switch-button']").switchButton();
     });
 </script>
 <!--尾部-->
