@@ -115,7 +115,7 @@
     border: none;
     padding: 0;
     margin: 0;
-    width: 600px;
+    width: 510px;
     padding-left: 5px;
     line-height: 40px;
     border: 2px solid rgb(112,155,194);
@@ -145,10 +145,21 @@
     font-size: 1.8em;
     margin-left: 5px;
 }
+.personal-body .content .personal-content-body .search-form .input-area .btn-group .create-btn{
+    padding: 0;
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(66,129,194);
+    font-size: 1.8em;
+    margin-left: 5px;
+}
 .personal-body .content .personal-content-body .table-container{
     width: 945px;
     margin: 0 auto;
     background-color: rgb(239,241,246);
+    padding-top: 20px;
 }
 .personal-body .content .personal-content-body .table-container .table-header{
     padding: 12px 10px;
@@ -207,7 +218,11 @@
     background-image: url("../images/op1.png");
 }
 .personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op2{
+    margin-right: 20px;
     background-image: url("../images/op2.png");
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op3{
+    background-image: url("../images/delete.png");
 }
 .personal-body .content .personal-content-body .table-container .page-container{
     height: 70px;
