@@ -1,0 +1,276 @@
+.personal-body{
+    position: relative;
+    margin-top: 20px;
+}
+.personal-body ul.no-list-style{
+    list-style: none;
+}
+.personal-body .nav{
+    background-color: #fff;
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.personal-body .nav .nav-wrapper{
+    padding: 8px 10px 0 10px;
+}
+.personal-body .nav .nav-wrapper .welcome{
+    text-align: center;
+}
+.personal-body .nav .nav-wrapper .welcome h1{
+    padding: 10px 0;
+    color: rgb(51,51,51);
+    font-size: 1.6em;
+}
+.personal-body .nav .nav-wrapper .welcome  p{
+    color: rgb(153,153,153);
+    font-size: 1.4em;
+}
+.personal-body .nav .nav-wrapper ul{
+    padding-top: 35px;
+}
+.personal-body .nav .nav-wrapper ul li a{
+    padding: 15px 30px 15px 43px;
+    background-color: #fff;
+    color: rgb(102,102,102);
+    font-size: 1.4em;
+    width: 105px;
+}
+.personal-body .nav .nav-wrapper ul li a.active{
+    background-color: rgb(65,129,194);
+    color: #fff;
+}
+.personal-body .nav .nav-wrapper ul li .icon{
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.personal-body .nav .nav-wrapper ul li .icon-mail{
+    background-image: url("../images/mail.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-mail.active{
+    background-image: url("../images/mail-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-exp{
+    background-image: url("../images/exp.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-exp.active{
+    background-image: url("../images/exp-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-collection{
+    background-image: url("../images/collection.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-collection.active{
+    background-image: url("../images/collection-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-analysis{
+    background-image: url("../images/analysis.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-analysis.active{
+    background-image: url("../images/analysis-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-doc{
+    background-image: url("../images/doc.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-doc.active{
+    background-image: url("../images/doc-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-mark{
+    background-image: url("../images/mark.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-mark.active{
+    background-image: url("../images/mark-active.png");
+}
+.personal-body .nav .nav-wrapper ul li a .count{
+    color: rgb(65,129,194);
+}
+.personal-body .nav .nav-wrapper ul li a.active .count{
+    color: #fff;
+}
+.personal-body .content{
+    width: 970px;
+    padding-left: 220px;
+}
+.personal-body .content .personal-content-body{
+    background-color: #fff;
+    padding: 0 0 20px 0;
+}
+.personal-body .content .personal-content-body .create-form{
+    float: right;
+    padding: 0 110px 30px 0;
+    margin-right: 20px;
+    margin-top: 28px;
+    position: relative;
+}
+.personal-body .content .personal-content-body .create-form .btn-create{
+    background-color: rgb(112,155,194);
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.personal-body .content .personal-content-body .create-form .input-area{
+    margin-bottom: 10px;
+}
+.personal-body .content .personal-content-body .create-form .input-area label{
+    font-size: 1.4em;
+    color: rgb(102,102,102);
+    margin-right: 10px;
+    width: 75px;
+    text-align: right;
+}
+.personal-body .content .personal-content-body .create-form .input-area input{
+    width: 210px;
+    height: 35px;
+    border: 1px solid rgb(200,200,200);
+}
+.personal-body .content .personal-content-body .create-form .input-area.mark-item{
+    position: relative;
+    padding-right: 70px;
+}
+.personal-body .content .personal-content-body .create-form .input-area.mark-item input{
+    width: 140px;
+}
+.personal-body .content .personal-content-body .create-form .input-area.mark-item .btn-group{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.personal-body .content .personal-content-body .create-form .input-area.mark-item .btn-group .btn-add{
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/add-icon.png");
+    margin: 10px 0 10px 15px;
+    line-height: 35px;
+}
+.personal-body .content .personal-content-body .create-form .input-area.mark-item .btn-group .btn-delete{
+    width: 16px;
+    height: 16px;
+    background-image: url("../images/delete-icon.png");
+    margin: 10px 0 10px 15px;
+}
+.personal-body .content .personal-content-body .search-form{
+    padding: 50px 0 60px 35px;
+    float: left;
+}
+.personal-body .content .personal-content-body .search-form label{
+    color: rgb(29,113,183);
+    font-size: 1.8em;
+    padding-right: 15px;
+    font-weight: bold;
+}
+.personal-body .content .personal-content-body .search-form .input-area{
+    width: 400px;
+    position: relative;
+    border: 2px solid rgb(112,155,194);
+}
+.personal-body .content .personal-content-body .search-form .input-area input{
+    height: 35px;
+    border: none;
+    padding: 0 0 0 5px;
+    margin: 0;
+    width: 292px;
+    line-height: 35px;
+
+}
+.personal-body .content .personal-content-body .search-form .input-area .btn-group{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.personal-body .content .personal-content-body .search-form .input-area .btn-group .search-btn{
+    padding: 0;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    line-height: 35px;
+    background-color: rgb(66,129,194);
+    font-size: 1.8em;
+}
+.personal-body .content .personal-content-body .table-container{
+    width: 945px;
+    margin: 0 auto;
+    background-color: rgb(239,241,246);
+}
+.personal-body .content .personal-content-body .table-container.search-result{
+    margin-top: 20px;
+}
+.personal-body .content .personal-content-body .table-container .table-header{
+    padding: 12px 10px;
+}
+.personal-body .content .personal-content-body .table-container .table-header h1{
+    color: rgb(65,129,194);
+    font-size: 1.4em;
+    float: left;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.personal-body .content .personal-content-body .table-container .table-header .btn-group{
+    float: right;
+}
+.personal-body .content .personal-content-body .table-container .table-header .btn-group .btn{
+    padding: 10px 13px 10px 35px;
+    font-size: 1.4em;
+    background-repeat: no-repeat;
+    background-position: 7px center;
+    float: left;
+    margin-left: 8px;
+    background-color: rgb(66,129,194);
+    border-radius: 3px;
+}
+.personal-body .content .personal-content-body .table-container .table-header .btn-group .btn.btn-delete{
+    background-image: url("../images/delete.png");
+}
+.personal-body .content .personal-content-body .table-container .table-content{
+    border: 1px solid rgb(214,220,234);
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+.personal-body .content .personal-content-body .table-container .table-content table{
+    width: 100%;
+}
+.personal-body .content .personal-content-body .table-container .table-content table th{
+    color: rgb(65,129,194);
+    font-size: 1.4em;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr{
+    text-align: center;
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr td{
+    padding: 11px 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .checkbox{
+    text-align: left;
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a{
+    width: 16px;
+    height: 16px;
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op1{
+    margin-right: 20px;
+    background-image: url("../images/op1.png");
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op2{
+    background-image: url("../images/op2.png");
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op3{
+    background-image: url("../images/op3.png");
+}
+.personal-body .content .personal-content-body .table-container .page-container{
+    height: 70px;
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 70px;
+}
