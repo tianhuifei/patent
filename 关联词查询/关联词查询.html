@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="css/relation-search.css"/>
+    <title>关联词查询</title>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active"><a href="javascript:void(0);">首页</a></li>
+                    <li class=""><a href="javascript:void(0);">专利检索</a></li>
+                    <li><a href="javascript:void(0);">专利分析</a></li>
+                    <li><a href="javascript:void(0);">药物检索</a></li>
+                    <li><a href="javascript:void(0);">地利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="main-body">
+    <div class="tab-content">
+        <div class="wrapper">
+            <div class="famn-search-header clear">
+                <h1>关联词查询</h1>
+                <div class="hr"></div>
+            </div>
+            <form class="search-form">
+                <div class="form-content">
+                    <label>基本词：</label>
+                    <input type="text" />
+                    <a href="javascript:;" class="btn btn-form btn-search">查 询</a>
+                    <a href="javascript:;" class="btn btn-form btn-reset">重 置</a>
+                </div>
+            </form>
+            <div class="container-content clear">
+                <div class="container-table">
+                    <div class="table-header">
+                        <h1>基本词</h1>
+                    </div>
+                    <div class="table-wrapper">
+                        <ul class="clear">
+                            <li><a href="javascript:;" class="btn">笔记本电脑</a></li>
+                            <li><a href="javascript:;" class="btn">笔记本电脑</a></li>
+                            <li><a href="javascript:;" class="btn">笔记本电脑</a></li>
+                            <li><a href="javascript:;" class="btn">笔记本电脑</a></li>
+                            <li><a href="javascript:;" class="btn">笔记本电脑</a></li>
+                            <li><a href="javascript:;" class="btn">笔记本电脑</a></li>
+                            <li><a href="javascript:;" class="btn">笔记本电脑</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="pagination">
+                        <p>使用分页控件</p>
+                    </div>
+                </div>
+                <div class="container-tree">
+                    <div class="wrapper">
+                        <div class="tree-area">
+                            <img src="images/tree.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<script src="../js/jquery-1.8.3.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $("#allMenu").css("display","none");
+    });
+</script>
+<!--尾部-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
