@@ -1,12 +1,12 @@
 /**
  * 使用方法：
  *
- *        在页面<div data-width="100" data-height="30" id="test">
+ *        在页面<div data-width="100" data-height="30" id="test" data-border="true">
  *                  <div value="123">123</div>
  *                  <div value="456">456</div>
  *                  <div value="789" checked="checked">789</div>
  *              </div>
- *         data-width为下拉框宽度（必填），data-height为下拉框高度，checked为默认选中
+ *         data-width为下拉框宽度（必填），data-height为下拉框高度（必填），checked为默认选中,data-border是否需要边框 默认为false
  *
  *         在js里$(选择器).jqSelect();初始化控件
  *
@@ -16,7 +16,12 @@
  *
  *         update log     v1.0.0     2016.3.17      完成基本功能
  *
+ *                        v1.1.0     2016.3.17      修改BUG
  *
+ * 						  v1.2.0     2016.3.17      新增一个参数data-border来控制是否加入边框
+ *
+ *
+ *					      v1.2.1     2016.3.17      修改IE7下点击空白页面后下拉框不收回的问题
  *
  *
  */
@@ -39,6 +44,9 @@
             });
             target.attr("value",selectItem.attr("value"));
             var menu=$("<a></a>").append(menuField).addClass("jq-select-menu").append("<i></i>");
+            if(target.attr("data-border")=="true"){
+                menu.addClass("border");
+            }
             var list=$("<ul></ul>");
             /**
              * 基于原始dom树构建下拉菜单项
@@ -60,7 +68,7 @@
                 list.find("li").eq(selectItem.index()).find("a").addClass("active");
 
             })
-            target.width(Number(target.attr("data-width"))+40).height(target.attr("data-height"));
+            target.width(target.attr("data-width")).height(target.attr("data-height"));
             target.empty();
             menu.append(list);
             target.append(menu);
@@ -97,7 +105,7 @@
                     e.stopPropagation();
                 }
             });
-            $(window).bind({
+            $(window.document).bind({
                 click:function(){
                     if(!list.data("can-click")){
                         return;
