@@ -13,12 +13,21 @@
 </div>
 
 
+<div style="margin-top: 100px;margin-left: 100px;position: relative;height: 30px;width: 200px;border: 1px solid #000;">
+    <div style="position: absolute;left: 0;top: 0;" data-height="30" data-width="80" id="test1">
+        <div value="123">123</div>
+        <div value="456">456</div>
+        <div value="789" checked="checked">789dsdfafasddasfadsfasdf</div>
+    </div>
+</div>
+
 
 <script src="../../js/jquery-1.8.3.js"></script>
 <script src="js/jquery.jqSelect.js"></script>
 <script>
     $(function(){
         $("#test").jqSelect();
+        $("#test1").jqSelect();
     })
 </script>
 </body>
