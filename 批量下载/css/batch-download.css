@@ -1,0 +1,206 @@
+.personal-body{
+    position: relative;
+    margin-top: 20px;
+    min-height: 500px;
+}
+.personal-body ul.no-list-style{
+    list-style: none;
+}
+.personal-body .nav{
+    background-color: #fff;
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.personal-body .nav .nav-wrapper{
+    padding: 8px 10px 0 10px;
+}
+.personal-body .nav .nav-wrapper .welcome{
+    text-align: center;
+}
+.personal-body .nav .nav-wrapper .welcome h1{
+    padding: 10px 0;
+    color: rgb(51,51,51);
+    font-size: 1.6em;
+}
+.personal-body .nav .nav-wrapper .welcome  p{
+    color: rgb(153,153,153);
+    font-size: 1.4em;
+}
+.personal-body .nav .nav-wrapper ul{
+    padding-top: 35px;
+}
+.personal-body .nav .nav-wrapper ul li a{
+    padding: 15px 30px 15px 43px;
+    background-color: #fff;
+    color: rgb(102,102,102);
+    font-size: 1.4em;
+    width: 105px;
+}
+.personal-body .nav .nav-wrapper ul li a.active{
+    background-color: rgb(65,129,194);
+    color: #fff;
+}
+.personal-body .nav .nav-wrapper ul li .icon{
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.personal-body .nav .nav-wrapper ul li .icon-mail{
+    background-image: url("../images/mail.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-mail.active{
+    background-image: url("../images/mail-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-exp{
+    background-image: url("../images/exp.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-exp.active{
+    background-image: url("../images/exp-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-collection{
+    background-image: url("../images/collection.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-collection.active{
+    background-image: url("../images/collection-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-analysis{
+    background-image: url("../images/analysis.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-analysis.active{
+    background-image: url("../images/analysis-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-doc{
+    background-image: url("../images/doc.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-doc.active{
+    background-image: url("../images/doc-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-mark{
+    background-image: url("../images/mark.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-mark.active{
+    background-image: url("../images/mark-active.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-download{
+    background-image: url("../images/download.png");
+}
+.personal-body .nav .nav-wrapper ul li .icon-download.active{
+    background-image: url("../images/download-active.png");
+}
+.personal-body .nav .nav-wrapper ul li a .count{
+    color: rgb(65,129,194);
+}
+.personal-body .nav .nav-wrapper ul li a.active .count{
+    color: #fff;
+}
+.personal-body .content{
+    width: 970px;
+    padding-left: 220px;
+}
+.personal-body .content .personal-content-body{
+    background-color: #fff;
+    padding: 10px 10px 0 10px;
+}
+.personal-body .content .personal-content-body .table-wrapper{
+    padding-bottom: 20px;
+}
+.personal-body .content .personal-content-body .table-container{
+    width: 945px;
+    margin: 0 auto;
+    background-color: rgb(239,241,246);
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.personal-body .content .personal-content-body .table-container h1.table-header{
+    color: rgb(65,129,194);
+    font-size: 1.8em;
+    margin: 0 0 15px 15px;
+}
+.personal-body .content .personal-content-body .table-container h1.patent-info-header{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
+.personal-body .content .personal-content-body .table-container h1.patent-info-header .btn-group{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    height: 100%;
+}
+.personal-body .content .personal-content-body .table-container h1.patent-info-header .btn-group .btn{
+    height: 100%;
+    padding: 0;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    border-radius: 4px;
+}
+.personal-body .content .personal-content-body .table-container h1.patent-info-header .btn-group .btn.btn-delete{
+    background-color: rgb(66,129,194);
+    background-image: url("../images/delete.png");
+}
+.personal-body .content .personal-content-body .table-container h1.patent-info-header .btn-group .btn.btn-remove{
+    background-color: rgb(232,116,65);
+    background-image: url("../images/remove.png");
+
+}
+.personal-body .content .personal-content-body .table-container .table-content{
+    border: 1px solid rgb(214,220,234);
+    margin: 0 10px;
+    background-color: #fff;
+    padding: 10px 5px;
+}
+.personal-body .content .personal-content-body .table-container .table-content table{
+    width: 100%;
+}
+.personal-body .content .personal-content-body .table-container .table-content table th{
+    color: rgb(102,102,102);
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.personal-body .content .personal-content-body .table-container .table-content table .checkbox{
+    text-align: left;
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr{
+    text-align: center;
+}
+.personal-body .content .personal-content-body .table-container .table-content table .checkbox{
+    text-align: left;
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr td{
+    padding: 11px 0;
+    font-size: 1.4em;
+    border-bottom: 1px solid rgb(236,236,237);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a{
+    width: 16px;
+    height: 16px;
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op1{
+    margin-right: 20px;
+    background-image: url("../images/op1.png");
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op2{
+    margin-right: 20px;
+    background-image: url("../images/op2.png");
+}
+.personal-body .content .personal-content-body .table-container .table-content table tr .operation a.op3{
+    background-image: url("../images/delete.png");
+}
+.personal-body .content .personal-content-body .table-container .page-footer{
+    padding: 10px;
+    text-align: right;
+    font-size: 1.2em;
+    color: rgb(85,84,83);
+}

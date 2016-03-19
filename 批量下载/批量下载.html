@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="css/batch-download.css"/>
+    <title>批量下载</title>
+</head>
+<body>
+<!-- 头部开始-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu" style="display: none;">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active"><a href="javascript:void(0);">首页</a></li>
+                    <li class=""><a href="javascript:void(0);">专利检索</a></li>
+                    <li><a href="javascript:void(0);">专利分析</a></li>
+                    <li><a href="javascript:void(0);">药物检索</a></li>
+                    <li><a href="javascript:void(0);">地利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 头部结束-->
+
+
+
+<div class="main-body personal-body clear">
+    <div class="nav">
+        <div class="nav-wrapper">
+            <div class="welcome">
+                <img src="images/photo.png" />
+                <h1>HI,您好</h1>
+                <p>欢迎访问专利检索与分析</p>
+            </div>
+            <ul class="no-list-style">
+                <li>
+                    <a href="javascript:void(0)" class="in-bl icon icon-mail">消息中心（<span class="count">10</span>）</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl icon icon-exp">我的检索式</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl icon icon-collection">我的收藏夹</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl icon icon-analysis">我的分析库</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl icon icon-doc">我的分析报告</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl icon icon-mark">我的批量标引</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)" class="in-bl icon icon-download active">我的批量下载</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="personal-content-body">
+            <div class="table-wrapper">
+                <div class="table-container">
+                    <h1 class="table-header">批量下载库</h1>
+                    <div class="table-content">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th style="width: 35%;">批量下载库</th>
+                                <th style="width: 30%;">文献数</th>
+                                <th style="width: 20%;">创建时间</th>
+                                <th style="width: 15%;">操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>燃料电池的技术发展趋势分析</td>
+                                <td></td>
+                                <td>2016.03.15 10:10:10</td>
+                                <td class="operation">
+                                    <a href="javascript:void(0)" class="in-bl op1"></a>
+                                    <a href="javascript:void(0)" class="in-bl op2"></a>
+                                    <a href="javascript:void(0)" class="in-bl op3"></a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="page-footer">
+                        文献收藏夹最大创建数量：50000
+                    </div>
+                </div>
+            </div>
+            <div class="table-wrapper">
+                <div class="table-container">
+                    <h1 class="table-header">批量下载任务</h1>
+                    <div class="table-content">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th style="width: 20%;">创建时间</th>
+                                <th style="width: 12%;">发送时间</th>
+                                <th style="width: 10%;">发送状态</th>
+                                <th style="width: 10%;">导出状态</th>
+                                <th style="width: 18%;">接收邮箱</th>
+                                <th style="width: 30%;">著录项目</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>2016.03.15 10:10:10</td>
+                                <td>2016.03.15</td>
+                                <td>未发送</td>
+                                <td>未导出</td>
+                                <td>123123@163.com</td>
+                                <td>公开(公告)号，申请号，申请人，公开(公告)日， IPC分类号，申请(专利权)人，发明人，发明名称， 优先权号</td>
+                            </tr>
+                            <tr>
+                                <td>2016.03.15 10:10:10</td>
+                                <td>2016.03.15</td>
+                                <td>未发送</td>
+                                <td>未导出</td>
+                                <td>123123@163.com</td>
+                                <td>公开(公告)号，申请号，申请人，公开(公告)日， IPC分类号，申请(专利权)人，发明人，发明名称， 优先权号</td>
+                            </tr>
+                            <tr>
+                                <td>2016.03.15 10:10:10</td>
+                                <td>2016.03.15</td>
+                                <td>未发送</td>
+                                <td>未导出</td>
+                                <td>123123@163.com</td>
+                                <td>公开(公告)号，申请号，申请人，公开(公告)日， IPC分类号，申请(专利权)人，发明人，发明名称， 优先权号</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="page-footer">
+                        分页
+                    </div>
+                </div>
+            </div>
+            <div class="table-wrapper">
+                <div class="table-container">
+                    <h1 class="table-header patent-info-header">文献信息
+                        <div class="btn-group">
+                            <a href="javascript:;" class="btn btn-delete">删 除</a>
+                            <a href="javascript:;" class="btn btn-remove">清 空</a>
+                        </div>
+                    </h1>
+                    <div class="table-content">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th style="width: 8%;" class="checkbox"><input type="checkbox">全选</th>
+                                <th style="width: 12%;">申请号</th>
+                                <th style="width: 12%;">公开（公告）号</th>
+                                <th style="width: 12%;">公开（公告）日</th>
+                                <th style="width: 19%;">发明名称</th>
+                                <th style="width: 19%;">申请（专利权）人</th>
+                                <th style="width: 19%;">发明人</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="checkbox"><input type="checkbox" /></td>
+                                <td>CN12123</td>
+                                <td>CN3234234</td>
+                                <td>2015-02-09</td>
+                                <td>MOBILE APPLICATION GENERATOR</td>
+                                <td>USER FRIENDLY PHONE BOOK L L C;</td>
+                                <td>BRENDZA MARY BETH;HOWARD BRUCE C;</td>
+                            </tr>
+                            <tr>
+                                <td class="checkbox"><input type="checkbox" /></td>
+                                <td>CN12123</td>
+                                <td>CN3234234</td>
+                                <td>2015-02-09</td>
+                                <td>MOBILE APPLICATION GENERATOR</td>
+                                <td>USER FRIENDLY PHONE BOOK L L C;</td>
+                                <td>BRENDZA MARY BETH;HOWARD BRUCE C;</td>
+                            </tr>
+                            <tr>
+                                <td class="checkbox"><input type="checkbox" /></td>
+                                <td>CN12123</td>
+                                <td>CN3234234</td>
+                                <td>2015-02-09</td>
+                                <td>MOBILE APPLICATION GENERATOR</td>
+                                <td>USER FRIENDLY PHONE BOOK L L C;</td>
+                                <td>BRENDZA MARY BETH;HOWARD BRUCE C;</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="page-footer">
+                        文献收藏夹最大创建数量：20
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- 尾部开始-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 尾部结束-->
+</body>
+</html>
