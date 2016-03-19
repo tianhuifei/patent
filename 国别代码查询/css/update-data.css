@@ -1,0 +1,112 @@
+.normal-dialog{
+    width: 990px;
+}
+.normal-dialog-header{
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab{
+    padding: 15px 50px;
+    font-size: 1.6em;
+    color: rgb(133,133,133);
+    float: left;
+    font-weight: bold;
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab.active{
+    color: rgb(65,129,194);
+    background-color: #fff;
+}
+.normal-dialog-content{
+    width: 100%;
+}
+.normal-dialog-content .container{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.normal-dialog-content .container .container-body{
+    padding: 10px;
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-content .container .container-body .container-btn{
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.normal-dialog-content .container .container-body .container-btn h1{
+    font-size: 1.6em;
+    color: rgb(114,114,115);
+    float: left;
+    font-weight: normal;
+}
+.normal-dialog-content .container .container-body .container-btn h1 span{
+    color: rgb(65,129,194);
+}
+.normal-dialog-content .container .container-body .container-btn h1 span.space{
+    margin-right: 20px;
+}
+.normal-dialog-content .container .container-body .container-btn .btn-group{
+    float: right;
+}
+.normal-dialog-content .container .container-body .container-btn .btn-group .btn{
+    background-color: rgb(100,147,71);
+    width: 95px;
+    height: 100%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0;
+}
+.normal-dialog-content .container .container-body .container-table{
+    background-color: #fff;
+    padding: 10px;
+}
+.normal-dialog-content .container .container-body .container-table table{
+    width: 100%;
+    text-align: center;
+}
+.normal-dialog-content .container .container-body .container-table table th{
+    color: rgb(65,129,194);
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(236,236,237);
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.normal-dialog-content .container .container-body .container-table table th.text-left{
+    text-align: left;
+}
+.normal-dialog-content .container .container-body .container-table table td{
+    color: rgb(80,80,80);
+    font-size: 1.4em;
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.normal-dialog-content .container .container-body .container-table table td.especial{
+    color: rgb(65,129,194);
+}
+.normal-dialog-content .container .container-body .container-table table td>.radio-area{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.normal-dialog-content .container .container-body .container-page{
+    padding: 15px 0 0 0;
+}
+.normal-dialog-content .container .container-body .container-page .left-area{
+    float: left;
+}
+.normal-dialog-content .container .container-body .container-page .right-area{
+    float: right;
+}
+.normal-dialog-content .container .container-body .container-page span{
+    font-size: 1.2em;
+    color: rgb(102,102,102);
+}
+.normal-dialog-content .container .container-body .container-page .left-area span{
+    margin-right: 30px;
+}
+.normal-dialog-content .container .container-body .container-page .right-area span{
+    margin-left: 20px;
+}
