@@ -1,0 +1,115 @@
+.normal-dialog{
+    width: 990px;
+}
+.normal-dialog .container{
+    padding: 20px;
+    background-color: #fff;
+}
+.normal-dialog .container .container-header{
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.normal-dialog .container .container-header h1.header-name{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    height: 100%;
+    float: left;
+    width: 70px;
+}
+.normal-dialog .container .container-header .hr{
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    height: 100%;
+    width: 875px;
+}
+.normal-dialog .container .container-body{
+    padding: 10px;
+    background-color: rgb(242,244,249);
+}
+.normal-dialog .container .container-body .form{
+    margin-bottom: 10px;
+}
+.normal-dialog .container .container-body .form label{
+    font-size: 1.4em;
+    color: rgb(29,113,183);
+}
+.normal-dialog .container .container-body .form input{
+    width: 205px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 0 0 5px;
+    border: 1px solid rgb(200,200,200);
+    margin-left: 5px;
+}
+.normal-dialog .container .container-body .form .btn-create{
+    background-color: rgb(66,129,194);
+    font-size: 1.4em;
+    width: 100px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    padding: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.normal-dialog .container .container-body .container-table{
+    background-color: #fff;
+    padding: 10px;
+}
+.normal-dialog .container .container-body .container-table table{
+    width: 100%;
+    text-align: center;
+}
+.normal-dialog .container .container-body .container-table table th{
+    color: rgb(102,102,102);
+    font-size: 1.4em;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(236,236,237);
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.normal-dialog .container .container-body .container-table table td{
+    color: rgb(80,80,80);
+    font-size: 1.4em;
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.normal-dialog .container .container-body .container-table table td .input-area{
+    margin-top: 8px;
+    position: relative;
+}
+.normal-dialog .container .container-body .container-table table td .input-area input{
+    width: 135px;
+    height: 35px;
+    padding: 0 0 0 5px;
+    border: 1px solid rgb(200,200,200);
+    line-height: 35px;
+}
+.normal-dialog .container .container-body .container-table table td .input-area .btn-group{
+    position: absolute;
+    height: 16px;
+    right: 0;
+    top: 50%;
+    margin-top: -8px;
+}
+.normal-dialog .container .container-body .container-table table td .input-area .btn-group a{
+    width: 16px;
+    height: 16px;
+    margin-left: 20px;
+}
+.normal-dialog .container .container-body .container-table table td .input-area .btn-group .btn-add{
+    background-image: url("../images/add-icon.png");
+}
+.normal-dialog .container .container-body .container-table table td .input-area .btn-group .btn-delete{
+    background-image: url("../images/delete-icon.png");
+}
+.normal-dialog .container .container-body .container-table table td>.btn-operation{
+    font-size: 12px;
+    color: rgb(66,129,194);
+    margin: 0 10px;
+}
