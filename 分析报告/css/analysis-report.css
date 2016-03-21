@@ -30,6 +30,13 @@
 .normal-dialog .container .container-body .form{
     margin-bottom: 10px;
 }
+.normal-dialog .container .container-body .form h1{
+    margin-bottom: 40px;
+    color: rgb(65,129,194);
+    font-size: 1.4em;
+    text-align: center;
+    font-weight: bold;
+}
 .normal-dialog .container .container-body .form>div{
     margin-bottom: 17px;
 }
