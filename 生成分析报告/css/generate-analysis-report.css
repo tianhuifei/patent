@@ -1,0 +1,78 @@
+.normal-dialog{
+    width: 780px;
+}
+.normal-dialog .container{
+    padding: 20px;
+    background-color: #fff;
+}
+.normal-dialog .container .container-header{
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.normal-dialog .container .container-header h1.header-name{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    height: 100%;
+    float: left;
+    width: 100px;
+}
+.normal-dialog .container .container-header .hr{
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    height: 100%;
+    width: 635px;
+}
+.normal-dialog .container .container-body{
+    padding: 10px;
+}
+.normal-dialog .container .container-body .form{
+    width: 680px;
+    margin: 0 auto;
+}
+.normal-dialog .container .container-body .form>div{
+    margin-bottom: 17px;
+}
+.normal-dialog .container .container-body .form>div label{
+    width: 100px;
+    color: rgb(102,102,102);
+    text-align: right;
+    font-size: 1.4em;
+}
+.normal-dialog .container .container-body .form>div input[type='text']{
+    width: 565px;
+    height: 35px;
+    border: 1px solid rgb(214,220,234);
+    padding: 0 0 0 5px;
+    line-height: 35px;
+}
+.normal-dialog .container .container-body .form>div textarea{
+    width: 565px;
+    height: 165px;
+    border: 1px solid rgb(214,220,234);
+    padding: 0 0 0 5px;
+}
+.normal-dialog .container .container-body .form>div.textarea>label{
+    position: relative;
+    top: -150px;
+    left: 0;
+}
+.normal-dialog .container .container-body .form .btn-group{
+    padding-top: 30px;
+    text-align: center;
+}
+.normal-dialog .container .container-body .form .btn-group .btn{
+    width: 110px;
+    height: 35px;
+    margin-right: 55px;
+    border-radius: 4px;
+    padding: 0;
+    line-height: 35px;
+}
+.normal-dialog .container .container-body .form .btn-group .btn-save{
+    background-color: rgb(66,129,194);
+}
+.normal-dialog .container .container-body .form .btn-group .btn-empty{
+    background-color: rgb(232,116,65);
+}
