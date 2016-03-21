@@ -26,19 +26,6 @@
 
 .main-body .main-ri .ri-bottom .ri-b-t{padding:12px 0 12px 21px;background: #eff1f6;border:1px solid #d5dbe7;}
 .main-body .main-ri .ri-bottom .ri-b-t h2{font-size: 16px;color:#333;position: relative;height: 30px;line-height: 30px;}
-.main-body .main-ri .ri-bottom .ri-b-t h2 .btn{
-    position: absolute;
-    top: 0;
-    padding: 0;
-    right: 15px;
-    font-size: 14px;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    line-height: 30px;
-    background-color: rgb(100,147,71);
-    border-radius: 3px;
-}
 .main-body .main-ri .ri-bottom .search-form{
     height: 50px;
     border-right:1px solid #d5dbe7;
@@ -55,7 +42,7 @@
     cursor: pointer;
 }
 .main-body .main-ri .ri-bottom .search-form form{
-    padding: 10px 0;
+    padding: 10px 0 10px 190px;
     float: left;
 }
 .main-body .main-ri .ri-bottom .search-form form>div{
@@ -69,16 +56,11 @@
     color: rgb(85,84,83);
 }
 .main-body .main-ri .ri-bottom .search-form form>div input[type='text']{
-    width: 135px;
+    width: 155px;
     height: 30px;
     line-height: 30px;
     border: 1px solid rgb(200,200,200);
     padding: 0 0 0 5px;
-}
-.main-body .main-ri .ri-bottom .search-form form>div select{
-    height: 30px;
-    width: 90px;
-    border: 1px solid rgb(200,200,200);
 }
 .main-body .main-ri .ri-bottom .search-form form>div.btn-group .btn-search{
     padding: 0;
