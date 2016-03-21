@@ -1,0 +1,46 @@
+.normal-dialog{
+    width: 780px;
+}
+.normal-dialog .container{
+    padding: 20px;
+    background-color: #fff;
+}
+.normal-dialog .container .container-header{
+    margin-bottom: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.normal-dialog .container .container-header h1.header-name{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    height: 100%;
+    float: left;
+    width: 70px;
+}
+.normal-dialog .container .container-header .hr{
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    height: 100%;
+    width: 665px;
+}
+.normal-dialog .container .container-body{
+    padding: 10px;
+}
+.normal-dialog .container .container-body .form{
+    margin-bottom: 10px;
+}
+.normal-dialog .container .container-body .form>div{
+    margin-bottom: 17px;
+}
+.normal-dialog .container .container-body .form>div label{
+    width: 90px;
+    color: rgb(147,147,147);
+    text-align: right;
+    font-size: 1.4em;
+}
+.normal-dialog .container .container-body .form>div span{
+    font-size: 1.4em;
+    color: rgb(102,102,102);
+    font-weight: bold;
+}
