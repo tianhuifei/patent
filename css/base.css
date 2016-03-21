@@ -55,6 +55,27 @@ li.interval{height:13px;width:1px;background:url("../images/interval.png")no-rep
 .header .nav .nav-items li{height:24px;line-height: 24px;padding: 9px 38px;display:inline-block;
     *display:inline;
     *zoom:1;}
+
+
+.header .nav .nav-items>ul>li{
+    position: relative;
+    z-index: 100;
+}
+.header .nav .nav-items>ul>li>ul{
+    position: absolute;
+    width: 1000px;
+    display: none;
+}
+.header .nav .nav-items>ul>li:hover>ul{
+    display: block;
+}
+.header .nav .nav-items>ul>li>ul li{
+    background-color: #C2C2C2;
+    float: left;
+    padding: 9px 20px;
+
+}
+
 .header .nav .nav-items li.active{background-color:#ff9724;}
 .header .nav .nav-items li:hover{background-color:#ff9724;}
 .header .nav .nav-items li a{padding:5px;color:#FFF;/*font-size: 16px;*/;font-size: 1.9em;}
