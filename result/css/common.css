@@ -17,8 +17,75 @@
     font-size: 1.4em;
 }
 .fixed-menu .arrow{position: absolute;left: 50%;bottom: 0;background-image: url("../images/arrow.png");width: 31px;height: 15px;margin-left: -15px;}
-/*.operation{width: 174px;margin: 0 auto;}
-.operation>li{float: left;margin: 0 4px;cursor: pointer;}*/
+.operation{width: 174px;margin: 0 auto;}
+.operation>li{float: left;margin: 0 4px;cursor: pointer;}
+.fixed-menu1{
+    position: fixed;
+    right: 0;
+    top: 200px;
+}
+.fixed-menu1 ul{
+    list-style: none;
+}
+.fixed-menu1 ul li{
+    vertical-align: bottom;
+    margin-bottom: 2px;
+}
+.fixed-menu1 ul li a{
+    border-radius: 2px;
+    background-color: rgb(122, 110, 110);
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/***********new右侧菜单样式*******************/
+.fixed-menu1 ul li a:hover{
+    background-color: rgb(200,22,35);
+}
+.fixed-menu1 ul li a.btn-select-all{
+    background-image: url("../images/select-all.png");
+}
+.fixed-menu1 ul li a.btn-collection{
+    background-image: url("../images/collection.png");
+}
+.fixed-menu1 ul li a.btn-down{
+    background-image: url("../images/down.png");
+}
+.fixed-menu1 ul li a.btn-analyze{
+    background-image: url("../images/analyze.png");
+}
+.fixed-menu1 ul li a.btn-mark{
+    background-image: url("../images/mark.png");
+}
+.fixed-menu1 ul li a.btn-full-text{
+    background-image: url("../images/full-text.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.fixed-menu1 ul li a strong{
+    background-color: rgb(122, 110, 110);
+    position: absolute;
+    top: 0;
+    left: 35px;
+    color: #fff;
+    width: 100px;
+    height: 100%;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    cursor: pointer;
+}
+.fixed-menu1 ul li a:hover strong{
+    background-color: rgb(200,22,35);
+}
+/***********new右侧菜单样式*******************/
+
 
 .main-body .re-le{width:240px;height:100%;float:left;}
 .main-body .re-le .le{height:100%;background:#FFF;padding:0 30px;}
