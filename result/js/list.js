@@ -53,18 +53,21 @@ $(document).ready(function(){
         });
     })
     $(".to-top-area").find(".btn-to-top").hide();
-    $(window.document).scroll(function(){
-        if($("body").scrollTop()>0){
+    $(window).scroll(function(){
+        if($(window).scrollTop()>300){
             $(".to-top-area").find(".btn-to-top").fadeIn();
         }else{
             $(".to-top-area").find(".btn-to-top").fadeOut();
         }
     })
     $(".to-top-area").find(".btn-to-top").click(function(){
-        $("body").animate({
+        $("html,body").animate({
             scrollTop:0
         });
     })
+    /*$(".fixed-menu1").find(".btn-hover").click(function(){
+        alert(123)
+    })*/
 
 
 });
