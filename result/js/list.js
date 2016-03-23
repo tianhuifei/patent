@@ -35,7 +35,7 @@ $(document).ready(function(){
      * 新版右侧菜单事件绑定
      */
     $(".fixed-menu1").data("showing",false);
-    $(".fixed-menu1").find("a").hover(function(){
+    $("a.btn-hover").hover(function(){
         if($(".fixed-menu1").data("showing"))
             return;
         $(".fixed-menu1").data("showing",true);
@@ -50,6 +50,19 @@ $(document).ready(function(){
         var $strong=$(this).find("strong");
         $strong.animate({
             left:35
+        });
+    })
+    $(".to-top-area").find(".btn-to-top").hide();
+    $(window.document).scroll(function(){
+        if($("body").scrollTop()>0){
+            $(".to-top-area").find(".btn-to-top").fadeIn();
+        }else{
+            $(".to-top-area").find(".btn-to-top").fadeOut();
+        }
+    })
+    $(".to-top-area").find(".btn-to-top").click(function(){
+        $("body").animate({
+            scrollTop:0
         });
     })
 

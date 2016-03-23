@@ -19,6 +19,8 @@
 .fixed-menu .arrow{position: absolute;left: 50%;bottom: 0;background-image: url("../images/arrow.png");width: 31px;height: 15px;margin-left: -15px;}
 .operation{width: 174px;margin: 0 auto;}
 .operation>li{float: left;margin: 0 4px;cursor: pointer;}
+
+/***********new右侧菜单样式*******************/
 .fixed-menu1{
     position: fixed;
     right: 0;
@@ -31,9 +33,9 @@
     vertical-align: bottom;
     margin-bottom: 2px;
 }
-.fixed-menu1 ul li a{
+a.btn-hover{
     border-radius: 2px;
-    background-color: rgb(122, 110, 110);
+    background-color: rgb(190, 209, 223);
     display: block;
     width: 35px;
     height: 35px;
@@ -45,32 +47,32 @@
     background-repeat: no-repeat;
     position: relative;
 }
-/***********new右侧菜单样式*******************/
-.fixed-menu1 ul li a:hover{
-    background-color: rgb(200,22,35);
+a.btn-hover:hover{
+    background-color: rgb(63, 142, 185);
 }
-.fixed-menu1 ul li a.btn-select-all{
-    background-image: url("../images/select-all.png");
+.fixed-menu1 ul li a.btn-hover.btn-select-all{
+    background-image: url("../images/select-all-transparent.png");
 }
-.fixed-menu1 ul li a.btn-collection{
-    background-image: url("../images/collection.png");
+.fixed-menu1 ul li a.btn-hover.btn-collection{
+    background-image: url("../images/collection-transparent.png");
 }
-.fixed-menu1 ul li a.btn-down{
-    background-image: url("../images/down.png");
+.fixed-menu1 ul li a.btn-hover.btn-down{
+    background-image: url("../images/down-transparent.png");
 }
-.fixed-menu1 ul li a.btn-analyze{
-    background-image: url("../images/analyze.png");
+.fixed-menu1 ul li a.btn-hover.btn-analyze{
+    background-image: url("../images/analyze-transparent.png");
 }
-.fixed-menu1 ul li a.btn-mark{
-    background-image: url("../images/mark.png");
+.fixed-menu1 ul li a.btn-hover.btn-mark{
+    background-image: url("../images/mark-transparent.png");
 }
-.fixed-menu1 ul li a.btn-full-text{
-    background-image: url("../images/full-text.png");
-    background-position: center center;
-    background-repeat: no-repeat;
+.fixed-menu1 ul li a.btn-hover.btn-full-text{
+    background-image: url("../images/full-text-transparent.png");
 }
-.fixed-menu1 ul li a strong{
-    background-color: rgb(122, 110, 110);
+.to-top-area a.btn-hover.btn-to-top{
+    background-image: url("../images/to-top.png");
+}
+a.btn-hover strong{
+    background-color: rgb(190, 209, 223);
     position: absolute;
     top: 0;
     left: 35px;
@@ -81,8 +83,13 @@
     border-bottom-left-radius: 2px;
     cursor: pointer;
 }
-.fixed-menu1 ul li a:hover strong{
-    background-color: rgb(200,22,35);
+a.btn-hover:hover strong{
+    background-color: rgb(63, 142, 185);
+}
+.to-top-area{
+    position: fixed;
+    right: 0;
+    bottom: 30px;
 }
 /***********new右侧菜单样式*******************/
 
