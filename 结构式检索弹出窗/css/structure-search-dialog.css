@@ -1,0 +1,159 @@
+.normal-dialog{
+    width: 1190px;
+}
+.normal-dialog .container{
+    padding: 20px;
+    background-color: #fff;
+}
+.normal-dialog .container .container-header{
+    height: 30px;
+    line-height: 30px;
+}
+.normal-dialog .container .container-header h1.header-name{
+    font-size: 16px;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    height: 100%;
+    float: left;
+    width: 85px;
+}
+.normal-dialog .container .container-header .hr{
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    height: 100%;
+    width: 1060px;
+}
+.normal-dialog .container .container-header .hr a.generate{
+    padding-left: 26px;
+    color: rgb(65,129,194);
+    font-size: 13px;
+    background-image: url("../images/generate-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    float: right;
+}
+.normal-dialog .container .container-body{
+    margin-top: 15px;
+    height: 695px;
+}
+.normal-dialog .container .container-body .body-left{
+    float: left;
+    height: 100%;
+    width: 490px;
+}
+
+
+
+.normal-dialog .container .container-body .body-right{
+    float: right;
+    width: 640px;
+    height: 100%;
+}
+.normal-dialog .container .container-body .box{
+    background-color: rgb(249,249,249);
+    padding: 15px 10px;
+}
+.normal-dialog .container .container-body .box.box-detail{
+    margin-top: 35px;
+}
+.normal-dialog .container .container-body .box.box-structure{
+    height: 665px;
+}
+.normal-dialog .container .container-body .box.box-structure h1{
+    float: left;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form{
+    float: right;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form input[type='radio']{
+    margin: 0;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form label{
+    font-size: 13px;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form .radio-group{
+    margin-right: 10px;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form .select-group{
+    margin-right: 10px;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form .btn-group{
+    margin-right: 20px;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form .btn-group .btn{
+    padding: 0;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 3px;
+}
+.normal-dialog .container .container-body .box.box-structure .search-form .btn-group .btn-search{
+    background-color: rgb(65,129,194);
+    width: 60px;
+}
+.normal-dialog .container .container-body .box .box-header{
+    margin-bottom: 15px;
+}
+.normal-dialog .container .container-body .box .box-header h1{
+    font-size: 15px;
+    color: rgb(65,129,194);
+}
+.normal-dialog .container .container-body .box .box-content{
+    background-color: #fff;
+    border: 1px solid rgb(214,220,234);
+    border-radius: 4px;
+}
+.normal-dialog .container .container-body .box .box-content.box-content-result-table{
+    padding: 0 10px;
+    height: 290px;
+}
+.normal-dialog .container .container-body .box .box-content.box-content-detail{
+    padding: 0 5px;
+    height: 245px;
+}
+.normal-dialog .container .container-body .box .box-content-result-table table{
+    width: 100%;
+    text-align: center;
+}
+.normal-dialog .container .container-body .box .box-content.box-content-structure{
+    height: 485px;
+}
+.normal-dialog .container .container-body .box .box-content-result-table table th{
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    color: rgb(102,102,102);
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.normal-dialog .container .container-body .box .box-content-result-table table td{
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    color: rgb(65,129,194);
+    font-size: 13px;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.normal-dialog .container .container-body .box .box-content-detail>div{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.normal-dialog .container .container-body .box .box-content-detail>div strong{
+    width: 95px;
+    font-size: 13px;
+    text-align: right;
+    margin-right: 15px;
+}
+.normal-dialog .container .container-body .box .box-content-detail>div span{
+    font-size: 13px;
+    color: rgb(65,129,194);
+}
+.normal-dialog .container .container-body .box .box-content-detail p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 50px;
+}
+

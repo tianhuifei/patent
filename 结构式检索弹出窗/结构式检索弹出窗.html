@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>结构式检索弹出窗</title>
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="css/structure-search-dialog.css"/>
+</head>
+<body>
+
+<div class="normal-dialog">
+    <div class="container">
+        <div class="container-header clear">
+            <h1 class="header-name">结构式检索</h1>
+            <div class="hr clear">
+                <a href="javascript:;" class="in-bl generate">生成检索式</a>
+            </div>
+        </div>
+        <div class="container-body clear">
+            <div class="body-left">
+                <div class="box box-structure">
+                    <div class="box-header clear">
+                        <h1>结构式检索</h1>
+                        <form class="search-form">
+                            <div class="radio-group in-bl">
+                                <input type="radio" name="structure-type" />
+                                <label>精确结构</label>
+                                <input type="radio" name="structure-type" />
+                                <label>子结构</label>
+                                <input type="radio" name="structure-type" />
+                                <label>相似性</label>
+                            </div>
+                            <div class="select-group in-bl">
+                                <select>
+                                    <option>0.9</option>
+                                    <option>0.9</option>
+                                    <option>0.9</option>
+                                </select>
+                            </div>
+                            <div class="btn-group in-bl">
+                                <a href="javascript:;" class="btn btn-search">查询</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="box-content box-content-structure">
+                        <img src="images/structure-search.png" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="body-right">
+                <div class="box">
+                    <div class="box-header">
+                        <h1>结果列表</h1>
+                    </div>
+                    <div class="box-content box-content-result-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th style="width: 10%;"><input type="checkbox" /></th>
+                                    <th style="width: 30%;">药物登记号</th>
+                                    <th style="width: 30%;">CAS登记号</th>
+                                    <th style="width: 30%;">IUPAC命名</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="checkbox"/></td>
+                                    <td>000-27-28</td>
+                                    <td>777-66-66</td>
+                                    <td>medicine</td>
+                                </tr>
+                                <tr>
+                                    <td><input type="checkbox"/></td>
+                                    <td>000-27-28</td>
+                                    <td>777-66-66</td>
+                                    <td>medicine</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="box box-detail">
+                    <div class="box-header">
+                        <h1>详细信息</h1>
+                    </div>
+                    <div class="box-content box-content-detail">
+                        <div>
+                            <strong class="in-bl">药物登记号：</strong>
+                            <span>RS12312312</span>
+                        </div>
+                        <div>
+                            <strong class="in-bl">CAS登记号：</strong>
+                            <span></span>
+                        </div>
+                        <div>
+                            <strong class="in-bl">分子式：</strong>
+                            <span>H2O</span>
+                        </div>
+                        <p>
+                            KCI
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
