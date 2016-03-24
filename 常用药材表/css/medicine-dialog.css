@@ -1,0 +1,71 @@
+.normal-dialog{
+    width: 950px;
+}
+.normal-dialog .container{
+    padding: 20px;
+    background-color: #fff;
+}
+.normal-dialog .container .container-header{
+    height: 30px;
+    line-height: 30px;
+}
+.normal-dialog .container .container-header h1.header-name{
+    font-size: 1.6em;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    height: 100%;
+    float: left;
+    width: 85px;
+}
+.normal-dialog .container .container-header .hr{
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    height: 100%;
+    width: 820px;
+}
+.normal-dialog .container .container-btn .btn-group{
+    margin: 10px 0;
+    float: right;
+}
+.normal-dialog .container .container-btn .btn-group .btn{
+    padding: 0;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1.3em;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.normal-dialog .container .container-btn .btn-group .btn-reset{
+    width: 100px;
+    background-color: rgb(100,147,71);
+}
+.normal-dialog .container .container-btn .btn-group .btn-sort{
+    width: 50px;
+    background-color: rgb(112,155,194);
+}
+.normal-dialog .container .container-btn .btn-group .btn-save{
+    width: 50px;
+    background-color: rgb(65,129,194);
+}
+.normal-dialog .container .container-btn .btn-group .btn-setting{
+    width: 100px;
+    background-color: rgb(65,129,194);
+}
+.normal-dialog .container .container-body table{
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid rgb(234,234,234);
+    border-left: 1px solid rgb(234,234,234);
+}
+.normal-dialog .container .container-body table td{
+    font-size: 1.3em;
+    color: #000;
+    border-bottom: 1px solid rgb(234,234,234);
+    border-right: 1px solid rgb(234,234,234);
+    padding: 20px 0;
+    vertical-align: middle;
+}
+.normal-dialog .container .container-body table tr.odd td{
+    background-color: rgb(251,251,251);
+}
