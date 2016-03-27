@@ -1,0 +1,134 @@
+
+.tab-content{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.tab-content .wrapper{
+    padding: 20px;
+}
+.tab-content .wrapper .famn-search-header{
+    height: 28px;
+}
+.tab-content .wrapper .famn-search-header h1{
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    font-size: 1.8em;
+    width: 140px;
+    float: left;
+    line-height: 20px;
+    height: 100%;
+}
+.tab-content .wrapper .famn-search-header .hr{
+    float: right;
+    height: 100%;
+    border-bottom: 2px solid rgb(213,219,231);
+    width: 1005px;
+}
+.tab-content .wrapper .search-form{
+    padding: 20px 0 20px 10px;
+}
+.tab-content .wrapper .search-form label{
+    font-size: 1.4em;
+}
+.tab-content .wrapper .search-form .input-area{
+    margin-right: 20px;
+}
+.tab-content .wrapper .search-form .input-area input[type='text']{
+    height: 30px;
+    line-height: 30px;
+    width: 250px;
+    padding: 0 0 0 5px;
+    border: 2px solid rgb(112,155,194);
+}
+.tab-content .wrapper .search-form .btn-form{
+    margin-left: 10px;
+    padding: 0px 30px;
+    font-size: 1.6em;
+    line-height: 30px;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+.tab-content .wrapper .search-form .btn-form.btn-search{
+    background-color: rgb(66,129,194);
+}
+.tab-content .wrapper .search-form .btn-form.btn-reset{
+    background-color: rgb(232,116,65);
+}
+.tab-content .wrapper .container-content{
+    position: relative;
+}
+.tab-content .wrapper .container-table{
+    background-color: rgb(242,244,249);
+    padding: 10px 10px 0 10px;
+    width: 720px;
+    float: left;
+}
+.tab-content .wrapper .container-table .table-header{
+    margin-bottom: 10px;
+}
+.tab-content .wrapper .container-table .table-wrapper{
+    border: 1px solid rgb(214,220,234);
+    height: 520px;
+    padding: 0 5px 10px 5px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.tab-content .wrapper .container-table .table-wrapper table{
+    width: 100%;
+    text-align: center;
+}
+.tab-content .wrapper .container-table .table-wrapper table th{
+    font-size: 1.4em;
+    color: rgb(65,129,194);
+    padding: 15px 0;
+    word-wrap: break-word;
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.tab-content .wrapper .container-table .table-wrapper table td{
+    font-size: 1.4em;
+    color: rgb(102,102,102);
+    text-align: center;
+    padding: 15px 0;
+    word-wrap: break-word;
+    vertical-align: middle;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+
+.tab-content .wrapper .container-info{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 380px;
+    height: 100%;
+    background-color: rgb(242,244,249);
+}
+.tab-content .wrapper .container-info .box{
+    margin: 10px 10px 0 10px;
+    padding-bottom: 10px;
+}
+.tab-content .wrapper .container-info .box h1{
+    font-size: 1.4em;
+    color: rgb(65,129,194);
+    margin-bottom: 10px;
+}
+.tab-content .wrapper .container-info .box .box-content{
+    background-color: #fff;
+    height: 230px;
+    padding: 10px;
+    border: 1px solid rgb(214,220,234);
+    border-radius: 4px;
+    overflow-y: auto;
+}
+.tab-content .wrapper .container-info .box .box-content p{
+    font-size: 1.4em;
+    line-height: 20px;
+}
+
+.tab-content .wrapper .container-table .pagination{
+    height: 60px;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 60px;
+}
