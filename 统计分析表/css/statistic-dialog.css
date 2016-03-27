@@ -1,0 +1,165 @@
+.normal-dialog{
+    width: 950px;
+}
+.normal-dialog .container{
+    padding: 20px;
+    background-color: #fff;
+}
+.normal-dialog .container .container-header{
+    height: 30px;
+    line-height: 30px;
+}
+.normal-dialog .container .container-header h1.header-name{
+    font-size: 16px;
+    color: rgb(51,51,51);
+    border-bottom: 2px solid rgb(65,129,194);
+    height: 100%;
+    float: left;
+    width: 85px;
+}
+.normal-dialog .container .container-header .hr{
+    float: right;
+    border-bottom: 2px solid rgb(213,219,231);
+    height: 100%;
+    width: 820px;
+}
+.normal-dialog .container .container-body{
+    margin-top: 15px;
+}
+.normal-dialog .container .container-body table{
+    border-top: 1px solid rgb(234,234,234);
+    border-left: 1px solid rgb(234,234,234);
+    width: 100%;
+    color: rgb(78,80,83);
+}
+.normal-dialog .container .container-body table th{
+    text-align: center;
+    border-right: 1px solid rgb(234,234,234);
+    border-bottom: 1px solid rgb(234,234,234);
+    word-wrap: break-word;
+    padding: 15px 0;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(251,251,251);
+}
+.normal-dialog .container .container-body table td{
+    text-align: center;
+    border-right: 1px solid rgb(234,234,234);
+    border-bottom: 1px solid rgb(234,234,234);
+    word-wrap: break-word;
+    font-size: 13px;
+    position: relative;
+}
+.normal-dialog .container .container-body table td div.item{
+    width: 100%;
+    padding: 15px 0;
+}
+.normal-dialog .container .container-body table td .extend-content{
+    display: none;
+}
+.normal-dialog .container .container-body table td .extend-content>div.item{
+    border-bottom: 1px solid rgb(234,234,234);
+    height: 18px;
+    line-height: 18px;
+}
+.normal-dialog .container .container-body table td .extend-content>div.item.item-last{
+    border-bottom: none;
+}
+.normal-dialog .container .container-body table td span.col1{
+    padding-left: 25px;
+    position: relative;
+}
+.normal-dialog .container .container-body table td span.col4{
+    color: rgb(65,129,194);
+}
+.normal-dialog .container .container-body table td span.col1 i{
+    background-image: url("../images/extend-icon.png");
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+}
+.normal-dialog .container .container-body table td span.col1 i.un-extend{
+    background-image: url("../images/unextend-icon.png");
+}
+
+
+
+/*.normal-dialog .container .container-body{
+    margin-top: 15px;
+    border-top: 1px solid rgb(234,234,234);
+    border-left: 1px solid rgb(234,234,234);
+}
+.normal-dialog .container .container-body .row{
+    font-size: 13px;
+    width: 100%;
+    height: auto;
+    color: rgb(78,80,83);
+}
+.normal-dialog .container .container-body .row.row-first{
+    background-color: rgb(251,251,251);
+    font-weight: bold;
+}
+.normal-dialog .container .container-body .row .col{
+    text-align: center;
+    border-right: 1px solid rgb(234,234,234);
+    border-bottom: 1px solid rgb(234,234,234);
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    float: left;
+    word-wrap: break-word;
+    vertical-align: middle;
+    height: 100%;
+}
+.normal-dialog .container .container-body .row .col.col1{
+    width: 408px;
+}
+.normal-dialog .container .container-body .row .col.col2{
+    width: 135px;
+}
+.normal-dialog .container .container-body .row .col2-hidden{
+    width: 135px;
+    text-align: center;
+    border-right: 1px solid rgb(234,234,234);
+    border-bottom: 1px solid rgb(234,234,234);
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    float: left;
+    height: auto;
+}
+.normal-dialog .container .container-body .row .col2-hidden .col2-row{
+    width: 100%;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(234,234,234);
+}
+.normal-dialog .container .container-body .row .col.col3{
+    width: 135px;
+}
+.normal-dialog .container .container-body .row .col.col4{
+    width: 226px;
+    color: rgb(65,129,194);
+}
+.normal-dialog .container .container-body .row .col.col1 span{
+    padding-left: 25px;
+    position: relative;
+}
+.normal-dialog .container .container-body .row .col.col1 span i{
+    background-image: url("../images/extend-icon.png");
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+}
+.normal-dialog .container .container-body .row .col.col1 span i.unextend{
+    background-image: url("../images/unextend-icon.png");
+}*/
+
