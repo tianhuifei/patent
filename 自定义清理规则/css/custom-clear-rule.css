@@ -78,6 +78,8 @@
 .normal-dialog-content .container .container-body .container-table{
     background-color: #fff;
     padding: 0 10px 10px 10px;
+    border: 1px solid rgb(214,220,234);
+    border-radius: 4px;
 }
 .normal-dialog-content .container .container-body .container-table.table-applicant{
     height: 275px;
