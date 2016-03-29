@@ -1,0 +1,175 @@
+.normal-dialog{
+    width: 930px;
+}
+.normal-dialog-header{
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab{
+    padding: 15px 40px;
+    font-size: 16px;
+    color: rgb(133,133,133);
+    float: left;
+    font-weight: bold;
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab.active{
+    color: rgb(65,129,194);
+    background-color: #fff;
+}
+.normal-dialog-content{
+    width: 100%;
+}
+.normal-dialog-content .container{
+    padding: 20px;
+    background-color: #fff;
+}
+
+.normal-dialog-content .container .container-body{
+    padding: 10px;
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-content .container .container-body .container-btn{
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.normal-dialog-content .container .container-body .container-btn h1{
+    font-size: 16px;
+    color: rgb(65,129,194);
+    float: left;
+    font-weight: normal;
+}
+.normal-dialog-content .container .container-body .container-btn form{
+    float: right;
+    padding-right: 150px;
+
+    position: relative;
+}
+.normal-dialog-content .container .container-body .container-btn form.form-applicant{
+    padding-right: 63px;
+}
+.normal-dialog-content .container .container-body .container-btn form .input-area input[type='text']{
+    width: 545px;
+    height: 30px;
+    border: 1px solid rgb(66,129,194);
+    padding: 0 0 0 5px;
+}
+.normal-dialog-content .container .container-body .container-btn form .input-area input[type='text'].input-applicant{
+    width: 150px;
+}
+.normal-dialog-content .container .container-body .container-btn form .btn-group{
+    height: 100%;
+    right: 0;
+    top: 1px;
+    position: absolute;
+}
+.normal-dialog-content .container .container-body .container-btn .btn-group .btn{
+    width: 63px;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+
+}
+.normal-dialog-content .container .container-body .container-btn .btn-group .btn-search{
+     background-color: rgb(66,129,194);
+ }
+.normal-dialog-content .container .container-body .container-btn .btn-group .btn-add{
+    background-color: rgb(100,147,71);
+}
+.normal-dialog-content .container .container-body .container-table{
+    background-color: #fff;
+    padding: 0 10px 10px 10px;
+}
+.normal-dialog-content .container .container-body .container-table.table-applicant{
+    height: 275px;
+}
+.normal-dialog-content .container .container-body .container-table table{
+    width: 100%;
+    text-align: center;
+}
+.normal-dialog-content .container .container-body .container-table table th{
+    color: rgb(80,80,80);
+    font-size: 14px;
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.normal-dialog-content .container .container-body .container-table table th.left{
+    text-align: left;
+}
+.normal-dialog-content .container .container-body .container-table table td{
+    color: rgb(80,80,80);
+    font-size: 14px;
+    padding: 15px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    border-bottom: 1px solid rgb(236,236,237);
+}
+.normal-dialog-content .container .container-body .container-table table td.left{
+    text-align: left;
+}
+.normal-dialog-content .container .container-body .container-table table td>a.in-bl{
+    width: 18px;
+    height: 18px;
+}
+.normal-dialog-content .container .container-body .container-table table td .op1{
+    background-image: url("../images/op1.png");
+    margin-right: 45px;
+}
+.normal-dialog-content .container .container-body .container-table table td .op2{
+    background-image: url("../images/op2.png");
+}
+.normal-dialog-content .container .container-body .container-table table td>.btn-apply{
+    background-color: rgb(255,151,36);
+    height: 25px;
+    width: 70px;
+    line-height: 25px;
+    text-align: center;
+    padding: 0;
+    font-size: 14px;
+
+}
+.normal-dialog-content .container .container-body .container-table table td.especial{
+    color: rgb(65,129,194);
+}
+.normal-dialog-content .container .container-body .container-table table td>.radio-area{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.normal-dialog-content .container .applicant-editor{
+    margin-top: 30px;
+    position: relative;
+}
+.normal-dialog-content .container .applicant-editor .left.container-body{
+    float: left;
+    width: 390px;
+}
+.normal-dialog-content .container .applicant-editor .right.container-body{
+    float: right;
+    width: 390px;
+}
+.normal-dialog-content .container .applicant-editor .container-arrow{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 24px;
+    height: 60px;
+    margin-left: -12px;
+    margin-top: -30px;
+
+}
+.normal-dialog-content .container .applicant-editor .container-arrow i{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+}
+.normal-dialog-content .container .applicant-editor .container-arrow i.arrow-left{
+    top: 0;
+    background-image: url("../images/arrow-left.png");
+}
+.normal-dialog-content .container .applicant-editor .container-arrow i.arrow-right{
+    bottom: 0;
+    background-image: url("../images/arrow-right.png");
+}
