@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../support/switchButton/css/jquery.switchButton.css"/>
+    <link rel="stylesheet" href="css/company-evolution.css"/>
+    <title>企业发展定位分析</title>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active in-bl"><a href="javascript:void(0);">首页</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利检索</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利分析</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">药物检索</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-body clear">
+<div class="main-le">
+    <div class="listbox" id="items">
+        <div class="item clear">
+            <div class="img analyse"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item clear">
+            <div class="img technology"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item active clear">
+            <div class="img people"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item clear">
+            <div class="img inventor"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item clear">
+            <div class="img china"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main-ri">
+    <div class="ri-top">
+        <div class="table-box">
+            <div class="box-header">
+                <h1 class="icon1">企业发展定位分析</h1>
+            </div>
+            <div class="content clear">
+                <div class="container-table table-wrapper">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th style="width: 30%;">企业名称</th>
+                            <th style="width: 17%;">专利数量</th>
+                            <th style="width: 18%;">专利被引用次数</th>
+                            <th style="width: 17%;">自我引用次数</th>
+                            <th style="width: 18%;">公司的相对研发能力</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr class="even">
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr>
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr class="even">
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr>
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr class="even">
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr>
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr class="even">
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr>
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        <tr class="even">
+                            <td>bbbbbbbbbbb</td>
+                            <td>60</td>
+                            <td>907</td>
+                            <td>0</td>
+                            <td>1148.8</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="page-table">
+                        page
+                    </div>
+                </div>
+                <div class="table-form">
+                    <form>
+                        <h2>分析条件</h2>
+                        <div class="select-area">
+                            <label>按照</label>
+                            <select class="width170">
+                                <option>申请人</option>
+                                <option>申请人</option>
+                                <option>申请人</option>
+                            </select>
+                            <label>分析</label>
+                        </div>
+                        <div class="select-area">
+                            <label>日期区间：</label>
+                            <select class="width70">
+                                <option>1900</option>
+                                <option>1900</option>
+                                <option>1900</option>
+                            </select>
+                            <label>---</label>
+                            <select class="width70">
+                                <option>2015</option>
+                                <option>2015</option>
+                                <option>2015</option>
+                            </select>
+                        </div>
+                        <p>申请人：本次分析只是针对最近5年的专利申请数据进行分析</p>
+                    </form>
+                    <div class="btn-group">
+                        <div>
+                            <a href="javascript:;" class="btn btn-analysis"><i></i>分 析</a>
+                        </div>
+                        <div>
+                            <a href="javascript:;" class="btn btn-company-position"><i></i>公司定位</a>
+                        </div>
+                        <div>
+                            <a href="javascript:;" class="btn btn-company-patent"><i></i>公司专利处境</a>
+                        </div>
+                        <div class="text">
+                            <strong>系统清理规则：</strong>
+                            <span>默认为申请人清理</span>
+                        </div>
+                        <p>
+                            本系统不收录未公开数据，分析结果不显示未知数据
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ri-middle">
+        <div class="table-box">
+            <div class="box-header">
+                <h1 class="icon2">公司定位</h1>
+            </div>
+            <div class="content">
+                <div class="container-table">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th style="width: 20%;"></th>
+                            <th style="width: 20%;">专利数</th>
+                            <th style="width: 20%;">被引用次数</th>
+                            <th style="width: 20%;">自己引用次数</th>
+                            <th style="width: 20%;">引用他人次数</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>跟随型</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>少或无</td>
+                        </tr>
+                        <tr class="even">
+                            <td>跟随型</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>少或无</td>
+                        </tr>
+                        <tr>
+                            <td>跟随型</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>少或无</td>
+                        </tr>
+                        <tr class="even">
+                            <td>跟随型</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>多</td>
+                            <td>少或无</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ri-bottom">
+        <div class="graph-area in-bl">
+            <div class="graph-area-wrapper">
+                <div class="row clear">
+                    <span class="in-bl border-right border-bottom span1">潜力者</span>
+                    <span class="in-bl border-bottom span2">领先者</span>
+                </div>
+                <div class="row clear">
+                    <span class="in-bl border-right span3">落后者</span>
+                    <span class="in-bl span4">积极者</span>
+                </div>
+                <i class="arrow-top"></i>
+                <i class="arrow-right"></i>
+            </div>
+            <span class="text-top">专利质量</span>
+            <span class="text-right">专利活动</span>
+        </div>
+        <div class="table-box">
+            <div class="box-header">
+                <h1 class="icon2">公司专利处境</h1>
+            </div>
+            <div class="content">
+                <div class="container-table">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th style="width: 20%;">专利处境</th>
+                            <th style="width: 80%;">表现形式</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>领先者</td>
+                            <td>同时具有高水准的专利活动与高水准的专利质量；要密切追踪，防止落入其专利陷阱或避免专利侵权等。</td>
+                        </tr>
+                        <tr class="even">
+                            <td>领先者</td>
+                            <td>同时具有高水准的专利活动与高水准的专利质量；要密切追踪，防止落入其专利陷阱或避免专利侵权等。</td>
+                        </tr>
+                        <tr>
+                            <td>领先者</td>
+                            <td>同时具有高水准的专利活动与高水准的专利质量；要密切追踪，防止落入其专利陷阱或避免专利侵权等。</td>
+                        </tr>
+                        <tr class="even">
+                            <td>领先者</td>
+                            <td>同时具有高水准的专利活动与高水准的专利质量；要密切追踪，防止落入其专利陷阱或避免专利侵权等。</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="../support/switchButton/js/jquery.switchButton.js"></script>
+<script src="js/js.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#allMenu").css("display","none");
+        buttonGroup=$("[data-type='switch-button']").switchButton();
+
+    });
+</script>
+<!--尾部-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
