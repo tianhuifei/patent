@@ -1,0 +1,133 @@
+.normal-dialog{
+    width: 1080px;
+}
+.normal-dialog-header{
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab{
+    padding: 15px 0;
+    width: 360px;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(133,133,133);
+    float: left;
+    font-weight: bold;
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab.active{
+    color: rgb(65,129,194);
+    background-color: #fff;
+}
+.normal-dialog-content{
+    background-color: #fff;
+    padding: 50px 20px 20px 20px;
+}
+.normal-dialog-content>div.content-wrapper{
+    height: 480px;
+}
+.normal-dialog-content .graph-area{
+    float: left;
+    height: 100%;
+    width: 720px;
+    border: 1px solid rgb(65,129,194);
+}
+.normal-dialog-content .graph-area .graph-header{
+    background-color: rgb(65,129,194);
+    height: 35px;
+    line-height: 35px;
+}
+.normal-dialog-content .graph-area .graph-header h1{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+    float: left;
+}
+.normal-dialog-content .graph-area .graph-header h2{
+    float: right;
+    color: #fff;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.normal-dialog-content .country-area{
+    float: right;
+    width: 295px;
+    height: 100%;
+    border: 1px solid rgb(213,219,231);
+}
+.normal-dialog-content .country-area table{
+    width: 100%;
+    text-align: center;
+}
+.normal-dialog-content .country-area table th{
+    background-color: rgb(239,241,246);
+    color: rgb(98,98,98);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.normal-dialog-content .country-area table td{
+    color: rgb(98,98,98);
+    font-size: 15px;
+    padding: 10px 0;
+    vertical-align: middle;
+    word-wrap: break-word;
+    border-bottom: 1px dashed rgb(240,240,240);
+}
+.normal-dialog-content .form-area{
+    margin-top: 20px;
+    padding: 15px 20px;
+    background-color: rgb(239,241,246);
+    border: 1px solid rgb(213,219,231);
+}
+.normal-dialog-content .form-area .form-wrapper{
+    height: 35px;
+    line-height: 35px;
+
+}
+.normal-dialog-content .form-area .form-wrapper .text-group{
+    color: rgb(51,51,51);
+    float: left;
+    margin-right: 145px;
+    font-size: 14px;
+}
+.normal-dialog-content .form-area .form-wrapper .checkbox-group{
+    color: rgb(51,51,51);
+    float: left;
+    font-size: 14px;
+}
+.normal-dialog-content .form-area .form-wrapper .btn-group{
+    float: right;
+}
+.normal-dialog-content .form-area .form-wrapper .btn-group .btn{
+    height: 35px;
+    border-radius: 4px;
+    line-height: 35px;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding: 0;
+}
+.normal-dialog-content .form-area .form-wrapper .btn-group .btn-apply{
+    background-color: rgb(255,151,36);
+    padding-left: 45px;
+    padding-right: 25px;
+    background-image: url("../images/btn-icon1.png");
+}
+.normal-dialog-content .form-area .form-wrapper .btn-group .btn-custom{
+    background-color: rgb(112,155,194);
+    padding-left: 45px;
+    padding-right: 20px;
+    background-image: url("../images/btn-icon2.png");
+}
+.normal-dialog-content .text-area{
+    margin-top: 15px;
+}
+.normal-dialog-content .text-area span{
+    margin-right: 20px;
+    float: right;
+    color: rgb(154,154,154);
+    font-size: 13px;
+}
+
