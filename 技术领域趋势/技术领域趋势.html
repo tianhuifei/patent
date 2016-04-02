@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../support/switchButton/css/jquery.switchButton.css"/>
+    <link rel="stylesheet" href="css/technology-trend.css"/>
+    <title>技术领域趋势</title>
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active in-bl"><a href="javascript:void(0);">首页</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利检索</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利分析</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">药物检索</a></li>
+                    <li class="in-bl"><a href="javascript:void(0);">专利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="main-body clear">
+<div class="main-le">
+    <div class="listbox" id="items">
+        <div class="item clear">
+            <div class="img analyse"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item clear">
+            <div class="img technology"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item active clear">
+            <div class="img people"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item clear">
+            <div class="img inventor"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+        <div class="item clear">
+            <div class="img china"></div>
+            <!--<a href="javascript:void(0);">区域分析</a>-->
+            <div class="title-info"><a href="javascript:void(0);">区域分析</a></div>
+
+        </div>
+        <ul>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人趋势分析">申请人趋势分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术分析">申请人技术分析</a></li>
+            <li class="active"><a class="in-bl" href="javascript:void(0);" title="申请人区域分布分析">申请人区域分布分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人有效专利数量分析">申请人有效专利数量分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人相对研发实力分析">申请人相对研发实力分析</a></li>
+            <li><a class="in-bl" href="javascript:void(0);" title="申请人技术重心指数分析">申请人技术重心指数分析</a></li>
+        </ul>
+    </div>
+</div>
+<div class="main-ri">
+<div class="ri-top">
+    <div class="form-area">
+        <div class="form-wrapper clear">
+            <div class="text-group">
+                <strong>默认清理规则:</strong>
+                <span>默认为申请人清理</span>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" checked />
+                <label>中国省市</label>
+            </div>
+            <div class="btn-group">
+                <a href="javascript:;" class="btn btn-apply">应用</a>
+                <a href="javascript:;" class="btn btn-custom">自定义清理规则</a>
+            </div>
+        </div>
+    </div>
+    <div class="text-area clear">
+        <span>本系统不收录未公开数据，分析结果不显示未知数据</span>
+    </div>
+    <div class="table-box">
+        <div class="box-header clear">
+            <h1>扩展分析</h1>
+            <div class="btn-group">
+                <a href="javascript:;" class="btn">地域分析</a>
+                <a href="javascript:;" class="btn">申请人分析</a>
+                <a href="javascript:;" class="btn">发明人分析</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container-table table-wrapper">
+                <table>
+                    <thead>
+                    <tr>
+                        <th style="width: 19%;" class="slash-wrapper">
+                            <div class="slash"></div>
+                            <span class="horizontal">技术领域</span>
+                            <span class="vertical">年代</span>
+                        </th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>B43</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>C08</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>C09</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>D04</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>A47</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>A45</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>B21</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>D05</label></th>
+                        <th style="width: 9%;"><input type="checkbox" /><label>A22</label></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="even">
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="even">
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="even">
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="even">
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="even">
+                        <td>1985</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+                <div class="page-table">
+                    page
+                </div>
+            </div>
+            <div class="table-form">
+                <form>
+                    <h2>分析条件</h2>
+                    <p>技术领域选择</p>
+                    <div class="container-selected">
+
+                    </div>
+                </form>
+                <div class="btn-group">
+                    <div>
+                        <a href="javascript:;" class="btn btn-analysis"><i></i>分 析</a>
+                    </div>
+                </div>
+                <div class="text">
+                    <strong>系统清理规则:</strong>
+                    <span>默认为申请人清理</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<script src="../js/jquery-1.8.3.js"></script>
+<script src="js/js.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#allMenu").css("display","none");
+    });
+</script>
+<!--尾部-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
