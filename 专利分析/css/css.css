@@ -5,15 +5,11 @@
 .main-body .main-le .listbox{background: #eff1f6;padding:17px 0;}
 .main-body .main-le .listbox .item{width:160px;height:26px;line-height:26px;padding:5px 20px ;margin:0 auto;background: #4181c2;margin-bottom:10px;}
 .main-body .main-le .listbox .item.active{background: #ff9724;}
-.main-body .main-le .listbox .item > .img{width:20px;height:26px;float:left;margin-right:10px;}
+
+
 
 .main-body .main-le .listbox .item > .title-info{height:20px;float:left;}
 .main-body .main-le .listbox .item > .title-info a{font-size: 16px;color:#FFF;}
-.main-body .main-le .listbox .item > .img.analyse{background: url("../images/analyse.png") no-repeat center center;}
-.main-body .main-le .listbox .item > .img.technology{background: url("../images/technology.png") no-repeat center center;}
-.main-body .main-le .listbox .item > .img.people{background: url("../images/people.png") no-repeat center center;}
-.main-body .main-le .listbox .item > .img.inventor{background: url("../images/inventor.png") no-repeat center center;}
-.main-body .main-le .listbox .item > .img.china{background: url("../images/china.png") no-repeat center center;}
 .main-body .main-le .listbox .item.active + ul{display:block;}
 .main-body .main-le .listbox .item + ul{display:none;margin-bottom:10px;}
 .main-body .main-le .listbox .item + ul li.active{background:url("../images/active-icon.png") no-repeat 33px center #FFF;}

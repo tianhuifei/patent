@@ -1,0 +1,5 @@
+/**新增样式   BY zhengchj  开始 **/
+.main-body .main-le .listbox .item > .img{width:16px;height:100%;float:left;margin-right:10px;background: url("../images/fold.png") no-repeat center;}
+.main-body .main-le .listbox .item.active >.img{background-image: url("../images/unfold.png");}
+
+/**新增样式   BY zhengchj  结束 **/
