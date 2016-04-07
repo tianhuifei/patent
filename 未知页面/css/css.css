@@ -1,0 +1,295 @@
+.normal-dialog{
+    width: 1080px;
+}
+.normal-dialog-header{
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab{
+    padding: 15px 110px;
+    font-size: 16px;
+    color: rgb(133,133,133);
+    float: left;
+    font-weight: bold;
+    background-color: rgb(242,244,249);
+}
+.normal-dialog-header .btn-tab.active{
+    color: rgb(65,129,194);
+    background-color: #fff;
+}
+.normal-dialog-content{
+    background-color: #fff;
+    padding: 50px 20px 20px 20px;
+}
+.normal-dialog-content>div.clear{
+    height: 490px;
+}
+.normal-dialog-content .graph-area{
+    float: left;
+    height: 100%;
+    width: 720px;
+    border: 1px solid rgb(65,129,194);
+}
+.normal-dialog-content .graph-area .graph-header{
+    background-color: rgb(65,129,194);
+    height: 35px;
+    line-height: 35px;
+}
+.normal-dialog-content .graph-area .graph-header h1{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.normal-dialog-content .form-area{
+    float: right;
+    width: 295px;
+    height: 100%;
+    border: 1px solid rgb(213,219,231);
+}
+.normal-dialog-content .form-area .condition-area{
+    border-bottom: 1px solid rgb(213,219,231);
+    padding: 15px 20px;
+}
+.normal-dialog-content .form-area .condition-area h2{
+    font-size: 1.4em;
+    color: rgb(51, 51, 51);
+}
+.normal-dialog-content .form-area .condition-area .row{
+    height: 40px;
+    line-height: 40px;
+}
+.normal-dialog-content .form-area .condition-area .row label{
+    font-size: 1.2em;
+}
+.normal-dialog-content .form-area .condition-area .row select{
+    margin: 0 5px;
+
+}
+.normal-dialog-content .form-area .condition-area .row select.width160{
+    width: 160px;
+}
+.normal-dialog-content .form-area .condition-area .row select.width70{
+    width: 70px;
+}
+.normal-dialog-content .form-area .condition-area .container-tab{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+}
+.normal-dialog-content .form-area .condition-area .container-tab .tab-group{
+    position: relative;
+}
+.normal-dialog-content .form-area .condition-area .container-tab .tab-group .add-btn{
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -5.5px;
+    background-image: url("../images/add.png");
+    cursor: pointer;
+}
+.normal-dialog-content .form-area .condition-area .container-tab .tab-group a{
+    padding: 4px 15px;
+    font-size: 1.2em;
+    line-height: normal;
+    background-color: #fff;
+    color: #000;
+    float: left;
+    position: relative;
+}
+.normal-dialog-content .form-area .condition-area .container-tab .tab-group a i{
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -1px;
+    background-color: #fff;
+}
+.normal-dialog-content .form-area .condition-area .container-tab .tab-group .active{
+    border-left: 1px solid rgb(213, 219, 231);
+    border-right: 1px solid rgb(213, 219, 231);
+    border-top: 1px solid rgb(213, 219, 231);
+}
+.normal-dialog-content .form-area .condition-area .container-tab .tab-content{
+    border: 1px solid rgb(213, 219, 231);
+    min-height: 110px;
+    max-height: 110px;
+    overflow-y: auto;
+    line-height: normal;
+}
+.normal-dialog-content .form-area .condition-area .container-tab .tab-content p{
+    padding: 10px 15px 0 15px;
+    font-size: 1.2em;
+}
+.normal-dialog-content .form-area .clear-area{
+    border-bottom: 1px solid rgb(213,219,231);
+    padding: 15px 20px;
+}
+.normal-dialog-content .form-area .clear-area h2{
+    font-size: 1.4em;
+    color: rgb(51, 51, 51);
+}
+.normal-dialog-content .form-area .clear-area ul{
+    list-style: none;
+}
+.normal-dialog-content .form-area .clear-area ul li{
+    padding: 6px 0;
+    vertical-align: bottom;
+}
+.normal-dialog-content .form-area .clear-area ul li span{
+    font-size: 1.2em;
+}
+.normal-dialog-content .form-area .clear-area ul li .col1{
+    float: left;
+}
+.normal-dialog-content .form-area .clear-area ul li .col2{
+    float: right;
+    width: 75px;
+    text-align: center;
+}
+.normal-dialog-content .form-area .clear-area ul li .col2 a{
+    color: rgb(65,129,194);
+}
+.normal-dialog-content .form-area .btn-area{
+    padding-top: 8px;
+    text-align: center;
+}
+.normal-dialog-content .form-area .btn-area .btn{
+    padding: 8px 13px 8px 27px;
+    font-size: 1.4em;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+.normal-dialog-content .form-area .btn-area .btn-analysis{
+    background-color: rgb(255, 151, 36);
+    background-image: url("../images/btn_1.png");
+}
+.normal-dialog-content .form-area .btn-area .btn-statistic{
+    background-color: rgb(112, 155, 194);
+    background-image: url("../images/btn_2.png");
+}
+.normal-dialog-content .form-area .btn-area .btn-save{
+    background-color: rgb(112, 155, 194);
+    background-image: url("../images/btn_3.png");
+}
+.normal-dialog-content .table-area{
+    margin-top: 20px;
+}
+.normal-dialog-content .table-area .left{
+    float: left;
+}
+.normal-dialog-content .table-area .table1{
+    width: 120px;
+}
+.normal-dialog-content .table-area .table1 table{
+    border-top: 1px solid rgb(213, 219, 231);
+    border-left: 1px solid rgb(213, 219, 231);
+    width: 100%;
+}
+.normal-dialog-content .table-area .table1 th>.item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.normal-dialog-content .table-area .table1 th>.item .horizontal{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.normal-dialog-content .table-area .table1 th>.item .vertical{
+    position: absolute;
+    left: 25px;
+    bottom: 5px;
+}
+.normal-dialog-content .table-area .table1 th>.item .slash{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.normal-dialog-content .table-area .table1 th>.item .slash:before {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 60px solid rgb(213,219,231);
+    border-right: 118px solid transparent;
+    content: "";
+}
+
+.normal-dialog-content .table-area .table1 th>.item .slash:after {
+    position: absolute;
+    left: 0;
+    right: 1px;
+    top: 1px;
+    bottom: 0;
+    border-bottom: 59px solid #fff;
+    border-right: 117px solid transparent;
+    content: "";
+}
+
+
+
+.normal-dialog-content .table-area table th{
+    border-right: 1px solid rgb(213, 219, 231);
+    border-bottom: 1px solid rgb(213, 219, 231);
+    background-color: rgb(251,251,251);
+    padding: 20px 0;
+    font-size: 1.4em;
+    color: rgb(65,129,194);
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.normal-dialog-content .table-area .table1 table th{
+    padding: 0;
+    height: 60px;
+}
+.normal-dialog-content .table-area table td{
+    border-right: 1px solid rgb(213, 219, 231);
+    border-bottom: 1px solid rgb(213, 219, 231);
+    background-color: #fff;
+    padding: 10px 0;
+    font-size: 1.4em;
+    text-align: center;
+    color: rgb(30,31,31);
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+.normal-dialog-content .table-area table tr.even td{
+    background-color: rgb(250, 253, 255);
+}
+.normal-dialog-content .table-area .table2{
+    width: 918px;
+    overflow-x: auto;
+}
+.normal-dialog-content .table-area .table2 th>.item{
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+}
+.normal-dialog-content .table-area .table2 table{
+    border-top: 1px solid rgb(213, 219, 231);
+}
+.normal-dialog-content .table-area .table2 th>.item input[type='checkbox']{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
