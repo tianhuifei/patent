@@ -1,0 +1,140 @@
+body{
+    background-color: #fff;
+}
+.main-body-welcome{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.main-body-welcome .bg1{
+    background-color: #fff;
+}
+.main-body-welcome .bg2{
+    background-image: url("../images/bg2.png");
+}
+.main-body-welcome .section1{
+    height: 400px;
+    background-image: url("../images/bg1.png");
+    position: relative;
+}
+.main-body-welcome .section1 .banner1{
+    width: 492px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../images/section1-banner.png");
+    margin: 0 auto;
+    background-position:center;
+}
+.main-body-welcome .section1 strong{
+    position: absolute;
+    font-size: 1.6em;
+    color: #fff;
+    font-weight: bold;
+}
+.main-body-welcome .section1 strong.title1{
+    left: 270px;
+    top: 285px;
+}
+.main-body-welcome .section1 strong.title2{
+    left: 275px;
+    top: 135px;
+}
+.main-body-welcome .section1 strong.title3{
+    left: 560px;
+    top: 18px;
+}
+.main-body-welcome .section1 strong.title4{
+    right: 260px;
+    top: 135px;
+}
+.main-body-welcome .section1 strong.title5{
+    right: 260px;
+    top: 285px;
+}
+.main-body-welcome .container{
+    height: 100%;
+}
+.main-body-welcome .container .left{
+    float: left;
+    margin-left: 110px;
+    width: 484px;
+    height: 100%;
+}
+.main-body-welcome .container .right{
+    float: left;
+    margin-left: 65px;
+    height: 100%;
+    width: 529px;
+}
+.main-body-welcome .section2{
+    height: 500px;
+}
+.main-body-welcome .section2 .banner2{
+    background-image: url("../images/section2-banner.png");
+    background-repeat: no-repeat;
+    background-position: 17px center;
+}
+.main-body-welcome .section2 .text2 .wrapper{
+    margin-right: 70px;
+}
+.main-body-welcome .container .wrapper{
+    margin-top: 148px;
+}
+.main-body-welcome .container .wrapper h1{
+    font-size: 3.3em;
+    color: rgb(95,113,133);
+    font-weight: normal;
+}
+.main-body-welcome .container .wrapper h2{
+    font-size: 2.3em;
+    color: rgb(66,129,194);
+    font-weight: normal;
+    margin-top: 33px;
+}
+.main-body-welcome .container .wrapper p{
+    font-size: 1.6em;
+    color: rgb(95,113,133);
+    font-weight: normal;
+    margin-top: 38px;
+    line-height: 1.4;
+}
+.main-body-welcome .section3{
+    height: 500px;
+}
+.main-body-welcome .section3 .banner3{
+    background-image: url("../images/section3-banner.png");
+    background-position: 50px center;
+    background-repeat: no-repeat;
+}
+.main-body-welcome .section3 .text3 .wrapper{
+    margin-right: 85px;
+}
+.main-body-welcome .section4{
+    height: 500px;
+}
+.main-body-welcome .section4 .banner4{
+    background-image: url("../images/section4-banner.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+.main-body-welcome .section4 .text4 .wrapper{
+    margin-right: 200px;
+}
+.main-body-welcome .section5{
+    height: 500px;
+}
+.main-body-welcome .section5 .banner5{
+    background-image: url("../images/section5-banner.png");
+    background-repeat: no-repeat;
+    background-position: 42px center;
+}
+.main-body-welcome .section6{
+    height: 500px;
+}
+.main-body-welcome .section6 .banner6{
+    background-image: url("../images/section6-banner.png");
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+.main-body-welcome .section6 .text6 .wrapper{
+    margin-right: 135px;
+}
