@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="css/table-search.css"/>
+    <title></title>
+</head>
+<body>
+<!-- 头部开始-->
+<div class="header">
+    <div class="banner">
+        <div class="banner-wrap">
+            <div class="wrap-left"><p>欢迎访问专利检索及分析,<a href="javascript:void(0);" class="login-btn">请登录</a><a href="javascript:void(0);">免费注册</a></p></div>
+            <div class="wrap-right">
+                <ul>
+                    <li><a class="nav-top-user" href="javascript:void(0);">个人中心</a></li>
+                    <li><a class="nav-top-navigation" href="javascript:void(0);">网站导航</a></li>
+                    <li><a class="nav-top-help" href="javascript:void(0);">帮助中心</a></li>
+                </ul></div>
+        </div>
+    </div>
+    <div class="wrap clear">
+        <div class="logo-img">
+            <!--<h1>专利检索及分析</h1>
+            <p>Patent Search and Analysis of SIPO</p>-->
+        </div>
+        <div class="international-language">
+            <ul class="clear">
+                <li class="language active"><a href="javascript:void(0);">中文</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">English</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Français</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Deutsch</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">русский</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Español</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">Português</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">عربي</a></li>
+                <li class="interval"></li>
+                <li class="language"><a href="javascript:void(0);">日本語</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav-wrap clear">
+            <div class="all-classify">
+                <h2>全部分类</h2>
+                <div class="class-menu" id="allMenu" style="display: none;">
+                    <ul>
+                        <li><a href="javascript:void(0);">A部：人类生活必须</a></li>
+                        <li><a href="javascript:void(0);">B部：作业;运输;</a></li>
+                        <li><a href="javascript:void(0);">C部：化学;冶金</a></li>
+                        <li><a href="javascript:void(0);">D部：纺织;造纸</a></li>
+                        <li><a href="javascript:void(0);">E部：固定建筑物;</a></li>
+                        <li><a href="javascript:void(0);" style="line-height: 30px;">F部：机械工程;照明;加热;武器;爆破</a></li>
+                        <li><a href="javascript:void(0);">G部：物理</a></li>
+                        <li style="border:none;"><a href="javascript:void(0);">H部：电</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="active"><a href="javascript:void(0);">首页</a></li>
+                    <li class=""><a href="javascript:void(0);">专利检索</a></li>
+                    <li><a href="javascript:void(0);">专利分析</a></li>
+                    <li><a href="javascript:void(0);">药物检索</a></li>
+                    <li><a href="javascript:void(0);">地利服务</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 头部结束-->
+
+
+
+<div class="main-body table-search-body clear">
+<div class="body-left left">
+    <div class="top-area">
+        <div class="box">
+            <div class="box-header">
+                <h1 class="filter">范 围 筛 选</h1>
+            </div>
+            <div class="box-content filter-box-content">
+                <div class="row clear">
+                    <h2 class="left">中 国：</h2>
+                    <ul class="horizontal left clear">
+                        <li>
+                            <a href="javascript:;" class="btn active">中国发明申请</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">中国使用新型</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">中国外观设计</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">台 湾</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">香 港</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">澳 门</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row clear">
+                    <h2 class="left">主要国家和地区：</h2>
+                    <ul class="horizontal left clear">
+                        <li>
+                            <a href="javascript:;" class="btn">美 国</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">日 本</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">韩 国</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">英 国</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn active">法 国</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">德 国</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">俄罗斯</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">瑞 士</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">EPO</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">WIPO</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="clear">
+                    <h2 class="left">其他国家和地区：</h2>
+                    <ul class="horizontal left clear">
+                        <li>
+                            <a href="javascript:;" class="btn active">奥地利</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">澳大利亚</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">比利时</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">荷 兰</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">加拿大</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">西班牙</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="btn">墨西哥</a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="more">...</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-area">
+        <div class="box no-bottom-radius">
+            <div class="box-header clear">
+                <h1 class="table-search left">高 级 检 索</h1>
+                <div class="btn-group right">
+                    <a href="javascript:;" class="btn btn-remove">清 空</a>
+                    <a href="javascript:;" class="btn btn-setting">配 置</a>
+                </div>
+            </div>
+            <div class="box-content table-box-content">
+                <ul class="horizontal clear">
+                    <li>
+                        <label class="in-bl">申请号:</label>
+                        <input type="text" class="width125" />
+                        <i class="tip"></i>
+                    </li>
+                    <li>
+                        <label class="in-bl">申请日:</label>
+                        <div class="in-bl collapse">
+                            <select>
+                                <option>123</option>
+                                <option>123</option>
+                                <option>123</option>
+                            </select>
+                            <input type="text" class="width85"/>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="in-bl">权利要求:</label>
+                        <input type="text" class="width125" />
+                    </li>
+                    <li>
+                        <label class="in-bl">公开（公告）号:</label>
+                        <input type="text" class="width125" />
+                        <i class="tip"></i>
+                    </li>
+                    <li>
+                        <label class="in-bl">公开（公告）日:</label>
+                        <div class="in-bl collapse">
+                            <select>
+                                <option>123</option>
+                                <option>123</option>
+                                <option>123</option>
+                            </select>
+                            <input type="text" class="width85"/>
+                        </div>
+                    </li>
+                    <li>
+                        <label class="in-bl">关键词:</label>
+                        <input type="text" class="width125" />
+                    </li>
+                    <li>
+                        <label class="in-bl">发明名称:</label>
+                        <input type="text" class="width125" />
+                    </li>
+                    <li>
+                        <label class="in-bl">IPC分类号:</label>
+                        <input type="text" class="width125" />
+                        <i class="tip"></i>
+                    </li>
+                    <li>
+                        <label class="in-bl">摘要:</label>
+                        <input type="text" class="width125" />
+                    </li>
+                    <li>
+                        <label class="in-bl">申请（专利权）人:</label>
+                        <input type="text" class="width125" />
+                    </li>
+                    <li>
+                        <label class="in-bl">发明人:</label>
+                        <input type="text" class="width125" />
+                    </li>
+                    <li>
+                        <label class="in-bl">说明书:</label>
+                        <input type="text" class="width125" />
+                    </li>
+                    <li>
+                        <label class="in-bl">优先权号:</label>
+                        <input type="text" class="width125" />
+                        <i class="tip"></i>
+                    </li>
+                    <li>
+                        <label class="in-bl">优先权日:</label>
+                        <div class="in-bl collapse">
+                            <select>
+                                <option>123</option>
+                                <option>123</option>
+                                <option>123</option>
+                            </select>
+                            <input type="text" class="width85"/>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box no-top-radius">
+            <div class="box-header">
+                <h1 class="exp-area">检 索 式 剪 辑 区</h1>
+            </div>
+            <div class="box-content">
+                <div class="box-content-top clear">
+                    <div class="operator left">
+                        <ul class="horizontal clear">
+                            <li>
+                                <a href="javascript:;" class="btn active">AND</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="btn">OR</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="btn">NOT</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="btn">( )</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;" class="in-bl btn-add"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="btn-group right">
+                        <a href="javascript:;" class="btn btn-extend">扩 展</a>
+                        <a href="javascript:;" class="btn btn-across">跨语言</a>
+                    </div>
+                </div>
+                <div class="box-content-middle">
+                    <textarea></textarea>
+                </div>
+                <div class="box-content-bottom">
+                    <a href="javascript:;" class="btn btn-generate">生成检索式</a>
+                    <a href="javascript:;" class="btn btn-remove">清空检索式</a>
+                    <a href="javascript:;" class="btn btn-search">检 索</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body-right right">
+    <div class="box">
+        <div class="box-header">
+            <h1 class="history">检 索 历 史</h1>
+        </div>
+        <div class="box-content">
+            <div class="search-area">
+                <input type="text" class="" placeholder="检索式运算" />
+                <div href="javascript:;" class="btn btn-search">GO</div>
+            </div>
+            <div class="slide-box">
+                <ul>
+                    <li>
+                        <div class="item">
+                            <div class="exp-title row clear">
+                                <span class="order left">第62号</span>
+                                <span class="exp right">复合号码＝(jp+)</span>
+                            </div>
+                            <div class="search row clear">
+                                <a href="javascript:;" class="btn-general-search right">常规检索</a>
+                            </div>
+                            <div class="info row clear">
+                                <span class="count left">8888888篇</span>
+                                <span class="date right">2016-04-20</span>
+                            </div>
+                            <div class="btn-group row clear">
+                                <a href="javascript:;" class="btn btn-quote left">引 用</a>
+                                <a href="javascript:;" class="btn btn-view right">浏 览</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="item">
+                            <div class="exp-title row clear">
+                                <span class="order left">第62号</span>
+                                <span class="exp right">复合号码＝(jp+)</span>
+                            </div>
+                            <div class="search row clear">
+                                <a href="javascript:;" class="btn-general-search right">常规检索</a>
+                            </div>
+                            <div class="info row clear">
+                                <span class="count left">8888888篇</span>
+                                <span class="date right">2016-04-20</span>
+                            </div>
+                            <div class="btn-group row clear">
+                                <a href="javascript:;" class="btn btn-quote left">引 用</a>
+                                <a href="javascript:;" class="btn btn-view right">浏 览</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="item">
+                            <div class="exp-title row clear">
+                                <span class="order left">第62号</span>
+                                <span class="exp right">复合号码＝(jp+)</span>
+                            </div>
+                            <div class="search row clear">
+                                <a href="javascript:;" class="btn-general-search right">常规检索</a>
+                            </div>
+                            <div class="info row clear">
+                                <span class="count left">8888888篇</span>
+                                <span class="date right">2016-04-20</span>
+                            </div>
+                            <div class="btn-group row clear">
+                                <a href="javascript:;" class="btn btn-quote left">引 用</a>
+                                <a href="javascript:;" class="btn btn-view right">浏 览</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="item">
+                            <div class="exp-title row clear">
+                                <span class="order left">第62号</span>
+                                <span class="exp right">复合号码＝(jp+)</span>
+                            </div>
+                            <div class="search row clear">
+                                <a href="javascript:;" class="btn-general-search right">常规检索</a>
+                            </div>
+                            <div class="info row clear">
+                                <span class="count left">8888888篇</span>
+                                <span class="date right">2016-04-20</span>
+                            </div>
+                            <div class="btn-group row clear">
+                                <a href="javascript:;" class="btn btn-quote left">引 用</a>
+                                <a href="javascript:;" class="btn btn-view right">浏 览</a>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+                <i class="arrow arrow-up"></i>
+                <i class="arrow arrow-down"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+<!-- 尾部开始-->
+<div class="footer">
+    <div class="wrap">
+        <div class="footer-link">
+            <ul>
+                <li><a href="javascript:void(0);">版权声明</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">友情链接</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">流量统计</a></li>
+                <li class="interval"></li>
+                <li><a href="javascript:void(0);">联系我们</a></li>
+            </ul>
+        </div>
+        <div class="footer-info">
+            <p><span>主办单位：国家知识产权局</span><span style="margin-left:28px;">版权所有：国家知识产权局</span><span style="margin-left:15px;">未经许可不得复制</span></p>
+
+            <p>ICP备案：京ICP备0506908</p>
+
+            <p>北京市公安局海淀分局备案编号：1101085054</p>
+            <p class="footer-img">
+
+            </p>
+        </div>
+    </div>
+</div>
+<!-- 尾部结束-->
+</body>
+</html>
