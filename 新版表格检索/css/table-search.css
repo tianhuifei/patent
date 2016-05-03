@@ -169,7 +169,7 @@
 }
 .table-search-body .body-right .slide-box ul li{
     padding: 8px 13px;
-    margin: 0 0 15px 0;
+    margin: 0 0 11px 0;
 }
 .table-search-body .slide-box ul.horizontal li .item{
     width: 220px;
@@ -178,12 +178,12 @@
     margin-top: 10px;
     vertical-align: bottom;
 }
-.table-search-body .slide-box .exp-title .order{
+.table-search-body .slide-box .search .order{
     color: rgb(142,142,142);
     font-size: 1.7em;
-    line-height: 25px;
+    line-height: 22px;
 }
-.table-search-body .body-right .slide-box .exp-title .order{
+.table-search-body .body-right .slide-box .search .order{
     font-size: 1.4em;
 }
 .table-search-body .slide-box .exp-title .exp{
@@ -199,12 +199,13 @@
     height: 16px;
     width: 65px;
     text-align: center;
-    line-height: 17px;
+    line-height: 16px;
     color: rgb(255,151,36);
     font-size: 1.3em;
     padding-right: 0;
     border-radius: 8px;
     background-color: #fff;
+    margin-top: 3px;
 }
 .table-search-body .body-right .slide-box .search .btn-general-search{
     font-size: 1.1em;
