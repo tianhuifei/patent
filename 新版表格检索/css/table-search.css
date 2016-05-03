@@ -176,6 +176,7 @@
 }
 .table-search-body .slide-box ul li .row{
     margin-top: 10px;
+    vertical-align: bottom;
 }
 .table-search-body .slide-box .exp-title .order{
     color: rgb(142,142,142);
